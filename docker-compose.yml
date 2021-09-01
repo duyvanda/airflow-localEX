@@ -1,0 +1,41 @@
+version: '3.7'
+services:
+    postgres:
+        image: postgres:13
+        restart: always
+        environment:
+            - POSTGRES_PASSWORD=mysecretpassword
+            - POSTGRES_DB=airflow
+        volumes:
+            - ./postgres-db-volume:/var/lib/postgresql/data
+        expose: 
+            - "5433"
+        ports:
+            - "5433:5433"
+    webserver:
+        # image: duyairflow
+        build: .
+        # restart: always
+        depends_on:
+            - postgres
+        environment:
+            - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+            - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://postgres:mysecretpassword@postgres/airflow
+            - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=True
+            - AIRFLOW__API__AUTH_BACKEND=airflow.api.auth.backend.basic_auth
+            - FERNET_KEY=46BKJoQYlPPOexq0OhDZnIlNepKFf87WFwLbfzqDDho=
+        user: airflow
+        volumes:
+            - ./dags:/usr/local/airflow/dags
+            - ./plugins:/usr/local/airflow/plugins
+            - ./data:/usr/local/airflow/data
+        ports:
+            - "8080:8080"
+        healthcheck:
+            test: ["CMD-SHELL", "[ -f /usr/local/airflow/airflow-webserver.pid ]"]
+            interval: 30s
+            timeout: 30s
+            retries: 3
+
+volumes:
+  postgres-db-volume:
