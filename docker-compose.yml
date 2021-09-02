@@ -37,6 +37,7 @@ services:
       - "./dags:/usr/local/airflow/dags"
       - "./plugins:/usr/local/airflow/plugins"
       - "./data:/usr/local/airflow/data"
+      - "./logs:/usr/local/airflow/logs"
       - "./config/airflow.cfg:/usr/local/airflow/airflow.cfg" 
 version: "3.7"
 volumes: 

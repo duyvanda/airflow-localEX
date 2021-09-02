@@ -1,5 +1,5 @@
+import os
 from typing import TYPE_CHECKING, Iterable, Mapping, Optional, Union
-
 from airflow.exceptions import AirflowException
 from airflow.models import BaseOperator
 from airflow.providers.microsoft.mssql.hooks.mssql import MsSqlHook
@@ -8,7 +8,7 @@ if TYPE_CHECKING:
     from airflow.hooks.dbapi import DbApiHook
 
 
-class HelloMsSqlOperator(BaseOperator):
+class ToCSVMsSqlOperator(BaseOperator):
     def __init__(
         self,
         *,
@@ -25,11 +25,12 @@ class HelloMsSqlOperator(BaseOperator):
         self.database = database
 
     def execute(self, context: dict) -> None:
-        self._hello()
-        hook = MsSqlHook(mssql_conn_id=self.mssql_conn_id, schema=self.database, conn_type='odbc')
-        result = hook.get_first(self.sql)
-        print(result)
-        return result
+        df = self._get_df()
+        print(df.shape)
+        path = os.getcwd()+"/data/"
+        df.to_csv(path+"raw_data_result.csv", index=False)
 
-    def _hello(self):
-        print("This is from hello")
+    def _get_df(self):
+        hook = MsSqlHook(mssql_conn_id=self.mssql_conn_id, schema=self.database, conn_type='odbc')
+        df = hook.get_pandas_df(self.sql)
+        return df
