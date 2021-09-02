@@ -57,6 +57,11 @@ RUN apt-get update -yqq \
         rsync \
         netcat \
         locales \
+        unixodbc -y \
+        unixodbc-dev -y \
+        freetds-dev -y \
+        freetds-bin -y \
+        tdsodbc -y \
     && sed -i 's/^# en_US.UTF-8 UTF-8$/en_US.UTF-8 UTF-8/g' /etc/locale.gen \
     && locale-gen \
     # Install driver
@@ -74,7 +79,7 @@ RUN apt-get update -yqq \
     && pip install ndg-httpsclient \
     && pip install pyasn1 \
     && apt-get install -y python3-dev default-libmysqlclient-dev build-essential \
-    && pip install apache-airflow[async,postgres,google,crypto,s3,mssql,mysql]==2.1.3 --constraint /constraints-3.6.txt  \
+    && pip install apache-airflow[async,postgres,google,crypto,s3,mssql,mysql,odbc]==2.1.3 --constraint /constraints-3.6.txt  \
     # && pip install apache-airflow-providers-mysql \
     && pip install -r requirements.txt \
     && apt-get purge --auto-remove -yqq $buildDeps \
@@ -88,7 +93,11 @@ RUN apt-get update -yqq \
         /usr/share/doc \
         /usr/share/doc-base
 
-
+# populate "ocbcinst.ini"
+RUN echo "[FreeTDS]\n\
+Description = FreeTDS unixODBC Driver\n\
+Driver = /usr/lib/x86_64-linux-gnu/odbc/libtdsodbc.so\n\
+Setup = /usr/lib/x86_64-linux-gnu/odbc/libtdsS.so" >> /etc/odbcinst.ini
 # COPY ./entrypoint.sh ./entrypoint.sh
 # RUN chmod +x ./entrypoint.sh
 # RUN chown -R airflow: ${AIRFLOW_HOME}
@@ -98,6 +107,7 @@ RUN apt-get update -yqq \
 # ENTRYPOINT [ "/entrypoint.sh" ]
 
 COPY ./entrypoint.sh /entrypoint.sh
+COPY ./config/airflow.cfg ${AIRFLOW_HOME}/airflow.cfg
 RUN chmod +x ./entrypoint.sh
 RUN chown -R airflow: ${AIRFLOW_HOME}
 EXPOSE 8080
