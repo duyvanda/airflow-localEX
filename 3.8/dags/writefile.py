@@ -17,7 +17,6 @@ def writefile():
 
 local_tz = pendulum.timezone("Asia/Bangkok")
 
-
 dag_params = {
     'owner': 'airflow',
     "depends_on_past": False,
@@ -26,6 +25,7 @@ dag_params = {
     'email_on_retry': False,
     'retries': 3,
     'retry_delay': timedelta(minutes=10),
+    'do_xcom_push': False
 }
 
 dag = DAG('name_writefile',

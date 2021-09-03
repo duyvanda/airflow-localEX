@@ -16,6 +16,7 @@ dag_params = {
     'start_date': datetime(2021, 8, 15, 0, 0, tzinfo=local_tz),
     'email_on_failure': False,
     'email_on_retry': False,
+    'do_xcom_push': False
     # 'retries': 3,
     # 'retry_delay': timedelta(minutes=10),
 }
