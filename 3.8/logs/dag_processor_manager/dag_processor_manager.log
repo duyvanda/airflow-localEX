@@ -1,0 +1,608 @@
+[2021-09-02 15:13:02,634] {manager.py:604} INFO - Processing files using up to 2 processes at a time 
+[2021-09-02 15:13:02,634] {manager.py:605} INFO - Process each file at most once every 30 seconds
+[2021-09-02 15:13:02,634] {manager.py:607} INFO - Checking for new files in /usr/local/airflow/dags every 300 seconds
+[2021-09-02 15:13:02,634] {manager.py:754} INFO - Searching for files in /usr/local/airflow/dags
+[2021-09-02 15:13:02,635] {manager.py:757} INFO - There are 3 files in /usr/local/airflow/dags
+[2021-09-02 15:13:02,660] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 15:13:02,660] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 15:08:02.660584+00:00
+[2021-09-02 15:13:02,677] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/usr/local/airflow/dags/helloworld.py                183  0.02s             0           0
+/usr/local/airflow/dags/writefile.py                                        0           0
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    180  0.02s             0           0
+================================================================================
+[2021-09-02 15:13:12,743] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 15:13:12,743] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 15:08:12.743729+00:00
+[2021-09-02 15:13:22,774] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 15:13:22,775] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 15:08:22.775063+00:00
+[2021-09-02 15:13:32,804] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 15:13:32,804] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 15:08:32.804590+00:00
+[2021-09-02 15:13:32,822] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                256  0.00s             1           0  0.06s           2021-09-02T15:13:02
+/usr/local/airflow/dags/writefile.py                                        1           0  0.05s           2021-09-02T15:13:02
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    253  0.01s             1           0  0.06s           2021-09-02T15:13:02
+================================================================================
+[2021-09-02 15:13:42,936] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 15:13:42,936] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 15:08:42.936657+00:00
+[2021-09-02 15:13:52,970] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 15:13:52,970] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 15:08:52.970791+00:00
+[2021-09-02 15:14:02,999] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 15:14:02,999] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 15:09:02.999867+00:00
+[2021-09-02 15:14:03,018] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                277  0.00s             1           0  0.10s           2021-09-02T15:13:32
+/usr/local/airflow/dags/writefile.py                                        1           0  0.07s           2021-09-02T15:13:32
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    274  0.01s             1           0  0.09s           2021-09-02T15:13:32
+================================================================================
+[2021-09-02 15:14:13,136] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 15:14:13,136] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 15:09:13.136665+00:00
+[2021-09-02 15:14:23,170] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-02 15:14:23,170] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-02 15:09:23.170291+00:00
+[2021-09-03 03:21:03,823] {manager.py:604} INFO - Processing files using up to 2 processes at a time 
+[2021-09-03 03:21:03,824] {manager.py:605} INFO - Process each file at most once every 30 seconds
+[2021-09-03 03:21:03,824] {manager.py:607} INFO - Checking for new files in /usr/local/airflow/dags every 300 seconds
+[2021-09-03 03:21:03,824] {manager.py:754} INFO - Searching for files in /usr/local/airflow/dags
+[2021-09-03 03:21:03,826] {manager.py:757} INFO - There are 3 files in /usr/local/airflow/dags
+[2021-09-03 03:21:03,852] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:21:03,853] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:16:03.853142+00:00
+[2021-09-03 03:21:03,872] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/usr/local/airflow/dags/helloworld.py                182  0.02s             0           0
+/usr/local/airflow/dags/writefile.py                                        0           0
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    179  0.02s             0           0
+================================================================================
+[2021-09-03 03:21:13,948] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:21:13,948] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:16:13.948604+00:00
+[2021-09-03 03:21:23,981] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:21:23,981] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:16:23.981961+00:00
+[2021-09-03 03:21:34,008] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:21:34,008] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:16:34.008172+00:00
+[2021-09-03 03:21:34,021] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                255  0.00s             1           0  0.08s           2021-09-03T03:21:03
+/usr/local/airflow/dags/writefile.py                                        1           0  0.06s           2021-09-03T03:21:03
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    252  0.01s             1           0  0.07s           2021-09-03T03:21:03
+================================================================================
+[2021-09-03 03:21:44,117] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:21:44,118] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:16:44.118150+00:00
+[2021-09-03 03:21:54,145] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:21:54,146] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:16:54.146184+00:00
+[2021-09-03 03:22:04,177] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:22:04,178] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:17:04.177992+00:00
+[2021-09-03 03:22:04,191] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                278  0.00s             1           0  0.08s           2021-09-03T03:21:34
+/usr/local/airflow/dags/writefile.py                                        1           0  0.05s           2021-09-03T03:21:34
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    275  0.01s             1           0  0.08s           2021-09-03T03:21:34
+================================================================================
+[2021-09-03 03:22:14,283] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:22:14,283] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:17:14.283475+00:00
+[2021-09-03 03:22:24,311] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:22:24,312] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:17:24.312045+00:00
+[2021-09-03 03:22:34,342] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:22:34,342] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:17:34.342412+00:00
+[2021-09-03 03:22:34,358] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                298  0.00s             1           0  0.07s           2021-09-03T03:22:04
+/usr/local/airflow/dags/writefile.py                                        1           0  0.07s           2021-09-03T03:22:04
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    296  0.01s             1           0  0.07s           2021-09-03T03:22:04
+================================================================================
+[2021-09-03 03:22:44,469] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:22:44,470] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:17:44.470081+00:00
+[2021-09-03 03:22:54,492] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:22:54,492] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:17:54.492840+00:00
+[2021-09-03 03:23:04,515] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:23:04,516] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:18:04.516130+00:00
+[2021-09-03 03:23:04,525] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                319  0.00s             1           0  0.10s           2021-09-03T03:22:34
+/usr/local/airflow/dags/writefile.py                                        1           0  0.07s           2021-09-03T03:22:34
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    317  0.00s             1           0  0.10s           2021-09-03T03:22:34
+================================================================================
+[2021-09-03 03:23:14,601] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:23:14,602] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:18:14.602086+00:00
+[2021-09-03 03:23:24,625] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:23:24,625] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:18:24.625975+00:00
+[2021-09-03 03:23:34,649] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:23:34,649] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:18:34.649803+00:00
+[2021-09-03 03:23:34,659] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                341  0.00s             1           0  0.06s           2021-09-03T03:23:04
+/usr/local/airflow/dags/writefile.py                                        1           0  0.05s           2021-09-03T03:23:04
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    338  0.00s             1           0  0.05s           2021-09-03T03:23:04
+================================================================================
+[2021-09-03 03:23:44,739] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:23:44,740] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:18:44.740278+00:00
+[2021-09-03 03:23:54,772] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:23:54,772] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:18:54.772800+00:00
+[2021-09-03 03:24:04,803] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:24:04,803] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:19:04.803199+00:00
+[2021-09-03 03:24:04,818] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                361  0.00s             1           0  0.06s           2021-09-03T03:23:34
+/usr/local/airflow/dags/writefile.py                                        1           0  0.05s           2021-09-03T03:23:34
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    359  0.01s             1           0  0.06s           2021-09-03T03:23:34
+================================================================================
+[2021-09-03 03:24:14,917] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:24:14,918] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:19:14.918208+00:00
+[2021-09-03 03:24:24,947] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:24:24,948] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:19:24.948088+00:00
+[2021-09-03 03:24:34,976] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:24:34,976] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:19:34.976781+00:00
+[2021-09-03 03:24:34,992] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                382  0.00s             1           0  0.08s           2021-09-03T03:24:04
+/usr/local/airflow/dags/writefile.py                                        1           0  0.06s           2021-09-03T03:24:04
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    380  0.01s             1           0  0.08s           2021-09-03T03:24:04
+================================================================================
+[2021-09-03 03:24:45,102] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:24:45,102] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:19:45.102714+00:00
+[2021-09-03 03:24:55,132] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:24:55,132] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:19:55.132874+00:00
+[2021-09-03 03:25:05,164] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:25:05,164] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:20:05.164371+00:00
+[2021-09-03 03:25:05,181] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                403  0.00s             1           0  0.09s           2021-09-03T03:24:35
+/usr/local/airflow/dags/writefile.py                                        1           0  0.06s           2021-09-03T03:24:35
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    401  0.01s             1           0  0.09s           2021-09-03T03:24:35
+================================================================================
+[2021-09-03 03:25:15,287] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:25:15,288] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:20:15.288180+00:00
+[2021-09-03 03:25:25,317] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:25:25,318] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:20:25.318038+00:00
+[2021-09-03 03:25:35,348] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:25:35,348] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:20:35.348811+00:00
+[2021-09-03 03:25:35,360] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                424  0.00s             1           0  0.09s           2021-09-03T03:25:05
+/usr/local/airflow/dags/writefile.py                                        1           0  0.07s           2021-09-03T03:25:05
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    422  0.01s             1           0  0.09s           2021-09-03T03:25:05
+================================================================================
+[2021-09-03 03:25:45,469] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:25:45,470] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:20:45.470172+00:00
+[2021-09-03 03:25:55,498] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:25:55,498] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:20:55.498673+00:00
+[2021-09-03 03:26:04,527] {manager.py:754} INFO - Searching for files in /usr/local/airflow/dags
+[2021-09-03 03:26:04,528] {manager.py:757} INFO - There are 3 files in /usr/local/airflow/dags
+[2021-09-03 03:26:05,545] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:26:05,545] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:21:05.545654+00:00
+[2021-09-03 03:26:05,560] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                445  0.00s             1           0  0.09s           2021-09-03T03:25:35
+/usr/local/airflow/dags/writefile.py                                        1           0  0.07s           2021-09-03T03:25:35
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    443  0.01s             1           0  0.09s           2021-09-03T03:25:35
+================================================================================
+[2021-09-03 03:26:15,666] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:26:15,666] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:21:15.666874+00:00
+[2021-09-03 03:26:25,692] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:26:25,692] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:21:25.692778+00:00
+[2021-09-03 03:26:35,722] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:26:35,723] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:21:35.723078+00:00
+[2021-09-03 03:26:35,743] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                467  0.00s             1           0  0.09s           2021-09-03T03:26:05
+/usr/local/airflow/dags/writefile.py                                        1           0  0.07s           2021-09-03T03:26:05
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    465  0.01s             1           0  0.09s           2021-09-03T03:26:05
+================================================================================
+[2021-09-03 03:26:45,859] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:26:45,859] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:21:45.859813+00:00
+[2021-09-03 03:26:55,889] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:26:55,890] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:21:55.890217+00:00
+[2021-09-03 03:27:05,919] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:27:05,920] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:22:05.920111+00:00
+[2021-09-03 03:27:05,935] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                488  0.00s             1           0  0.10s           2021-09-03T03:26:35
+/usr/local/airflow/dags/writefile.py                                        1           0  0.06s           2021-09-03T03:26:35
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    486  0.01s             1           0  0.10s           2021-09-03T03:26:35
+================================================================================
+[2021-09-03 03:27:16,045] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:27:16,045] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:22:16.045253+00:00
+[2021-09-03 03:27:26,069] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:27:26,069] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:22:26.069543+00:00
+[2021-09-03 03:27:36,091] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:27:36,091] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:22:36.091452+00:00
+[2021-09-03 03:27:36,102] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                510  0.00s             1           0  0.09s           2021-09-03T03:27:06
+/usr/local/airflow/dags/writefile.py                                        1           0  0.07s           2021-09-03T03:27:06
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    507  0.01s             1           0  0.09s           2021-09-03T03:27:06
+================================================================================
+[2021-09-03 03:27:46,183] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:27:46,184] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:22:46.184069+00:00
+[2021-09-03 03:27:56,211] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:27:56,211] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:22:56.211594+00:00
+[2021-09-03 03:28:06,242] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:28:06,242] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:23:06.242923+00:00
+[2021-09-03 03:28:06,257] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                530  0.00s             1           0  0.06s           2021-09-03T03:27:36
+/usr/local/airflow/dags/writefile.py                                        1           0  0.05s           2021-09-03T03:27:36
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    528  0.01s             1           0  0.06s           2021-09-03T03:27:36
+================================================================================
+[2021-09-03 03:28:16,346] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:28:16,346] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:23:16.346839+00:00
+[2021-09-03 03:28:26,375] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:28:26,375] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:23:26.375739+00:00
+[2021-09-03 03:28:36,405] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:28:36,405] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:23:36.405544+00:00
+[2021-09-03 03:28:36,420] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                552  0.00s             1           0  0.07s           2021-09-03T03:28:06
+/usr/local/airflow/dags/writefile.py                                        1           0  0.07s           2021-09-03T03:28:06
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    550  0.01s             1           0  0.07s           2021-09-03T03:28:06
+================================================================================
+[2021-09-03 03:28:46,527] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:28:46,527] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:23:46.527626+00:00
+[2021-09-03 03:28:56,561] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:28:56,561] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:23:56.561387+00:00
+[2021-09-03 03:29:06,592] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:29:06,592] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:24:06.592573+00:00
+[2021-09-03 03:29:06,607] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                573  0.00s             1           0  0.08s           2021-09-03T03:28:36
+/usr/local/airflow/dags/writefile.py                                        1           0  0.07s           2021-09-03T03:28:36
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    571  0.01s             1           0  0.08s           2021-09-03T03:28:36
+================================================================================
+[2021-09-03 03:29:16,711] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:29:16,711] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:24:16.711757+00:00
+[2021-09-03 03:29:26,743] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:29:26,743] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:24:26.743804+00:00
+[2021-09-03 03:29:36,772] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:29:36,773] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:24:36.773053+00:00
+[2021-09-03 03:29:36,782] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                594  0.00s             1           0  0.09s           2021-09-03T03:29:06
+/usr/local/airflow/dags/writefile.py                                        1           0  0.06s           2021-09-03T03:29:06
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    592  0.00s             1           0  0.09s           2021-09-03T03:29:06
+================================================================================
+[2021-09-03 03:29:46,869] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:29:46,870] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:24:46.870030+00:00
+[2021-09-03 03:29:56,901] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 03:29:56,902] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:24:56.902037+00:00
+[2021-09-03 04:00:20,047] {manager.py:604} INFO - Processing files using up to 2 processes at a time 
+[2021-09-03 04:00:20,047] {manager.py:605} INFO - Process each file at most once every 30 seconds
+[2021-09-03 04:00:20,047] {manager.py:606} INFO - Checking for new files in /usr/local/airflow/dags every 300 seconds
+[2021-09-03 04:00:20,047] {manager.py:754} INFO - Searching for files in /usr/local/airflow/dags
+[2021-09-03 04:00:20,052] {manager.py:757} INFO - There are 34 files in /usr/local/airflow/dags
+[2021-09-03 04:00:20,081] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:00:20,081] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:55:20.081573+00:00
+[2021-09-03 04:00:20,095] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/usr/local/airflow/dags/helloworld.py                                                                                            0           0
+/usr/local/airflow/dags/writefile.py                                                                                             0           0
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py                                                                                0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_bash_operator.py                      173  0.02s             0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_dag_decorator.py                      176  0.01s             0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_task_group.py                                                0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py                                                        0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/tutorial_etl_dag.py                                                  0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_complex.py                                                   0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/tutorial.py                                                          0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         0           0
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+================================================================================
+[2021-09-03 04:00:31,033] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:00:31,033] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:55:31.033764+00:00
+[2021-09-03 04:00:41,067] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:00:41,067] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:55:41.067454+00:00
+[2021-09-03 04:00:50,103] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.02s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.02s           2021-09-03T04:00:20
+/usr/local/airflow/dags/helloworld.py                                                                                            1           0  0.06s           2021-09-03T04:00:21
+/usr/local/airflow/dags/writefile.py                                                                                             1           0  0.05s           2021-09-03T04:00:21
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py                                                                                1           0  0.06s           2021-09-03T04:00:21
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.05s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.05s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.05s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.05s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.04s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.05s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.05s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_task_group.py                                                1           0  0.05s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py                                                        1           0  0.05s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.05s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.04s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.05s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_complex.py                                                   1           0  0.05s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.05s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.05s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/tutorial.py                                                          1           0  0.05s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.05s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.05s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.06s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.06s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.06s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.05s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.06s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.07s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.05s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.06s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.05s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.06s           2021-09-03T04:00:20
+/usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.06s           2021-09-03T04:00:20
+================================================================================
+[2021-09-03 04:00:51,105] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:00:51,105] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:55:51.105402+00:00
+[2021-09-03 04:01:01,614] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:01:01,614] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:56:01.614377+00:00
+[2021-09-03 04:01:24,860] {manager.py:604} INFO - Processing files using up to 2 processes at a time 
+[2021-09-03 04:01:24,860] {manager.py:605} INFO - Process each file at most once every 30 seconds
+[2021-09-03 04:01:24,860] {manager.py:606} INFO - Checking for new files in /usr/local/airflow/dags every 300 seconds
+[2021-09-03 04:01:24,860] {manager.py:754} INFO - Searching for files in /usr/local/airflow/dags
+[2021-09-03 04:01:24,861] {manager.py:757} INFO - There are 3 files in /usr/local/airflow/dags
+[2021-09-03 04:01:24,892] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:01:24,892] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:56:24.892557+00:00
+[2021-09-03 04:01:24,904] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/usr/local/airflow/dags/helloworld.py                177  0.01s             0           0
+/usr/local/airflow/dags/writefile.py                                        0           0
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    174  0.02s             0           0
+================================================================================
+[2021-09-03 04:01:34,969] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:01:34,969] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:56:34.969739+00:00
+[2021-09-03 04:01:45,000] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:01:45,000] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:56:45.000420+00:00
+[2021-09-03 04:01:55,031] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:01:55,031] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:56:55.031444+00:00
+[2021-09-03 04:01:55,048] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                255  0.00s             1           0  0.06s           2021-09-03T04:01:24
+/usr/local/airflow/dags/writefile.py                                        1           0  0.05s           2021-09-03T04:01:24
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    253  0.01s             1           0  0.06s           2021-09-03T04:01:24
+================================================================================
+[2021-09-03 04:02:05,159] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:02:05,160] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:57:05.160025+00:00
+[2021-09-03 04:02:15,187] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:02:15,187] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:57:15.187431+00:00
+[2021-09-03 04:02:25,219] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:02:25,219] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:57:25.219446+00:00
+[2021-09-03 04:02:25,236] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                277  0.00s             1           0  0.09s           2021-09-03T04:01:55
+/usr/local/airflow/dags/writefile.py                                        1           0  0.07s           2021-09-03T04:01:55
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    274  0.01s             1           0  0.09s           2021-09-03T04:01:55
+================================================================================
+[2021-09-03 04:02:35,355] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:02:35,356] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:57:35.356111+00:00
+[2021-09-03 04:02:45,389] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:02:45,389] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:57:45.389829+00:00
+[2021-09-03 04:02:55,423] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:02:55,423] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:57:55.423663+00:00
+[2021-09-03 04:02:55,440] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                298  0.00s             1           0  0.10s           2021-09-03T04:02:25
+/usr/local/airflow/dags/writefile.py                                        1           0  0.08s           2021-09-03T04:02:25
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py    295  0.01s             1           0  0.10s           2021-09-03T04:02:25
+================================================================================
+[2021-09-03 04:02:56,072] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/helloworld.py exited with return code 1.
+[2021-09-03 04:02:56,372] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/__pycache__/mssqlToCSV.py exited with return code 1.
+[2021-09-03 04:02:56,939] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/writefile.py exited with return code 1.
+[2021-09-03 04:03:05,955] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:03:05,955] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:58:05.955956+00:00
+[2021-09-03 04:03:15,980] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:03:15,980] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:58:15.980545+00:00
+[2021-09-03 04:03:26,004] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:03:26,004] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:58:26.004651+00:00
+[2021-09-03 04:03:26,012] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                                       0          -1  0.64s           2021-09-03T04:02:56
+/usr/local/airflow/dags/writefile.py                                        0          -1  0.87s           2021-09-03T04:02:56
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py                           0          -1  0.94s           2021-09-03T04:02:56
+================================================================================
+[2021-09-03 04:03:27,559] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/__pycache__/mssqlToCSV.py exited with return code 1.
+[2021-09-03 04:03:27,861] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/helloworld.py exited with return code 1.
+[2021-09-03 04:03:28,101] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/writefile.py exited with return code 1.
+[2021-09-03 04:03:36,113] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:03:36,114] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:58:36.114218+00:00
+[2021-09-03 04:03:46,137] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:03:46,138] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:58:46.138082+00:00
+[2021-09-03 04:03:56,160] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:03:56,160] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:58:56.160330+00:00
+[2021-09-03 04:03:56,168] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                                       0          -1  1.43s           2021-09-03T04:03:27
+/usr/local/airflow/dags/writefile.py                                        0          -1  0.54s           2021-09-03T04:03:28
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py                           0          -1  1.13s           2021-09-03T04:03:27
+================================================================================
+[2021-09-03 04:03:58,445] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/helloworld.py exited with return code 1.
+[2021-09-03 04:03:58,845] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/__pycache__/mssqlToCSV.py exited with return code 1.
+[2021-09-03 04:03:58,986] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/writefile.py exited with return code 1.
+[2021-09-03 04:04:06,861] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:04:06,861] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:59:06.861957+00:00
+[2021-09-03 04:04:16,891] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:04:16,891] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:59:16.891877+00:00
+[2021-09-03 04:04:26,920] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:04:26,920] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:59:26.920495+00:00
+[2021-09-03 04:04:26,928] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                                       0          -1  0.52s           2021-09-03T04:03:58
+/usr/local/airflow/dags/writefile.py                                        0          -1  0.54s           2021-09-03T04:03:58
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py                           0          -1  0.92s           2021-09-03T04:03:58
+================================================================================
+[2021-09-03 04:04:29,220] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/helloworld.py exited with return code 1.
+[2021-09-03 04:04:29,590] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/writefile.py exited with return code 1.
+[2021-09-03 04:04:29,637] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/__pycache__/mssqlToCSV.py exited with return code 1.
+[2021-09-03 04:04:37,611] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:04:37,611] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:59:37.611586+00:00
+[2021-09-03 04:04:47,646] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:04:47,646] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:59:47.646796+00:00
+[2021-09-03 04:04:57,679] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:04:57,679] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 03:59:57.679418+00:00
+[2021-09-03 04:04:57,686] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                                       0          -1  0.28s           2021-09-03T04:04:29
+/usr/local/airflow/dags/writefile.py                                        0          -1  0.37s           2021-09-03T04:04:29
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py                           0          -1  0.70s           2021-09-03T04:04:29
+================================================================================
+[2021-09-03 04:05:00,267] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/__pycache__/mssqlToCSV.py exited with return code 1.
+[2021-09-03 04:05:00,693] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/helloworld.py exited with return code 1.
+[2021-09-03 04:05:01,041] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/writefile.py exited with return code 1.
+[2021-09-03 04:05:07,708] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:05:07,708] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 04:00:07.708497+00:00
+[2021-09-03 04:05:17,735] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:05:17,735] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 04:00:17.735336+00:00
+[2021-09-03 04:05:27,758] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-03 04:05:27,758] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-03 04:00:27.758835+00:00
+[2021-09-03 04:05:27,766] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/helloworld.py                                       0          -1  1.00s           2021-09-03T04:05:00
+/usr/local/airflow/dags/writefile.py                                        0          -1  0.77s           2021-09-03T04:05:01
+/usr/local/airflow/dags/__pycache__/mssqlToCSV.py                           0          -1  0.58s           2021-09-03T04:05:00
+================================================================================
+[2021-09-03 04:05:31,043] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/helloworld.py exited with return code 1.
+[2021-09-03 04:05:31,432] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/__pycache__/mssqlToCSV.py exited with return code 1.
+[2021-09-03 04:05:32,067] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/writefile.py exited with return code 1.

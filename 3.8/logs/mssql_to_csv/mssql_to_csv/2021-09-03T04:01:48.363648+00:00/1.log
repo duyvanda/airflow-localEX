@@ -1,0 +1,23 @@
+[2021-09-03 04:01:50,220] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: mssql_to_csv.mssql_to_csv 2021-09-03T04:01:48.363648+00:00 [queued]>
+[2021-09-03 04:01:50,227] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: mssql_to_csv.mssql_to_csv 2021-09-03T04:01:48.363648+00:00 [queued]>
+[2021-09-03 04:01:50,228] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-03 04:01:50,228] {taskinstance.py:1095} INFO - Starting attempt 1 of 1
+[2021-09-03 04:01:50,228] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-03 04:01:50,237] {taskinstance.py:1114} INFO - Executing <Task(ToCSVMsSqlOperator): mssql_to_csv> on 2021-09-03T04:01:48.363648+00:00
+[2021-09-03 04:01:50,240] {standard_task_runner.py:52} INFO - Started process 238 to run task
+[2021-09-03 04:01:50,242] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'mssql_to_csv', 'mssql_to_csv', '2021-09-03T04:01:48.363648+00:00', '--job-id', '48', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/__pycache__/mssqlToCSV.py', '--cfg-path', '/tmp/tmpw9cajqef', '--error-file', '/tmp/tmplg75sqit']
+[2021-09-03 04:01:50,243] {standard_task_runner.py:77} INFO - Job 48: Subtask mssql_to_csv
+[2021-09-03 04:01:50,269] {logging_mixin.py:109} INFO - Running <TaskInstance: mssql_to_csv.mssql_to_csv 2021-09-03T04:01:48.363648+00:00 [running]> on host ab1d367f8663
+[2021-09-03 04:01:50,305] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=mssql_to_csv
+AIRFLOW_CTX_TASK_ID=mssql_to_csv
+AIRFLOW_CTX_EXECUTION_DATE=2021-09-03T04:01:48.363648+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-09-03T04:01:48.363648+00:00
+[2021-09-03 04:01:50,663] {base.py:70} INFO - Using connection to: id: 1_dms_conn_id. Host: 115.165.164.234, Port: 1433, Schema: PhaNam_eSales_PRO, Login: duyvq, Password: ***, extra: {'Driver': 'ODBC Driver 17 for SQL Server', 'TrustedConnection': 'No'}
+[2021-09-03 04:01:57,473] {logging_mixin.py:109} INFO - (59, 72)
+[2021-09-03 04:01:57,491] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=mssql_to_csv, task_id=mssql_to_csv, execution_date=20210903T040148, start_date=20210903T040150, end_date=20210903T040157
+[2021-09-03 04:01:57,527] {local_task_job.py:151} INFO - Task exited with return code 0
+[2021-09-03 04:01:57,551] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,329 @@
+[
+    {
+        "Id": "99dc207c634d4a73c00e4e64782cfd0ff574ec914ebdcda73a39c8e4a7349348",
+        "Created": "2021-09-02T07:41:56.413125919Z",
+        "Path": "/entrypoint.sh",
+        "Args": [
+            "/bin/sh",
+            "-c",
+            "[ echo \"executable\" ]"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 23797,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2021-09-02T07:41:56.812302497Z",
+            "FinishedAt": "0001-01-01T00:00:00Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2021-09-02T14:56:59.618403963+07:00",
+                        "End": "2021-09-02T14:56:59.708530962+07:00",
+                        "ExitCode": 0,
+                        "Output": ""
+                    },
+                    {
+                        "Start": "2021-09-02T14:57:29.712081739+07:00",
+                        "End": "2021-09-02T14:57:29.812682283+07:00",
+                        "ExitCode": 0,
+                        "Output": ""
+                    },
+                    {
+                        "Start": "2021-09-02T14:57:59.816559098+07:00",
+                        "End": "2021-09-02T14:57:59.895600567+07:00",
+                        "ExitCode": 0,
+                        "Output": ""
+                    },
+                    {
+                        "Start": "2021-09-02T14:58:29.898584745+07:00",
+                        "End": "2021-09-02T14:58:29.984483628+07:00",
+                        "ExitCode": 0,
+                        "Output": ""
+                    },
+                    {
+                        "Start": "2021-09-02T14:58:59.988746968+07:00",
+                        "End": "2021-09-02T14:59:00.083140487+07:00",
+                        "ExitCode": 0,
+                        "Output": ""
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:2c6518a3a3cc112d4949b6d60cae5a30413bd0a82f7ca615272d4915ee664fcb",
+        "ResolvConfPath": "/var/lib/docker/containers/99dc207c634d4a73c00e4e64782cfd0ff574ec914ebdcda73a39c8e4a7349348/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/99dc207c634d4a73c00e4e64782cfd0ff574ec914ebdcda73a39c8e4a7349348/hostname",
+        "HostsPath": "/var/lib/docker/containers/99dc207c634d4a73c00e4e64782cfd0ff574ec914ebdcda73a39c8e4a7349348/hosts",
+        "LogPath": "/var/lib/docker/containers/99dc207c634d4a73c00e4e64782cfd0ff574ec914ebdcda73a39c8e4a7349348/99dc207c634d4a73c00e4e64782cfd0ff574ec914ebdcda73a39c8e4a7349348-json.log",
+        "Name": "/duy_airflow_local_webserver_1",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/home/duyvan/Downloads/duy_airflow_local/plugins:/usr/local/airflow/plugins:rw",
+                "/home/duyvan/Downloads/duy_airflow_local/data:/usr/local/airflow/data:rw",
+                "/home/duyvan/Downloads/duy_airflow_local/dags:/usr/local/airflow/dags:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "duy_airflow_local_default",
+            "PortBindings": {
+                "8080/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "8080"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": [],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "host",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "KernelMemory": 0,
+            "KernelMemoryTCP": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/1e323b7fcdb701083126c9550b9931292025af6c41bc81dce9e466ad1fffe43b-init/diff:/var/lib/docker/overlay2/2adde05d87363237c4fe6392e52613cecaf4bdc9f263a72736cfb773b676e203/diff:/var/lib/docker/overlay2/7a07cd8f3632781a1da58e8a8a0d394c15a7bdf506584d134b2a4af890ceb0aa/diff:/var/lib/docker/overlay2/18133e975710bb0fc6c29445769c9c65357283a88422a22d787a1aa9ec64e1cb/diff:/var/lib/docker/overlay2/9130510a7fbf179cf2fa9e60dd970409873fee2f9695b8b1c652b2e4af94d9cc/diff:/var/lib/docker/overlay2/23e857c5541161ca99b422fe8d1d96131fbaee84858f0ffde9573c075121a8c6/diff:/var/lib/docker/overlay2/20070a6beda07d3ccdc1fee08c18dabc6f04ab9f9102e6dc1bec949a9ece6c8d/diff:/var/lib/docker/overlay2/dde7c63498f74d9c6676409f2bbe2ca4419f3548a67f051744154ea915306e41/diff",
+                "MergedDir": "/var/lib/docker/overlay2/1e323b7fcdb701083126c9550b9931292025af6c41bc81dce9e466ad1fffe43b/merged",
+                "UpperDir": "/var/lib/docker/overlay2/1e323b7fcdb701083126c9550b9931292025af6c41bc81dce9e466ad1fffe43b/diff",
+                "WorkDir": "/var/lib/docker/overlay2/1e323b7fcdb701083126c9550b9931292025af6c41bc81dce9e466ad1fffe43b/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/home/duyvan/Downloads/duy_airflow_local/data",
+                "Destination": "/usr/local/airflow/data",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/home/duyvan/Downloads/duy_airflow_local/dags",
+                "Destination": "/usr/local/airflow/dags",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/home/duyvan/Downloads/duy_airflow_local/plugins",
+                "Destination": "/usr/local/airflow/plugins",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "99dc207c634d",
+            "Domainname": "",
+            "User": "airflow",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "8080/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "AIRFLOW__CORE__EXECUTOR=LocalExecutor",
+                "AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://postgres:mysecretpassword@postgres/airflow",
+                "AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=True",
+                "AIRFLOW__API__AUTH_BACKEND=airflow.api.auth.backend.basic_auth",
+                "FERNET_KEY=46BKJoQYlPPOexq0OhDZnIlNepKFf87WFwLbfzqDDho=",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "DEBIAN_FRONTEND=noninteractive",
+                "TERM=linux",
+                "AIRFLOW_HOME=/usr/local/airflow",
+                "LANGUAGE=en_US.UTF-8",
+                "LANG=en_US.UTF-8",
+                "LC_ALL=en_US.UTF-8",
+                "LC_CTYPE=en_US.UTF-8",
+                "LC_MESSAGES=en_US.UTF-8"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "[ echo \"executable\" ]"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD-SHELL",
+                    "[ -f /usr/local/airflow/airflow-webserver.pid ]"
+                ],
+                "Interval": 30000000000,
+                "Timeout": 30000000000,
+                "Retries": 3
+            },
+            "Image": "duy_airflow_local_webserver",
+            "Volumes": {
+                "/usr/local/airflow/dags": {},
+                "/usr/local/airflow/data": {},
+                "/usr/local/airflow/plugins": {}
+            },
+            "WorkingDir": "/usr/local/airflow",
+            "Entrypoint": [
+                "/entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "40b9ef779c541dc108515a02175df13eb873a0b9874336efe006394cd3f9c12d",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "duy_airflow_local",
+                "com.docker.compose.project.config_files": "docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/home/duyvan/Downloads/duy_airflow_local",
+                "com.docker.compose.service": "webserver",
+                "com.docker.compose.version": "1.29.2",
+                "maintainer": "Puckel_"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "da77aa99376db48f7f2e9895509d3e6c7405b0571864b28f715d9d7af3f23c25",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "8080/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "8080"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "8080"
+                    }
+                ]
+            },
+            "SandboxKey": "/var/run/docker/netns/da77aa99376d",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "duy_airflow_local_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "99dc207c634d",
+                        "webserver"
+                    ],
+                    "NetworkID": "9cd6bedbee7220de2e58e0f1a9287c91ff13ae10bbaa3a28e8c8d2af8a19bfae",
+                    "EndpointID": "d0edda7995e78ec40c27c6856cdfe0d1ec02ef5c4f602bc95d19353250a9f0e6",
+                    "Gateway": "172.25.0.1",
+                    "IPAddress": "172.25.0.3",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:ac:19:00:03",
+                    "DriverOpts": null
+                }
+            }
+        }
+    }
+]
