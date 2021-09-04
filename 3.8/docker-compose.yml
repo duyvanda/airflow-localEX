@@ -10,6 +10,7 @@ services:
     ports: 
       - "5433:5433"
     restart: always
+    container_name: myairflowdb
     volumes: 
       - "./postgres-db-volume:/var/lib/postgresql/data"
   webserver: 
@@ -19,7 +20,7 @@ services:
     environment:
       - AIRFLOW__CORE__LOAD_EXAMPLES=False 
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-      - "AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://postgres:mysecretpassword@postgres/airflow"
+      - "AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://postgres:mysecretpassword@postgres:5433/airflow"
       - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=True
       - AIRFLOW__API__AUTH_BACKEND=airflow.api.auth.backend.basic_auth
       - FERNET_KEY=46BKJoQYlPPOexq0OhDZnIlNepKFf87WFwLbfzqDDho=
@@ -33,6 +34,7 @@ services:
     ports: 
       - "8080:8080"
     user: airflow
+    container_name: myairflow
     volumes: 
       - "./dags:/usr/local/airflow/dags"
       - "./plugins:/usr/local/airflow/plugins"
