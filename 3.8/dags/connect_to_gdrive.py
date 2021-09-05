@@ -22,6 +22,7 @@ dag = DAG('hello_gdive',
           catchup=False,
           default_args=dag_params,
           schedule_interval="@once",
+          tags=['admin', 'test'],
 )
 
 def print_file_id():

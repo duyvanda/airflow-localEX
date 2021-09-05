@@ -31,7 +31,8 @@ dag_params = {
 dag = DAG('name_writefile',
           catchup=False,
           default_args=dag_params,
-          schedule_interval="@once"
+          schedule_interval="@once",
+          tags=['admin', 'test'],
 )
 
 dummy_op = DummyOperator(task_id="dummy_start", dag=dag)

@@ -24,7 +24,8 @@ dag_params = {
 dag = DAG('hello_world',
           catchup=True,
           default_args=dag_params,
-          schedule_interval="@daily"
+          schedule_interval="@daily",
+          tags=['admin', 'test']
 )
 
 dummy_op = DummyOperator(task_id="dummy_start", dag=dag)

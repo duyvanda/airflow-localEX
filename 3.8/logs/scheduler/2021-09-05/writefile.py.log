@@ -425,3 +425,773 @@
 [2021-09-05 10:56:17,994] {logging_mixin.py:109} INFO - [2021-09-05 10:56:17,993] {dag.py:1833} INFO - Sync 1 DAGs
 [2021-09-05 10:56:18,006] {logging_mixin.py:109} INFO - [2021-09-05 10:56:18,006] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
 [2021-09-05 10:56:18,013] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.053 seconds
+[2021-09-05 12:39:42,376] {processor.py:162} INFO - Started process (PID=191) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:39:42,377] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:39:42,377] {logging_mixin.py:109} INFO - [2021-09-05 12:39:42,377] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:39:42,385] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:39:42,397] {logging_mixin.py:109} INFO - [2021-09-05 12:39:42,397] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:39:42,406] {logging_mixin.py:109} INFO - [2021-09-05 12:39:42,406] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:39:42,411] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.037 seconds
+[2021-09-05 12:40:12,983] {processor.py:162} INFO - Started process (PID=305) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:40:12,983] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:40:12,984] {logging_mixin.py:109} INFO - [2021-09-05 12:40:12,984] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:40:12,992] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:40:13,004] {logging_mixin.py:109} INFO - [2021-09-05 12:40:13,004] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:40:13,013] {logging_mixin.py:109} INFO - [2021-09-05 12:40:13,013] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:40:13,017] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.037 seconds
+[2021-09-05 12:40:43,591] {processor.py:162} INFO - Started process (PID=371) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:40:43,592] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:40:43,592] {logging_mixin.py:109} INFO - [2021-09-05 12:40:43,592] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:40:43,601] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:40:43,616] {logging_mixin.py:109} INFO - [2021-09-05 12:40:43,616] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:40:43,626] {logging_mixin.py:109} INFO - [2021-09-05 12:40:43,625] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:40:43,632] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.045 seconds
+[2021-09-05 12:41:14,343] {processor.py:162} INFO - Started process (PID=438) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:41:14,344] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:41:14,344] {logging_mixin.py:109} INFO - [2021-09-05 12:41:14,344] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:41:14,352] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:41:14,364] {logging_mixin.py:109} INFO - [2021-09-05 12:41:14,364] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:41:14,373] {logging_mixin.py:109} INFO - [2021-09-05 12:41:14,373] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:41:14,378] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.037 seconds
+[2021-09-05 12:41:44,981] {processor.py:162} INFO - Started process (PID=503) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:41:44,982] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:41:44,983] {logging_mixin.py:109} INFO - [2021-09-05 12:41:44,983] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:41:44,994] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:41:45,011] {logging_mixin.py:109} INFO - [2021-09-05 12:41:45,011] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:41:45,023] {logging_mixin.py:109} INFO - [2021-09-05 12:41:45,022] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:41:45,029] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.050 seconds
+[2021-09-05 12:42:15,625] {processor.py:162} INFO - Started process (PID=571) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:42:15,626] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:42:15,626] {logging_mixin.py:109} INFO - [2021-09-05 12:42:15,626] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:42:15,635] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:42:15,651] {logging_mixin.py:109} INFO - [2021-09-05 12:42:15,651] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:42:15,662] {logging_mixin.py:109} INFO - [2021-09-05 12:42:15,662] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:42:15,668] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.046 seconds
+[2021-09-05 12:42:46,274] {processor.py:162} INFO - Started process (PID=636) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:42:46,275] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:42:46,276] {logging_mixin.py:109} INFO - [2021-09-05 12:42:46,275] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:42:46,285] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:42:46,303] {logging_mixin.py:109} INFO - [2021-09-05 12:42:46,303] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:42:46,314] {logging_mixin.py:109} INFO - [2021-09-05 12:42:46,314] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:42:46,320] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.049 seconds
+[2021-09-05 12:43:17,121] {processor.py:162} INFO - Started process (PID=703) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:43:17,122] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:43:17,122] {logging_mixin.py:109} INFO - [2021-09-05 12:43:17,122] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:43:17,131] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:43:17,143] {logging_mixin.py:109} INFO - [2021-09-05 12:43:17,143] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:43:17,152] {logging_mixin.py:109} INFO - [2021-09-05 12:43:17,152] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:43:17,157] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.040 seconds
+[2021-09-05 12:43:47,744] {processor.py:162} INFO - Started process (PID=768) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:43:47,745] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:43:47,745] {logging_mixin.py:109} INFO - [2021-09-05 12:43:47,745] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:43:47,757] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:43:47,773] {logging_mixin.py:109} INFO - [2021-09-05 12:43:47,772] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:43:47,782] {logging_mixin.py:109} INFO - [2021-09-05 12:43:47,782] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:43:47,787] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.046 seconds
+[2021-09-05 12:44:18,407] {processor.py:162} INFO - Started process (PID=836) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:44:18,408] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:44:18,408] {logging_mixin.py:109} INFO - [2021-09-05 12:44:18,408] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:44:18,416] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:44:18,429] {logging_mixin.py:109} INFO - [2021-09-05 12:44:18,429] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:44:18,438] {logging_mixin.py:109} INFO - [2021-09-05 12:44:18,437] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:44:18,442] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.037 seconds
+[2021-09-05 12:44:49,051] {processor.py:162} INFO - Started process (PID=902) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:44:49,052] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:44:49,053] {logging_mixin.py:109} INFO - [2021-09-05 12:44:49,053] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:44:49,066] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:44:49,084] {logging_mixin.py:109} INFO - [2021-09-05 12:44:49,084] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:44:49,098] {logging_mixin.py:109} INFO - [2021-09-05 12:44:49,098] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:44:49,109] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.061 seconds
+[2021-09-05 12:45:19,945] {processor.py:162} INFO - Started process (PID=968) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:45:19,946] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:45:19,947] {logging_mixin.py:109} INFO - [2021-09-05 12:45:19,947] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:45:19,965] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:45:19,987] {logging_mixin.py:109} INFO - [2021-09-05 12:45:19,987] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:45:20,000] {logging_mixin.py:109} INFO - [2021-09-05 12:45:20,000] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:45:20,009] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.069 seconds
+[2021-09-05 12:45:50,654] {processor.py:162} INFO - Started process (PID=1035) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:45:50,655] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:45:50,655] {logging_mixin.py:109} INFO - [2021-09-05 12:45:50,655] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:45:50,664] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:45:50,678] {logging_mixin.py:109} INFO - [2021-09-05 12:45:50,678] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:45:50,688] {logging_mixin.py:109} INFO - [2021-09-05 12:45:50,688] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:45:50,695] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.043 seconds
+[2021-09-05 12:46:21,458] {processor.py:162} INFO - Started process (PID=1102) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:46:21,459] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:46:21,460] {logging_mixin.py:109} INFO - [2021-09-05 12:46:21,460] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:46:21,469] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:46:21,483] {logging_mixin.py:109} INFO - [2021-09-05 12:46:21,483] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:46:21,492] {logging_mixin.py:109} INFO - [2021-09-05 12:46:21,492] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:46:21,500] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.044 seconds
+[2021-09-05 12:46:52,224] {processor.py:162} INFO - Started process (PID=1168) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:46:52,225] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:46:52,225] {logging_mixin.py:109} INFO - [2021-09-05 12:46:52,225] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:46:52,234] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:46:52,248] {logging_mixin.py:109} INFO - [2021-09-05 12:46:52,248] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:46:52,258] {logging_mixin.py:109} INFO - [2021-09-05 12:46:52,258] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:46:52,265] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.043 seconds
+[2021-09-05 12:47:22,905] {processor.py:162} INFO - Started process (PID=1234) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:47:22,906] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:47:22,906] {logging_mixin.py:109} INFO - [2021-09-05 12:47:22,906] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:47:22,914] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:47:22,927] {logging_mixin.py:109} INFO - [2021-09-05 12:47:22,926] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:47:22,935] {logging_mixin.py:109} INFO - [2021-09-05 12:47:22,935] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:47:22,940] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.037 seconds
+[2021-09-05 12:47:53,525] {processor.py:162} INFO - Started process (PID=1300) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:47:53,525] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:47:53,526] {logging_mixin.py:109} INFO - [2021-09-05 12:47:53,526] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:47:53,533] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:47:53,546] {logging_mixin.py:109} INFO - [2021-09-05 12:47:53,546] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:47:53,554] {logging_mixin.py:109} INFO - [2021-09-05 12:47:53,554] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:47:53,559] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.036 seconds
+[2021-09-05 12:48:24,095] {processor.py:162} INFO - Started process (PID=1366) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:48:24,096] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:48:24,096] {logging_mixin.py:109} INFO - [2021-09-05 12:48:24,096] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:48:24,104] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:48:24,118] {logging_mixin.py:109} INFO - [2021-09-05 12:48:24,117] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:48:24,127] {logging_mixin.py:109} INFO - [2021-09-05 12:48:24,127] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:48:24,133] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.039 seconds
+[2021-09-05 12:48:54,764] {processor.py:162} INFO - Started process (PID=1432) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:48:54,765] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:48:54,765] {logging_mixin.py:109} INFO - [2021-09-05 12:48:54,765] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:48:54,775] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:48:54,797] {logging_mixin.py:109} INFO - [2021-09-05 12:48:54,796] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:48:54,808] {logging_mixin.py:109} INFO - [2021-09-05 12:48:54,808] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:48:54,814] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.052 seconds
+[2021-09-05 12:49:25,548] {processor.py:162} INFO - Started process (PID=1499) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:49:25,548] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:49:25,549] {logging_mixin.py:109} INFO - [2021-09-05 12:49:25,548] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:49:25,557] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:49:25,569] {logging_mixin.py:109} INFO - [2021-09-05 12:49:25,569] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:49:25,579] {logging_mixin.py:109} INFO - [2021-09-05 12:49:25,578] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:49:25,584] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.039 seconds
+[2021-09-05 12:49:56,221] {processor.py:162} INFO - Started process (PID=1565) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:49:56,223] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:49:56,224] {logging_mixin.py:109} INFO - [2021-09-05 12:49:56,224] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:49:56,241] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:49:56,267] {logging_mixin.py:109} INFO - [2021-09-05 12:49:56,266] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:49:56,283] {logging_mixin.py:109} INFO - [2021-09-05 12:49:56,283] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:49:56,291] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.075 seconds
+[2021-09-05 12:50:26,909] {processor.py:162} INFO - Started process (PID=1631) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:50:26,910] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:50:26,911] {logging_mixin.py:109} INFO - [2021-09-05 12:50:26,910] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:50:26,922] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:50:26,940] {logging_mixin.py:109} INFO - [2021-09-05 12:50:26,939] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:50:26,950] {logging_mixin.py:109} INFO - [2021-09-05 12:50:26,950] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:50:26,955] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.049 seconds
+[2021-09-05 12:50:57,652] {processor.py:162} INFO - Started process (PID=1697) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:50:57,652] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:50:57,653] {logging_mixin.py:109} INFO - [2021-09-05 12:50:57,653] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:50:57,661] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:50:57,674] {logging_mixin.py:109} INFO - [2021-09-05 12:50:57,674] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:50:57,683] {logging_mixin.py:109} INFO - [2021-09-05 12:50:57,683] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:50:57,689] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.040 seconds
+[2021-09-05 12:51:28,237] {processor.py:162} INFO - Started process (PID=1763) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:51:28,238] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:51:28,238] {logging_mixin.py:109} INFO - [2021-09-05 12:51:28,238] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:51:28,246] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:51:28,260] {logging_mixin.py:109} INFO - [2021-09-05 12:51:28,260] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:51:28,269] {logging_mixin.py:109} INFO - [2021-09-05 12:51:28,269] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:51:28,274] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.039 seconds
+[2021-09-05 12:51:58,957] {processor.py:162} INFO - Started process (PID=1829) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:51:58,958] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:51:58,958] {logging_mixin.py:109} INFO - [2021-09-05 12:51:58,958] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:51:58,966] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:51:58,980] {logging_mixin.py:109} INFO - [2021-09-05 12:51:58,980] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:51:58,989] {logging_mixin.py:109} INFO - [2021-09-05 12:51:58,989] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:51:58,995] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.040 seconds
+[2021-09-05 12:52:29,609] {processor.py:162} INFO - Started process (PID=1895) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:52:29,610] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:52:29,611] {logging_mixin.py:109} INFO - [2021-09-05 12:52:29,610] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:52:29,624] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:52:29,644] {logging_mixin.py:109} INFO - [2021-09-05 12:52:29,644] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:52:29,663] {logging_mixin.py:109} INFO - [2021-09-05 12:52:29,663] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:52:29,676] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.069 seconds
+[2021-09-05 12:53:00,448] {processor.py:162} INFO - Started process (PID=1960) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:53:00,449] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:53:00,449] {logging_mixin.py:109} INFO - [2021-09-05 12:53:00,449] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:53:00,457] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:53:00,473] {logging_mixin.py:109} INFO - [2021-09-05 12:53:00,473] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:53:00,483] {logging_mixin.py:109} INFO - [2021-09-05 12:53:00,483] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:53:00,488] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.042 seconds
+[2021-09-05 12:53:31,223] {processor.py:162} INFO - Started process (PID=2027) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:53:31,224] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:53:31,225] {logging_mixin.py:109} INFO - [2021-09-05 12:53:31,225] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:53:31,235] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:53:31,259] {logging_mixin.py:109} INFO - [2021-09-05 12:53:31,259] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:53:31,278] {logging_mixin.py:109} INFO - [2021-09-05 12:53:31,278] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:53:31,286] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.067 seconds
+[2021-09-05 12:54:01,915] {processor.py:162} INFO - Started process (PID=2093) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:54:01,915] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:54:01,916] {logging_mixin.py:109} INFO - [2021-09-05 12:54:01,916] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:54:01,924] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:54:01,945] {logging_mixin.py:109} INFO - [2021-09-05 12:54:01,944] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:54:01,963] {logging_mixin.py:109} INFO - [2021-09-05 12:54:01,963] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:54:01,973] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.060 seconds
+[2021-09-05 12:54:32,582] {processor.py:162} INFO - Started process (PID=2159) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:54:32,582] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:54:32,583] {logging_mixin.py:109} INFO - [2021-09-05 12:54:32,583] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:54:32,594] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:54:32,609] {logging_mixin.py:109} INFO - [2021-09-05 12:54:32,609] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:54:32,621] {logging_mixin.py:109} INFO - [2021-09-05 12:54:32,620] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:54:32,626] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.047 seconds
+[2021-09-05 12:55:03,389] {processor.py:162} INFO - Started process (PID=2226) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:55:03,390] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:55:03,390] {logging_mixin.py:109} INFO - [2021-09-05 12:55:03,390] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:55:03,404] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:55:03,423] {logging_mixin.py:109} INFO - [2021-09-05 12:55:03,423] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:55:03,435] {logging_mixin.py:109} INFO - [2021-09-05 12:55:03,435] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:55:03,440] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.054 seconds
+[2021-09-05 12:55:34,101] {processor.py:162} INFO - Started process (PID=2292) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:55:34,102] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:55:34,102] {logging_mixin.py:109} INFO - [2021-09-05 12:55:34,102] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:55:34,111] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:55:34,126] {logging_mixin.py:109} INFO - [2021-09-05 12:55:34,126] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:55:34,135] {logging_mixin.py:109} INFO - [2021-09-05 12:55:34,135] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:55:34,141] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.041 seconds
+[2021-09-05 12:56:04,779] {processor.py:162} INFO - Started process (PID=2358) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:56:04,780] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:56:04,781] {logging_mixin.py:109} INFO - [2021-09-05 12:56:04,780] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:56:04,789] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:56:04,803] {logging_mixin.py:109} INFO - [2021-09-05 12:56:04,803] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:56:04,813] {logging_mixin.py:109} INFO - [2021-09-05 12:56:04,813] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:56:04,819] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.043 seconds
+[2021-09-05 12:56:35,426] {processor.py:162} INFO - Started process (PID=2424) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:56:35,426] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:56:35,427] {logging_mixin.py:109} INFO - [2021-09-05 12:56:35,427] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:56:35,436] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:56:35,449] {logging_mixin.py:109} INFO - [2021-09-05 12:56:35,449] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:56:35,458] {logging_mixin.py:109} INFO - [2021-09-05 12:56:35,458] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:56:35,463] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.040 seconds
+[2021-09-05 12:57:06,033] {processor.py:162} INFO - Started process (PID=2490) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:57:06,034] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:57:06,035] {logging_mixin.py:109} INFO - [2021-09-05 12:57:06,035] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:57:06,043] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:57:06,057] {logging_mixin.py:109} INFO - [2021-09-05 12:57:06,057] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:57:06,067] {logging_mixin.py:109} INFO - [2021-09-05 12:57:06,067] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:57:06,073] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.042 seconds
+[2021-09-05 12:57:36,677] {processor.py:162} INFO - Started process (PID=2557) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:57:36,678] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:57:36,678] {logging_mixin.py:109} INFO - [2021-09-05 12:57:36,678] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:57:36,686] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:57:36,702] {logging_mixin.py:109} INFO - [2021-09-05 12:57:36,702] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:57:36,713] {logging_mixin.py:109} INFO - [2021-09-05 12:57:36,713] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:57:36,717] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.042 seconds
+[2021-09-05 12:58:07,290] {processor.py:162} INFO - Started process (PID=2623) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:58:07,291] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:58:07,291] {logging_mixin.py:109} INFO - [2021-09-05 12:58:07,291] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:58:07,299] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:58:07,312] {logging_mixin.py:109} INFO - [2021-09-05 12:58:07,312] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:58:07,322] {logging_mixin.py:109} INFO - [2021-09-05 12:58:07,322] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:58:07,327] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.040 seconds
+[2021-09-05 12:58:37,952] {processor.py:162} INFO - Started process (PID=2690) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:58:37,952] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:58:37,953] {logging_mixin.py:109} INFO - [2021-09-05 12:58:37,953] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:58:37,961] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:58:37,977] {logging_mixin.py:109} INFO - [2021-09-05 12:58:37,977] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:58:37,989] {logging_mixin.py:109} INFO - [2021-09-05 12:58:37,989] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:58:37,996] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.046 seconds
+[2021-09-05 12:59:08,700] {processor.py:162} INFO - Started process (PID=2756) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:59:08,701] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:59:08,701] {logging_mixin.py:109} INFO - [2021-09-05 12:59:08,701] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:59:08,709] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:59:08,723] {logging_mixin.py:109} INFO - [2021-09-05 12:59:08,723] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:59:08,732] {logging_mixin.py:109} INFO - [2021-09-05 12:59:08,732] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:59:08,738] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.040 seconds
+[2021-09-05 12:59:39,334] {processor.py:162} INFO - Started process (PID=2822) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:59:39,334] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 12:59:39,335] {logging_mixin.py:109} INFO - [2021-09-05 12:59:39,335] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:59:39,343] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 12:59:39,357] {logging_mixin.py:109} INFO - [2021-09-05 12:59:39,357] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 12:59:39,366] {logging_mixin.py:109} INFO - [2021-09-05 12:59:39,365] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 12:59:39,371] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.039 seconds
+[2021-09-05 13:00:09,976] {processor.py:162} INFO - Started process (PID=2888) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:00:09,977] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:00:09,978] {logging_mixin.py:109} INFO - [2021-09-05 13:00:09,977] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:00:09,986] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:00:09,999] {logging_mixin.py:109} INFO - [2021-09-05 13:00:09,999] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:00:10,008] {logging_mixin.py:109} INFO - [2021-09-05 13:00:10,008] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:00:10,014] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.039 seconds
+[2021-09-05 13:00:40,660] {processor.py:162} INFO - Started process (PID=2954) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:00:40,661] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:00:40,661] {logging_mixin.py:109} INFO - [2021-09-05 13:00:40,661] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:00:40,670] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:00:40,683] {logging_mixin.py:109} INFO - [2021-09-05 13:00:40,683] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:00:40,692] {logging_mixin.py:109} INFO - [2021-09-05 13:00:40,692] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:00:40,697] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.039 seconds
+[2021-09-05 13:01:11,334] {processor.py:162} INFO - Started process (PID=3020) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:01:11,335] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:01:11,335] {logging_mixin.py:109} INFO - [2021-09-05 13:01:11,335] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:01:11,344] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:01:11,357] {logging_mixin.py:109} INFO - [2021-09-05 13:01:11,357] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:01:11,367] {logging_mixin.py:109} INFO - [2021-09-05 13:01:11,367] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:01:11,372] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.040 seconds
+[2021-09-05 13:01:42,008] {processor.py:162} INFO - Started process (PID=3086) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:01:42,008] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:01:42,009] {logging_mixin.py:109} INFO - [2021-09-05 13:01:42,009] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:01:42,018] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:01:42,047] {logging_mixin.py:109} INFO - [2021-09-05 13:01:42,047] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:01:42,058] {logging_mixin.py:109} INFO - [2021-09-05 13:01:42,058] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:01:42,065] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.060 seconds
+[2021-09-05 13:02:12,699] {processor.py:162} INFO - Started process (PID=3159) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:02:12,701] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:02:12,701] {logging_mixin.py:109} INFO - [2021-09-05 13:02:12,701] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:02:12,712] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:02:12,725] {logging_mixin.py:109} INFO - [2021-09-05 13:02:12,725] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:02:12,735] {logging_mixin.py:109} INFO - [2021-09-05 13:02:12,735] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:02:12,740] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.043 seconds
+[2021-09-05 13:02:43,409] {processor.py:162} INFO - Started process (PID=3225) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:02:43,410] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:02:43,410] {logging_mixin.py:109} INFO - [2021-09-05 13:02:43,410] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:02:43,418] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:02:43,431] {logging_mixin.py:109} INFO - [2021-09-05 13:02:43,431] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:02:43,441] {logging_mixin.py:109} INFO - [2021-09-05 13:02:43,441] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:02:43,446] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.038 seconds
+[2021-09-05 13:03:14,050] {processor.py:162} INFO - Started process (PID=3291) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:03:14,050] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:03:14,051] {logging_mixin.py:109} INFO - [2021-09-05 13:03:14,051] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:03:14,061] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:03:14,074] {logging_mixin.py:109} INFO - [2021-09-05 13:03:14,074] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:03:14,084] {logging_mixin.py:109} INFO - [2021-09-05 13:03:14,084] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:03:14,089] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.042 seconds
+[2021-09-05 13:03:44,714] {processor.py:162} INFO - Started process (PID=3357) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:03:44,715] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:03:44,716] {logging_mixin.py:109} INFO - [2021-09-05 13:03:44,715] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:03:44,723] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:03:44,741] {logging_mixin.py:109} INFO - [2021-09-05 13:03:44,741] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:03:44,753] {logging_mixin.py:109} INFO - [2021-09-05 13:03:44,753] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:03:44,759] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.047 seconds
+[2021-09-05 13:04:15,565] {processor.py:162} INFO - Started process (PID=3424) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:04:15,565] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:04:15,566] {logging_mixin.py:109} INFO - [2021-09-05 13:04:15,566] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:04:15,577] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:04:15,593] {logging_mixin.py:109} INFO - [2021-09-05 13:04:15,593] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:04:15,603] {logging_mixin.py:109} INFO - [2021-09-05 13:04:15,603] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:04:15,611] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.048 seconds
+[2021-09-05 13:04:46,310] {processor.py:162} INFO - Started process (PID=3490) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:04:46,310] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:04:46,311] {logging_mixin.py:109} INFO - [2021-09-05 13:04:46,311] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:04:46,319] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:04:46,334] {logging_mixin.py:109} INFO - [2021-09-05 13:04:46,334] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:04:46,346] {logging_mixin.py:109} INFO - [2021-09-05 13:04:46,346] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:04:46,353] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.045 seconds
+[2021-09-05 13:05:17,002] {processor.py:162} INFO - Started process (PID=3556) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:05:17,003] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:05:17,003] {logging_mixin.py:109} INFO - [2021-09-05 13:05:17,003] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:05:17,012] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:05:17,027] {logging_mixin.py:109} INFO - [2021-09-05 13:05:17,027] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:05:17,036] {logging_mixin.py:109} INFO - [2021-09-05 13:05:17,035] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:05:17,041] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.041 seconds
+[2021-09-05 13:05:47,693] {processor.py:162} INFO - Started process (PID=3622) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:05:47,694] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:05:47,695] {logging_mixin.py:109} INFO - [2021-09-05 13:05:47,695] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:05:47,709] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:05:47,731] {logging_mixin.py:109} INFO - [2021-09-05 13:05:47,730] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:05:47,741] {logging_mixin.py:109} INFO - [2021-09-05 13:05:47,740] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:05:47,746] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.055 seconds
+[2021-09-05 13:06:18,461] {processor.py:162} INFO - Started process (PID=3688) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:06:18,461] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:06:18,462] {logging_mixin.py:109} INFO - [2021-09-05 13:06:18,461] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:06:18,470] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:06:18,484] {logging_mixin.py:109} INFO - [2021-09-05 13:06:18,484] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:06:18,493] {logging_mixin.py:109} INFO - [2021-09-05 13:06:18,493] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:06:18,498] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.040 seconds
+[2021-09-05 13:06:49,154] {processor.py:162} INFO - Started process (PID=3754) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:06:49,154] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:06:49,155] {logging_mixin.py:109} INFO - [2021-09-05 13:06:49,155] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:06:49,167] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:06:49,184] {logging_mixin.py:109} INFO - [2021-09-05 13:06:49,184] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:06:49,195] {logging_mixin.py:109} INFO - [2021-09-05 13:06:49,195] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:06:49,201] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.050 seconds
+[2021-09-05 13:07:19,934] {processor.py:162} INFO - Started process (PID=3820) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:07:19,935] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:07:19,936] {logging_mixin.py:109} INFO - [2021-09-05 13:07:19,936] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:07:19,945] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:07:19,959] {logging_mixin.py:109} INFO - [2021-09-05 13:07:19,958] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:07:19,968] {logging_mixin.py:109} INFO - [2021-09-05 13:07:19,968] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:07:19,973] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.041 seconds
+[2021-09-05 13:07:50,935] {processor.py:162} INFO - Started process (PID=3891) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:07:50,936] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:07:50,936] {logging_mixin.py:109} INFO - [2021-09-05 13:07:50,936] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:07:50,944] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:07:50,960] {logging_mixin.py:109} INFO - [2021-09-05 13:07:50,960] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:07:50,970] {logging_mixin.py:109} INFO - [2021-09-05 13:07:50,970] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:07:50,976] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.043 seconds
+[2021-09-05 13:08:21,668] {processor.py:162} INFO - Started process (PID=3957) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:08:21,669] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:08:21,670] {logging_mixin.py:109} INFO - [2021-09-05 13:08:21,670] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:08:21,684] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:08:21,704] {logging_mixin.py:109} INFO - [2021-09-05 13:08:21,704] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:08:21,718] {logging_mixin.py:109} INFO - [2021-09-05 13:08:21,718] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:08:21,727] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.061 seconds
+[2021-09-05 13:08:51,971] {processor.py:162} INFO - Started process (PID=4048) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:08:51,971] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:08:51,972] {logging_mixin.py:109} INFO - [2021-09-05 13:08:51,971] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:08:51,980] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:08:51,994] {logging_mixin.py:109} INFO - [2021-09-05 13:08:51,994] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:08:52,003] {logging_mixin.py:109} INFO - [2021-09-05 13:08:52,003] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:08:52,008] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.040 seconds
+[2021-09-05 13:09:23,098] {processor.py:162} INFO - Started process (PID=4115) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:09:23,099] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:09:23,099] {logging_mixin.py:109} INFO - [2021-09-05 13:09:23,099] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:09:23,109] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:09:23,126] {logging_mixin.py:109} INFO - [2021-09-05 13:09:23,126] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:09:23,139] {logging_mixin.py:109} INFO - [2021-09-05 13:09:23,139] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:09:23,149] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.053 seconds
+[2021-09-05 13:09:53,904] {processor.py:162} INFO - Started process (PID=4182) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:09:53,905] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:09:53,905] {logging_mixin.py:109} INFO - [2021-09-05 13:09:53,905] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:09:53,914] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:09:53,927] {logging_mixin.py:109} INFO - [2021-09-05 13:09:53,927] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:09:53,937] {logging_mixin.py:109} INFO - [2021-09-05 13:09:53,937] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:09:53,942] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.040 seconds
+[2021-09-05 13:10:24,650] {processor.py:162} INFO - Started process (PID=4248) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:10:24,651] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:10:24,652] {logging_mixin.py:109} INFO - [2021-09-05 13:10:24,652] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:10:24,666] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:10:24,690] {logging_mixin.py:109} INFO - [2021-09-05 13:10:24,690] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:10:24,703] {logging_mixin.py:109} INFO - [2021-09-05 13:10:24,703] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:10:24,710] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.063 seconds
+[2021-09-05 13:10:55,420] {processor.py:162} INFO - Started process (PID=4315) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:10:55,420] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:10:55,421] {logging_mixin.py:109} INFO - [2021-09-05 13:10:55,421] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:10:55,429] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:10:55,442] {logging_mixin.py:109} INFO - [2021-09-05 13:10:55,442] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:10:55,451] {logging_mixin.py:109} INFO - [2021-09-05 13:10:55,451] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:10:55,458] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.041 seconds
+[2021-09-05 13:11:26,197] {processor.py:162} INFO - Started process (PID=4381) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:11:26,198] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:11:26,198] {logging_mixin.py:109} INFO - [2021-09-05 13:11:26,198] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:11:26,208] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:11:26,220] {logging_mixin.py:109} INFO - [2021-09-05 13:11:26,220] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:11:26,229] {logging_mixin.py:109} INFO - [2021-09-05 13:11:26,229] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:11:26,235] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.040 seconds
+[2021-09-05 13:11:56,880] {processor.py:162} INFO - Started process (PID=4449) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:11:56,880] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:11:56,881] {logging_mixin.py:109} INFO - [2021-09-05 13:11:56,880] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:11:56,888] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:11:56,901] {logging_mixin.py:109} INFO - [2021-09-05 13:11:56,901] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:11:56,911] {logging_mixin.py:109} INFO - [2021-09-05 13:11:56,911] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:11:56,917] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.040 seconds
+[2021-09-05 13:12:27,610] {processor.py:162} INFO - Started process (PID=4514) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:12:27,611] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:12:27,612] {logging_mixin.py:109} INFO - [2021-09-05 13:12:27,612] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:12:27,620] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:12:27,634] {logging_mixin.py:109} INFO - [2021-09-05 13:12:27,634] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:12:27,643] {logging_mixin.py:109} INFO - [2021-09-05 13:12:27,643] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:12:27,647] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.039 seconds
+[2021-09-05 13:12:58,311] {processor.py:162} INFO - Started process (PID=4581) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:12:58,312] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:12:58,312] {logging_mixin.py:109} INFO - [2021-09-05 13:12:58,312] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:12:58,320] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:12:58,334] {logging_mixin.py:109} INFO - [2021-09-05 13:12:58,334] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:12:58,345] {logging_mixin.py:109} INFO - [2021-09-05 13:12:58,345] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:12:58,353] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.044 seconds
+[2021-09-05 13:13:29,046] {processor.py:162} INFO - Started process (PID=4649) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:13:29,047] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:13:29,047] {logging_mixin.py:109} INFO - [2021-09-05 13:13:29,047] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:13:29,055] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:13:29,071] {logging_mixin.py:109} INFO - [2021-09-05 13:13:29,070] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:13:29,083] {logging_mixin.py:109} INFO - [2021-09-05 13:13:29,083] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:13:29,091] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.047 seconds
+[2021-09-05 13:13:59,741] {processor.py:162} INFO - Started process (PID=4713) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:13:59,742] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:13:59,742] {logging_mixin.py:109} INFO - [2021-09-05 13:13:59,742] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:13:59,751] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:13:59,766] {logging_mixin.py:109} INFO - [2021-09-05 13:13:59,766] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:13:59,776] {logging_mixin.py:109} INFO - [2021-09-05 13:13:59,776] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:13:59,783] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.044 seconds
+[2021-09-05 13:14:30,469] {processor.py:162} INFO - Started process (PID=4780) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:14:30,470] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:14:30,470] {logging_mixin.py:109} INFO - [2021-09-05 13:14:30,470] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:14:30,480] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:14:30,494] {logging_mixin.py:109} INFO - [2021-09-05 13:14:30,494] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:14:30,505] {logging_mixin.py:109} INFO - [2021-09-05 13:14:30,504] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:14:30,510] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.043 seconds
+[2021-09-05 13:15:01,448] {processor.py:162} INFO - Started process (PID=4849) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:15:01,449] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:15:01,449] {logging_mixin.py:109} INFO - [2021-09-05 13:15:01,449] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:15:01,460] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:15:01,477] {logging_mixin.py:109} INFO - [2021-09-05 13:15:01,477] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:15:01,490] {logging_mixin.py:109} INFO - [2021-09-05 13:15:01,490] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:15:01,500] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.054 seconds
+[2021-09-05 13:15:32,373] {processor.py:162} INFO - Started process (PID=4919) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:15:32,374] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:15:32,374] {logging_mixin.py:109} INFO - [2021-09-05 13:15:32,374] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:15:32,383] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:15:32,397] {logging_mixin.py:109} INFO - [2021-09-05 13:15:32,397] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:15:32,406] {logging_mixin.py:109} INFO - [2021-09-05 13:15:32,405] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:15:32,410] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.039 seconds
+[2021-09-05 13:16:03,215] {processor.py:162} INFO - Started process (PID=4985) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:16:03,216] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:16:03,216] {logging_mixin.py:109} INFO - [2021-09-05 13:16:03,216] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:16:03,227] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:16:03,243] {logging_mixin.py:109} INFO - [2021-09-05 13:16:03,243] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:16:03,253] {logging_mixin.py:109} INFO - [2021-09-05 13:16:03,253] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:16:03,260] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.046 seconds
+[2021-09-05 13:16:33,972] {processor.py:162} INFO - Started process (PID=5120) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:16:33,973] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:16:33,974] {logging_mixin.py:109} INFO - [2021-09-05 13:16:33,973] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:16:33,983] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:16:33,996] {logging_mixin.py:109} INFO - [2021-09-05 13:16:33,996] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:16:34,004] {logging_mixin.py:109} INFO - [2021-09-05 13:16:34,004] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:16:34,009] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.038 seconds
+[2021-09-05 13:17:04,659] {processor.py:162} INFO - Started process (PID=5186) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:17:04,661] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:17:04,661] {logging_mixin.py:109} INFO - [2021-09-05 13:17:04,661] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:17:04,669] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:17:04,682] {logging_mixin.py:109} INFO - [2021-09-05 13:17:04,682] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:17:04,691] {logging_mixin.py:109} INFO - [2021-09-05 13:17:04,691] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:17:04,696] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.038 seconds
+[2021-09-05 13:17:35,360] {processor.py:162} INFO - Started process (PID=5252) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:17:35,361] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:17:35,361] {logging_mixin.py:109} INFO - [2021-09-05 13:17:35,361] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:17:35,372] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:17:35,388] {logging_mixin.py:109} INFO - [2021-09-05 13:17:35,387] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:17:35,397] {logging_mixin.py:109} INFO - [2021-09-05 13:17:35,397] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:17:35,402] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.044 seconds
+[2021-09-05 13:18:06,069] {processor.py:162} INFO - Started process (PID=5319) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:18:06,069] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:18:06,070] {logging_mixin.py:109} INFO - [2021-09-05 13:18:06,070] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:18:06,079] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:18:06,091] {logging_mixin.py:109} INFO - [2021-09-05 13:18:06,091] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:18:06,100] {logging_mixin.py:109} INFO - [2021-09-05 13:18:06,100] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:18:06,104] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.038 seconds
+[2021-09-05 13:18:36,731] {processor.py:162} INFO - Started process (PID=5385) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:18:36,731] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:18:36,732] {logging_mixin.py:109} INFO - [2021-09-05 13:18:36,732] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:18:36,740] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:18:36,752] {logging_mixin.py:109} INFO - [2021-09-05 13:18:36,752] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:18:36,760] {logging_mixin.py:109} INFO - [2021-09-05 13:18:36,760] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:18:36,765] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.036 seconds
+[2021-09-05 13:19:07,521] {processor.py:162} INFO - Started process (PID=5452) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:19:07,522] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:19:07,522] {logging_mixin.py:109} INFO - [2021-09-05 13:19:07,522] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:19:07,533] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:19:07,555] {logging_mixin.py:109} INFO - [2021-09-05 13:19:07,555] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:19:07,568] {logging_mixin.py:109} INFO - [2021-09-05 13:19:07,568] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:19:07,575] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.057 seconds
+[2021-09-05 13:19:38,549] {processor.py:162} INFO - Started process (PID=5518) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:19:38,550] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:19:38,551] {logging_mixin.py:109} INFO - [2021-09-05 13:19:38,551] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:19:38,565] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:19:38,584] {logging_mixin.py:109} INFO - [2021-09-05 13:19:38,584] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:19:38,601] {logging_mixin.py:109} INFO - [2021-09-05 13:19:38,601] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:19:38,611] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.065 seconds
+[2021-09-05 13:20:09,344] {processor.py:162} INFO - Started process (PID=5586) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:20:09,344] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:20:09,345] {logging_mixin.py:109} INFO - [2021-09-05 13:20:09,345] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:20:09,353] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:20:09,368] {logging_mixin.py:109} INFO - [2021-09-05 13:20:09,368] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:20:09,379] {logging_mixin.py:109} INFO - [2021-09-05 13:20:09,379] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:20:09,384] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.043 seconds
+[2021-09-05 13:20:40,039] {processor.py:162} INFO - Started process (PID=5653) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:20:40,040] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:20:40,040] {logging_mixin.py:109} INFO - [2021-09-05 13:20:40,040] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:20:40,048] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:20:40,060] {logging_mixin.py:109} INFO - [2021-09-05 13:20:40,060] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:20:40,068] {logging_mixin.py:109} INFO - [2021-09-05 13:20:40,068] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:20:40,073] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.036 seconds
+[2021-09-05 13:21:10,715] {processor.py:162} INFO - Started process (PID=5719) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:21:10,716] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:21:10,716] {logging_mixin.py:109} INFO - [2021-09-05 13:21:10,716] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:21:10,725] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:21:10,737] {logging_mixin.py:109} INFO - [2021-09-05 13:21:10,737] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:21:10,745] {logging_mixin.py:109} INFO - [2021-09-05 13:21:10,745] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:21:10,750] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.037 seconds
+[2021-09-05 13:21:41,366] {processor.py:162} INFO - Started process (PID=5786) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:21:41,367] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:21:41,367] {logging_mixin.py:109} INFO - [2021-09-05 13:21:41,367] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:21:41,376] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:21:41,390] {logging_mixin.py:109} INFO - [2021-09-05 13:21:41,390] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:21:41,398] {logging_mixin.py:109} INFO - [2021-09-05 13:21:41,398] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:21:41,404] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.040 seconds
+[2021-09-05 13:22:12,158] {processor.py:162} INFO - Started process (PID=5852) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:22:12,159] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:22:12,160] {logging_mixin.py:109} INFO - [2021-09-05 13:22:12,160] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:22:12,169] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:22:12,181] {logging_mixin.py:109} INFO - [2021-09-05 13:22:12,181] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:22:12,190] {logging_mixin.py:109} INFO - [2021-09-05 13:22:12,190] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:22:12,194] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.040 seconds
+[2021-09-05 13:22:42,892] {processor.py:162} INFO - Started process (PID=5918) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:22:42,893] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:22:42,893] {logging_mixin.py:109} INFO - [2021-09-05 13:22:42,893] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:22:42,901] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:22:42,914] {logging_mixin.py:109} INFO - [2021-09-05 13:22:42,914] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:22:42,922] {logging_mixin.py:109} INFO - [2021-09-05 13:22:42,922] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:22:42,927] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.037 seconds
+[2021-09-05 13:23:13,613] {processor.py:162} INFO - Started process (PID=5984) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:23:13,614] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:23:13,615] {logging_mixin.py:109} INFO - [2021-09-05 13:23:13,615] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:23:13,624] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:23:13,642] {logging_mixin.py:109} INFO - [2021-09-05 13:23:13,642] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:23:13,654] {logging_mixin.py:109} INFO - [2021-09-05 13:23:13,654] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:23:13,669] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.059 seconds
+[2021-09-05 13:23:44,444] {processor.py:162} INFO - Started process (PID=6055) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:23:44,445] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:23:44,445] {logging_mixin.py:109} INFO - [2021-09-05 13:23:44,445] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:23:44,454] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:23:44,467] {logging_mixin.py:109} INFO - [2021-09-05 13:23:44,467] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:23:44,475] {logging_mixin.py:109} INFO - [2021-09-05 13:23:44,475] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:23:44,480] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.039 seconds
+[2021-09-05 13:24:15,323] {processor.py:162} INFO - Started process (PID=6129) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:24:15,324] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:24:15,325] {logging_mixin.py:109} INFO - [2021-09-05 13:24:15,324] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:24:15,337] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:24:15,357] {logging_mixin.py:109} INFO - [2021-09-05 13:24:15,357] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:24:15,369] {logging_mixin.py:109} INFO - [2021-09-05 13:24:15,369] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:24:15,375] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.054 seconds
+[2021-09-05 13:24:46,092] {processor.py:162} INFO - Started process (PID=6198) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:24:46,093] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:24:46,093] {logging_mixin.py:109} INFO - [2021-09-05 13:24:46,093] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:24:46,101] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:24:46,113] {logging_mixin.py:109} INFO - [2021-09-05 13:24:46,113] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:24:46,122] {logging_mixin.py:109} INFO - [2021-09-05 13:24:46,121] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:24:46,126] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.036 seconds
+[2021-09-05 13:25:16,853] {processor.py:162} INFO - Started process (PID=6275) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:25:16,854] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:25:16,855] {logging_mixin.py:109} INFO - [2021-09-05 13:25:16,855] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:25:16,867] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:25:16,882] {logging_mixin.py:109} INFO - [2021-09-05 13:25:16,882] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:25:16,893] {logging_mixin.py:109} INFO - [2021-09-05 13:25:16,893] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:25:16,899] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.050 seconds
+[2021-09-05 13:25:47,564] {processor.py:162} INFO - Started process (PID=6341) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:25:47,564] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:25:47,565] {logging_mixin.py:109} INFO - [2021-09-05 13:25:47,565] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:25:47,573] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:25:47,592] {logging_mixin.py:109} INFO - [2021-09-05 13:25:47,592] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:25:47,608] {logging_mixin.py:109} INFO - [2021-09-05 13:25:47,608] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:25:47,616] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.055 seconds
+[2021-09-05 13:26:18,333] {processor.py:162} INFO - Started process (PID=6408) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:26:18,334] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:26:18,334] {logging_mixin.py:109} INFO - [2021-09-05 13:26:18,334] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:26:18,342] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:26:18,355] {logging_mixin.py:109} INFO - [2021-09-05 13:26:18,355] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:26:18,364] {logging_mixin.py:109} INFO - [2021-09-05 13:26:18,363] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:26:18,368] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.037 seconds
+[2021-09-05 13:26:49,092] {processor.py:162} INFO - Started process (PID=6474) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:26:49,093] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:26:49,093] {logging_mixin.py:109} INFO - [2021-09-05 13:26:49,093] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:26:49,103] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:26:49,115] {logging_mixin.py:109} INFO - [2021-09-05 13:26:49,115] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:26:49,124] {logging_mixin.py:109} INFO - [2021-09-05 13:26:49,124] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:26:49,129] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.039 seconds
+[2021-09-05 13:27:19,900] {processor.py:162} INFO - Started process (PID=6542) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:27:19,901] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:27:19,901] {logging_mixin.py:109} INFO - [2021-09-05 13:27:19,901] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:27:19,910] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:27:19,924] {logging_mixin.py:109} INFO - [2021-09-05 13:27:19,924] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:27:19,935] {logging_mixin.py:109} INFO - [2021-09-05 13:27:19,935] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to None
+[2021-09-05 13:27:19,940] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.042 seconds
+[2021-09-05 13:27:50,726] {processor.py:162} INFO - Started process (PID=6608) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:27:50,727] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:27:50,728] {logging_mixin.py:109} INFO - [2021-09-05 13:27:50,728] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:27:50,738] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:27:50,754] {logging_mixin.py:109} INFO - [2021-09-05 13:27:50,754] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:27:50,765] {logging_mixin.py:109} INFO - [2021-09-05 13:27:50,765] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to 2021-08-14 17:00:00+00:00
+[2021-09-05 13:27:50,771] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.047 seconds
+[2021-09-05 13:28:21,444] {processor.py:162} INFO - Started process (PID=6674) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:28:21,444] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:28:21,445] {logging_mixin.py:109} INFO - [2021-09-05 13:28:21,445] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:28:21,454] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:28:21,469] {logging_mixin.py:109} INFO - [2021-09-05 13:28:21,469] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:28:21,479] {logging_mixin.py:109} INFO - [2021-09-05 13:28:21,479] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to 2021-08-14 17:00:00+00:00
+[2021-09-05 13:28:21,485] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.043 seconds
+[2021-09-05 13:28:52,274] {processor.py:162} INFO - Started process (PID=6740) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:28:52,275] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:28:52,275] {logging_mixin.py:109} INFO - [2021-09-05 13:28:52,275] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:28:52,283] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:28:52,297] {logging_mixin.py:109} INFO - [2021-09-05 13:28:52,297] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:28:52,308] {logging_mixin.py:109} INFO - [2021-09-05 13:28:52,308] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to 2021-08-14 17:00:00+00:00
+[2021-09-05 13:28:52,316] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.044 seconds
+[2021-09-05 13:29:23,136] {processor.py:162} INFO - Started process (PID=6818) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:29:23,137] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:29:23,138] {logging_mixin.py:109} INFO - [2021-09-05 13:29:23,138] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:29:23,149] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:29:23,170] {logging_mixin.py:109} INFO - [2021-09-05 13:29:23,170] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:29:23,186] {logging_mixin.py:109} INFO - [2021-09-05 13:29:23,185] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to 2021-08-14 17:00:00+00:00
+[2021-09-05 13:29:23,198] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.064 seconds
+[2021-09-05 13:29:54,170] {processor.py:162} INFO - Started process (PID=6884) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:29:54,171] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:29:54,171] {logging_mixin.py:109} INFO - [2021-09-05 13:29:54,171] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:29:54,183] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:29:54,206] {logging_mixin.py:109} INFO - [2021-09-05 13:29:54,206] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:29:54,222] {logging_mixin.py:109} INFO - [2021-09-05 13:29:54,222] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to 2021-08-14 17:00:00+00:00
+[2021-09-05 13:29:54,233] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.066 seconds
+[2021-09-05 13:30:25,066] {processor.py:162} INFO - Started process (PID=6949) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:30:25,067] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:30:25,067] {logging_mixin.py:109} INFO - [2021-09-05 13:30:25,067] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:30:25,075] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:30:25,088] {logging_mixin.py:109} INFO - [2021-09-05 13:30:25,088] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:30:25,097] {logging_mixin.py:109} INFO - [2021-09-05 13:30:25,096] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to 2021-08-14 17:00:00+00:00
+[2021-09-05 13:30:25,102] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.038 seconds
+[2021-09-05 13:30:55,948] {processor.py:162} INFO - Started process (PID=7016) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:30:55,949] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:30:55,949] {logging_mixin.py:109} INFO - [2021-09-05 13:30:55,949] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:30:55,960] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:30:55,973] {logging_mixin.py:109} INFO - [2021-09-05 13:30:55,973] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:30:55,985] {logging_mixin.py:109} INFO - [2021-09-05 13:30:55,985] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to 2021-08-14 17:00:00+00:00
+[2021-09-05 13:30:55,992] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.046 seconds
+[2021-09-05 13:31:26,799] {processor.py:162} INFO - Started process (PID=7082) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:31:26,800] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:31:26,800] {logging_mixin.py:109} INFO - [2021-09-05 13:31:26,800] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:31:26,810] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:31:26,825] {logging_mixin.py:109} INFO - [2021-09-05 13:31:26,825] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:31:26,838] {logging_mixin.py:109} INFO - [2021-09-05 13:31:26,838] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to 2021-08-14 17:00:00+00:00
+[2021-09-05 13:31:26,844] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.047 seconds
+[2021-09-05 13:31:57,419] {processor.py:162} INFO - Started process (PID=7130) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:31:57,420] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:31:57,420] {logging_mixin.py:109} INFO - [2021-09-05 13:31:57,420] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:31:57,437] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:31:57,644] {logging_mixin.py:109} INFO - [2021-09-05 13:31:57,644] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:31:57,652] {logging_mixin.py:109} INFO - [2021-09-05 13:31:57,652] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to 2021-08-14 17:00:00+00:00
+[2021-09-05 13:31:57,664] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.249 seconds
+[2021-09-05 13:32:28,256] {processor.py:162} INFO - Started process (PID=7197) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:32:28,257] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:32:28,258] {logging_mixin.py:109} INFO - [2021-09-05 13:32:28,258] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:32:28,271] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:32:28,295] {logging_mixin.py:109} INFO - [2021-09-05 13:32:28,295] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:32:28,312] {logging_mixin.py:109} INFO - [2021-09-05 13:32:28,312] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to 2021-08-14 17:00:00+00:00
+[2021-09-05 13:32:28,322] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.069 seconds
+[2021-09-05 13:32:59,026] {processor.py:162} INFO - Started process (PID=7265) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:32:59,027] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:32:59,028] {logging_mixin.py:109} INFO - [2021-09-05 13:32:59,028] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:32:59,041] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:32:59,062] {logging_mixin.py:109} INFO - [2021-09-05 13:32:59,062] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:32:59,078] {logging_mixin.py:109} INFO - [2021-09-05 13:32:59,078] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to 2021-08-14 17:00:00+00:00
+[2021-09-05 13:32:59,088] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.064 seconds
+[2021-09-05 13:33:29,162] {processor.py:162} INFO - Started process (PID=7330) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:33:29,164] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:33:29,165] {logging_mixin.py:109} INFO - [2021-09-05 13:33:29,165] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:33:29,181] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:33:29,202] {logging_mixin.py:109} INFO - [2021-09-05 13:33:29,202] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:33:29,215] {logging_mixin.py:109} INFO - [2021-09-05 13:33:29,215] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to 2021-08-14 17:00:00+00:00
+[2021-09-05 13:33:29,277] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.118 seconds
+[2021-09-05 13:33:59,974] {processor.py:162} INFO - Started process (PID=7396) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:33:59,975] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:33:59,975] {logging_mixin.py:109} INFO - [2021-09-05 13:33:59,975] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:33:59,984] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:33:59,997] {logging_mixin.py:109} INFO - [2021-09-05 13:33:59,996] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:34:00,008] {logging_mixin.py:109} INFO - [2021-09-05 13:34:00,008] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to 2021-08-14 17:00:00+00:00
+[2021-09-05 13:34:00,070] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.099 seconds
+[2021-09-05 13:34:30,740] {processor.py:162} INFO - Started process (PID=7462) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:34:30,741] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:34:30,742] {logging_mixin.py:109} INFO - [2021-09-05 13:34:30,741] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:34:30,756] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:34:30,776] {logging_mixin.py:109} INFO - [2021-09-05 13:34:30,776] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:34:30,827] {logging_mixin.py:109} INFO - [2021-09-05 13:34:30,827] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to 2021-08-14 17:00:00+00:00
+[2021-09-05 13:34:30,834] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.098 seconds
+[2021-09-05 13:35:01,689] {processor.py:162} INFO - Started process (PID=7528) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:35:01,690] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:35:01,691] {logging_mixin.py:109} INFO - [2021-09-05 13:35:01,690] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:35:01,705] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:35:01,725] {logging_mixin.py:109} INFO - [2021-09-05 13:35:01,725] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:35:01,777] {logging_mixin.py:109} INFO - [2021-09-05 13:35:01,777] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to 2021-08-14 17:00:00+00:00
+[2021-09-05 13:35:01,786] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.101 seconds
+[2021-09-05 13:35:32,518] {processor.py:162} INFO - Started process (PID=7594) to work on /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:35:32,519] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/writefile.py for tasks to queue
+[2021-09-05 13:35:32,521] {logging_mixin.py:109} INFO - [2021-09-05 13:35:32,520] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:35:32,543] {processor.py:623} INFO - DAG(s) dict_keys(['name_writefile']) retrieved from /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:35:32,571] {logging_mixin.py:109} INFO - [2021-09-05 13:35:32,570] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 13:35:32,658] {logging_mixin.py:109} INFO - [2021-09-05 13:35:32,658] {dag.py:2306} INFO - Setting next_dagrun for name_writefile to 2021-08-14 17:00:00+00:00
+[2021-09-05 13:35:32,670] {processor.py:170} INFO - Processing /usr/local/airflow/dags/writefile.py took 0.156 seconds

@@ -24,7 +24,7 @@ try:
 except Exception as e:
     BASE_LOG_FOLDER = conf.get("logging", "BASE_LOG_FOLDER").rstrip("/")
 # How often to Run. @daily - Once a day at Midnight
-SCHEDULE_INTERVAL = "@daily"
+SCHEDULE_INTERVAL = "@once"
 # Who is listed as the owner of this DAG in the Airflow Web Server
 DAG_OWNER_NAME = "operations"
 # List of email address to send email alerts to if this job fails

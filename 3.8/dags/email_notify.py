@@ -21,7 +21,8 @@ dag_params = {
 dag = DAG('sending_email',
           catchup=False,
           default_args=dag_params,
-          schedule_interval="@once"
+          schedule_interval="@once",
+          tags=['admin', 'test'],
 )
 
 sending_email_notification = EmailOperator(
