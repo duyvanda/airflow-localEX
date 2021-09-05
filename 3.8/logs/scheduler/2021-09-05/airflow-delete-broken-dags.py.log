@@ -1,0 +1,43 @@
+[2021-09-05 10:53:38,267] {processor.py:162} INFO - Started process (PID=1278) to work on /usr/local/airflow/dags/airflow-delete-broken-dags.py
+[2021-09-05 10:53:38,268] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-delete-broken-dags.py for tasks to queue
+[2021-09-05 10:53:38,269] {logging_mixin.py:109} INFO - [2021-09-05 10:53:38,269] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-delete-broken-dags.py
+[2021-09-05 10:53:38,279] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-delete-broken-dags']) retrieved from /usr/local/airflow/dags/airflow-delete-broken-dags.py
+[2021-09-05 10:53:39,538] {logging_mixin.py:109} INFO - [2021-09-05 10:53:39,537] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 10:53:39,543] {logging_mixin.py:109} INFO - [2021-09-05 10:53:39,543] {dag.py:1852} INFO - Creating ORM DAG for airflow-delete-broken-dags
+[2021-09-05 10:53:39,552] {logging_mixin.py:109} INFO - [2021-09-05 10:53:39,552] {dag.py:2306} INFO - Setting next_dagrun for airflow-delete-broken-dags to 2021-09-04 00:00:00+00:00
+[2021-09-05 10:53:39,562] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-delete-broken-dags.py took 1.301 seconds
+[2021-09-05 10:54:09,968] {processor.py:162} INFO - Started process (PID=1357) to work on /usr/local/airflow/dags/airflow-delete-broken-dags.py
+[2021-09-05 10:54:09,969] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-delete-broken-dags.py for tasks to queue
+[2021-09-05 10:54:09,970] {logging_mixin.py:109} INFO - [2021-09-05 10:54:09,970] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-delete-broken-dags.py
+[2021-09-05 10:54:09,982] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-delete-broken-dags']) retrieved from /usr/local/airflow/dags/airflow-delete-broken-dags.py
+[2021-09-05 10:54:10,003] {logging_mixin.py:109} INFO - [2021-09-05 10:54:10,003] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 10:54:10,020] {logging_mixin.py:109} INFO - [2021-09-05 10:54:10,020] {dag.py:2306} INFO - Setting next_dagrun for airflow-delete-broken-dags to 2021-09-04 00:00:00+00:00
+[2021-09-05 10:54:10,030] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-delete-broken-dags.py took 0.065 seconds
+[2021-09-05 10:54:40,387] {processor.py:162} INFO - Started process (PID=1415) to work on /usr/local/airflow/dags/airflow-delete-broken-dags.py
+[2021-09-05 10:54:40,388] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-delete-broken-dags.py for tasks to queue
+[2021-09-05 10:54:40,389] {logging_mixin.py:109} INFO - [2021-09-05 10:54:40,389] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-delete-broken-dags.py
+[2021-09-05 10:54:40,400] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-delete-broken-dags']) retrieved from /usr/local/airflow/dags/airflow-delete-broken-dags.py
+[2021-09-05 10:54:40,417] {logging_mixin.py:109} INFO - [2021-09-05 10:54:40,416] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 10:54:40,434] {logging_mixin.py:109} INFO - [2021-09-05 10:54:40,434] {dag.py:2306} INFO - Setting next_dagrun for airflow-delete-broken-dags to 2021-09-04 00:00:00+00:00
+[2021-09-05 10:54:40,444] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-delete-broken-dags.py took 0.060 seconds
+[2021-09-05 10:55:10,793] {processor.py:162} INFO - Started process (PID=1472) to work on /usr/local/airflow/dags/airflow-delete-broken-dags.py
+[2021-09-05 10:55:10,793] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-delete-broken-dags.py for tasks to queue
+[2021-09-05 10:55:10,794] {logging_mixin.py:109} INFO - [2021-09-05 10:55:10,794] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-delete-broken-dags.py
+[2021-09-05 10:55:10,802] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-delete-broken-dags']) retrieved from /usr/local/airflow/dags/airflow-delete-broken-dags.py
+[2021-09-05 10:55:10,818] {logging_mixin.py:109} INFO - [2021-09-05 10:55:10,818] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 10:55:10,835] {logging_mixin.py:109} INFO - [2021-09-05 10:55:10,835] {dag.py:2306} INFO - Setting next_dagrun for airflow-delete-broken-dags to 2021-09-04 00:00:00+00:00
+[2021-09-05 10:55:10,845] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-delete-broken-dags.py took 0.055 seconds
+[2021-09-05 10:55:41,249] {processor.py:162} INFO - Started process (PID=1527) to work on /usr/local/airflow/dags/airflow-delete-broken-dags.py
+[2021-09-05 10:55:41,251] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-delete-broken-dags.py for tasks to queue
+[2021-09-05 10:55:41,251] {logging_mixin.py:109} INFO - [2021-09-05 10:55:41,251] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-delete-broken-dags.py
+[2021-09-05 10:55:41,264] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-delete-broken-dags']) retrieved from /usr/local/airflow/dags/airflow-delete-broken-dags.py
+[2021-09-05 10:55:41,284] {logging_mixin.py:109} INFO - [2021-09-05 10:55:41,284] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 10:55:41,302] {logging_mixin.py:109} INFO - [2021-09-05 10:55:41,302] {dag.py:2306} INFO - Setting next_dagrun for airflow-delete-broken-dags to 2021-09-04 00:00:00+00:00
+[2021-09-05 10:55:41,325] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-delete-broken-dags.py took 0.079 seconds
+[2021-09-05 10:56:11,699] {processor.py:162} INFO - Started process (PID=1584) to work on /usr/local/airflow/dags/airflow-delete-broken-dags.py
+[2021-09-05 10:56:11,700] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-delete-broken-dags.py for tasks to queue
+[2021-09-05 10:56:11,701] {logging_mixin.py:109} INFO - [2021-09-05 10:56:11,701] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-delete-broken-dags.py
+[2021-09-05 10:56:11,712] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-delete-broken-dags']) retrieved from /usr/local/airflow/dags/airflow-delete-broken-dags.py
+[2021-09-05 10:56:11,733] {logging_mixin.py:109} INFO - [2021-09-05 10:56:11,732] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 10:56:11,749] {logging_mixin.py:109} INFO - [2021-09-05 10:56:11,749] {dag.py:2306} INFO - Setting next_dagrun for airflow-delete-broken-dags to 2021-09-04 00:00:00+00:00
+[2021-09-05 10:56:11,756] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-delete-broken-dags.py took 0.060 seconds

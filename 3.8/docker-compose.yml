@@ -23,7 +23,6 @@ services:
       - "AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://postgres:mysecretpassword@postgres:5433/airflow"
       - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=True
       - AIRFLOW__API__AUTH_BACKEND=airflow.api.auth.backend.basic_auth
-      - FERNET_KEY=46BKJoQYlPPOexq0OhDZnIlNepKFf87WFwLbfzqDDho=
     healthcheck: 
       interval: 30s
       retries: 3

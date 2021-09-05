@@ -13,7 +13,7 @@ local_tz = pendulum.timezone("Asia/Bangkok")
 dag_params = {
     'owner': 'airflow',
     "depends_on_past": False,
-    'start_date': datetime(2021, 8, 15, 0, 0, tzinfo=local_tz),
+    'start_date': datetime(2021, 9, 1, tzinfo=local_tz),
     'email_on_failure': False,
     'email_on_retry': False,
     'do_xcom_push': False
@@ -22,9 +22,9 @@ dag_params = {
 }
 
 dag = DAG('hello_world',
-          catchup=False,
+          catchup=True,
           default_args=dag_params,
-          schedule_interval="@once"
+          schedule_interval="@daily"
 )
 
 dummy_op = DummyOperator(task_id="dummy_start", dag=dag)

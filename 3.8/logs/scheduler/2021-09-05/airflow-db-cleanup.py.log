@@ -1,0 +1,49 @@
+[2021-09-05 10:53:38,261] {processor.py:162} INFO - Started process (PID=1275) to work on /usr/local/airflow/dags/airflow-db-cleanup.py
+[2021-09-05 10:53:38,263] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-db-cleanup.py for tasks to queue
+[2021-09-05 10:53:38,264] {logging_mixin.py:109} INFO - [2021-09-05 10:53:38,264] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-db-cleanup.py
+[2021-09-05 10:53:38,349] {logging_mixin.py:109} INFO - [2021-09-05 10:53:38,349] {airflow-db-cleanup.py:174} INFO - Airflow Executor: LocalExecutor
+[2021-09-05 10:53:38,356] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-db-cleanup']) retrieved from /usr/local/airflow/dags/airflow-db-cleanup.py
+[2021-09-05 10:53:39,626] {logging_mixin.py:109} INFO - [2021-09-05 10:53:39,626] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 10:53:39,633] {logging_mixin.py:109} INFO - [2021-09-05 10:53:39,633] {dag.py:1852} INFO - Creating ORM DAG for airflow-db-cleanup
+[2021-09-05 10:53:39,642] {logging_mixin.py:109} INFO - [2021-09-05 10:53:39,641] {dag.py:2306} INFO - Setting next_dagrun for airflow-db-cleanup to 2021-09-04 00:00:00+00:00
+[2021-09-05 10:53:39,656] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-db-cleanup.py took 1.399 seconds
+[2021-09-05 10:54:09,965] {processor.py:162} INFO - Started process (PID=1355) to work on /usr/local/airflow/dags/airflow-db-cleanup.py
+[2021-09-05 10:54:09,966] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-db-cleanup.py for tasks to queue
+[2021-09-05 10:54:09,966] {logging_mixin.py:109} INFO - [2021-09-05 10:54:09,966] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-db-cleanup.py
+[2021-09-05 10:54:10,032] {logging_mixin.py:109} INFO - [2021-09-05 10:54:10,032] {airflow-db-cleanup.py:174} INFO - Airflow Executor: LocalExecutor
+[2021-09-05 10:54:10,038] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-db-cleanup']) retrieved from /usr/local/airflow/dags/airflow-db-cleanup.py
+[2021-09-05 10:54:10,140] {logging_mixin.py:109} INFO - [2021-09-05 10:54:10,140] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 10:54:10,184] {logging_mixin.py:109} INFO - [2021-09-05 10:54:10,184] {dag.py:2306} INFO - Setting next_dagrun for airflow-db-cleanup to 2021-09-04 00:00:00+00:00
+[2021-09-05 10:54:10,191] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-db-cleanup.py took 0.230 seconds
+[2021-09-05 10:54:40,384] {processor.py:162} INFO - Started process (PID=1412) to work on /usr/local/airflow/dags/airflow-db-cleanup.py
+[2021-09-05 10:54:40,385] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-db-cleanup.py for tasks to queue
+[2021-09-05 10:54:40,386] {logging_mixin.py:109} INFO - [2021-09-05 10:54:40,386] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-db-cleanup.py
+[2021-09-05 10:54:40,451] {logging_mixin.py:109} INFO - [2021-09-05 10:54:40,451] {airflow-db-cleanup.py:174} INFO - Airflow Executor: LocalExecutor
+[2021-09-05 10:54:40,458] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-db-cleanup']) retrieved from /usr/local/airflow/dags/airflow-db-cleanup.py
+[2021-09-05 10:54:40,566] {logging_mixin.py:109} INFO - [2021-09-05 10:54:40,566] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 10:54:40,614] {logging_mixin.py:109} INFO - [2021-09-05 10:54:40,614] {dag.py:2306} INFO - Setting next_dagrun for airflow-db-cleanup to 2021-09-04 00:00:00+00:00
+[2021-09-05 10:54:40,621] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-db-cleanup.py took 0.239 seconds
+[2021-09-05 10:55:10,790] {processor.py:162} INFO - Started process (PID=1469) to work on /usr/local/airflow/dags/airflow-db-cleanup.py
+[2021-09-05 10:55:10,791] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-db-cleanup.py for tasks to queue
+[2021-09-05 10:55:10,791] {logging_mixin.py:109} INFO - [2021-09-05 10:55:10,791] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-db-cleanup.py
+[2021-09-05 10:55:10,852] {logging_mixin.py:109} INFO - [2021-09-05 10:55:10,851] {airflow-db-cleanup.py:174} INFO - Airflow Executor: LocalExecutor
+[2021-09-05 10:55:10,857] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-db-cleanup']) retrieved from /usr/local/airflow/dags/airflow-db-cleanup.py
+[2021-09-05 10:55:10,966] {logging_mixin.py:109} INFO - [2021-09-05 10:55:10,966] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 10:55:11,014] {logging_mixin.py:109} INFO - [2021-09-05 10:55:11,014] {dag.py:2306} INFO - Setting next_dagrun for airflow-db-cleanup to 2021-09-04 00:00:00+00:00
+[2021-09-05 10:55:11,030] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-db-cleanup.py took 0.243 seconds
+[2021-09-05 10:55:41,247] {processor.py:162} INFO - Started process (PID=1525) to work on /usr/local/airflow/dags/airflow-db-cleanup.py
+[2021-09-05 10:55:41,248] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-db-cleanup.py for tasks to queue
+[2021-09-05 10:55:41,248] {logging_mixin.py:109} INFO - [2021-09-05 10:55:41,248] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-db-cleanup.py
+[2021-09-05 10:55:41,321] {logging_mixin.py:109} INFO - [2021-09-05 10:55:41,321] {airflow-db-cleanup.py:174} INFO - Airflow Executor: LocalExecutor
+[2021-09-05 10:55:41,329] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-db-cleanup']) retrieved from /usr/local/airflow/dags/airflow-db-cleanup.py
+[2021-09-05 10:55:41,435] {logging_mixin.py:109} INFO - [2021-09-05 10:55:41,435] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 10:55:41,482] {logging_mixin.py:109} INFO - [2021-09-05 10:55:41,481] {dag.py:2306} INFO - Setting next_dagrun for airflow-db-cleanup to 2021-09-04 00:00:00+00:00
+[2021-09-05 10:55:41,488] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-db-cleanup.py took 0.244 seconds
+[2021-09-05 10:56:11,696] {processor.py:162} INFO - Started process (PID=1581) to work on /usr/local/airflow/dags/airflow-db-cleanup.py
+[2021-09-05 10:56:11,697] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-db-cleanup.py for tasks to queue
+[2021-09-05 10:56:11,698] {logging_mixin.py:109} INFO - [2021-09-05 10:56:11,698] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-db-cleanup.py
+[2021-09-05 10:56:11,761] {logging_mixin.py:109} INFO - [2021-09-05 10:56:11,760] {airflow-db-cleanup.py:174} INFO - Airflow Executor: LocalExecutor
+[2021-09-05 10:56:11,766] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-db-cleanup']) retrieved from /usr/local/airflow/dags/airflow-db-cleanup.py
+[2021-09-05 10:56:11,869] {logging_mixin.py:109} INFO - [2021-09-05 10:56:11,869] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-05 10:56:11,919] {logging_mixin.py:109} INFO - [2021-09-05 10:56:11,919] {dag.py:2306} INFO - Setting next_dagrun for airflow-db-cleanup to 2021-09-04 00:00:00+00:00
+[2021-09-05 10:56:11,926] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-db-cleanup.py took 0.232 seconds
