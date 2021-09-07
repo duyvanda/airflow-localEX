@@ -38826,3 +38826,152 @@ File Path                                                     PID  Runtime      
 [2021-09-07 17:10:33,548] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-delete-broken-dags.py exited with return code 1.
 [2021-09-07 17:10:43,291] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
 [2021-09-07 17:10:43,291] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-07 17:05:43.291653+00:00
+[2021-09-07 17:10:51,586] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/airflow-backup-configs.py                                    0          -1  0.04s           2021-09-07T17:10:23
+/usr/local/airflow/dags/airflow-log-cleanup.py               3870  0.00s             0          -1  0.04s           2021-09-07T17:10:21
+/usr/local/airflow/dags/packaged_dag.zip                                             0          -1  1.19s           2021-09-07T17:10:32
+/usr/local/airflow/dags/helloworld.py                                                0          -1  0.39s           2021-09-07T17:10:30
+/usr/local/airflow/dags/airflow-db-cleanup.py                                        0          -1  0.04s           2021-09-07T17:10:23
+/usr/local/airflow/dags/airflow-log-cleanup-pwdless-ssh.py                           0          -1  0.05s           2021-09-07T17:10:23
+/usr/local/airflow/dags/connect_to_gdrive.py                                         0          -1  0.67s           2021-09-07T17:10:31
+/usr/local/airflow/dags/email_notify.py                                              0          -1  0.58s           2021-09-07T17:10:31
+/usr/local/airflow/dags/airflow-clear-missing-dags.py                                0          -1  0.99s           2021-09-07T17:10:32
+/usr/local/airflow/dags/airflow-delete-broken-dags.py                                0          -1  1.07s           2021-09-07T17:10:33
+/usr/local/airflow/dags/writefile.py                                                 0          -1  1.19s           2021-09-07T17:10:29
+/usr/local/airflow/dags/airflow-kill-halted-tasks.py                                 0          -1  0.66s           2021-09-07T17:10:33
+================================================================================
+[2021-09-07 17:10:51,626] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-log-cleanup.py exited with return code 1.
+[2021-09-07 17:10:53,591] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-07 17:10:53,591] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-07 17:05:53.591589+00:00
+[2021-09-07 17:10:53,645] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-log-cleanup-pwdless-ssh.py exited with return code 1.
+[2021-09-07 17:10:53,648] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-db-cleanup.py exited with return code 1.
+[2021-09-07 17:10:53,678] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-backup-configs.py exited with return code 1.
+[2021-09-07 17:11:01,484] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/helloworld.py exited with return code 1.
+[2021-09-07 17:11:01,517] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/writefile.py exited with return code 1.
+[2021-09-07 17:11:02,198] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/email_notify.py exited with return code 1.
+[2021-09-07 17:11:02,229] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/connect_to_gdrive.py exited with return code 1.
+[2021-09-07 17:11:03,540] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-clear-missing-dags.py exited with return code 1.
+[2021-09-07 17:11:04,012] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-kill-halted-tasks.py exited with return code 1.
+[2021-09-07 17:11:04,012] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-07 17:11:04,013] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-07 17:06:04.013014+00:00
+[2021-09-07 17:11:04,339] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/packaged_dag.zip exited with return code 1.
+[2021-09-07 17:11:04,701] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-delete-broken-dags.py exited with return code 1.
+[2021-09-07 17:11:14,364] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-07 17:11:14,364] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-07 17:06:14.364580+00:00
+[2021-09-07 17:11:21,748] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/airflow-backup-configs.py                                    0          -1  0.03s           2021-09-07T17:10:53
+/usr/local/airflow/dags/airflow-log-cleanup.py               3936  0.00s             0          -1  0.05s           2021-09-07T17:10:51
+/usr/local/airflow/dags/packaged_dag.zip                                             0          -1  1.14s           2021-09-07T17:11:04
+/usr/local/airflow/dags/helloworld.py                                                0          -1  0.81s           2021-09-07T17:11:01
+/usr/local/airflow/dags/airflow-db-cleanup.py                                        0          -1  0.04s           2021-09-07T17:10:53
+/usr/local/airflow/dags/airflow-log-cleanup-pwdless-ssh.py                           0          -1  0.05s           2021-09-07T17:10:53
+/usr/local/airflow/dags/connect_to_gdrive.py                                         0          -1  0.71s           2021-09-07T17:11:02
+/usr/local/airflow/dags/email_notify.py                                              0          -1  0.71s           2021-09-07T17:11:02
+/usr/local/airflow/dags/airflow-clear-missing-dags.py                                0          -1  0.33s           2021-09-07T17:11:03
+/usr/local/airflow/dags/airflow-delete-broken-dags.py                                0          -1  0.68s           2021-09-07T17:11:04
+/usr/local/airflow/dags/writefile.py                                                 0          -1  0.85s           2021-09-07T17:11:01
+/usr/local/airflow/dags/airflow-kill-halted-tasks.py                                 0          -1  0.47s           2021-09-07T17:11:04
+================================================================================
+[2021-09-07 17:11:21,797] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-log-cleanup.py exited with return code 1.
+[2021-09-07 17:11:23,821] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-log-cleanup-pwdless-ssh.py exited with return code 1.
+[2021-09-07 17:11:23,822] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-db-cleanup.py exited with return code 1.
+[2021-09-07 17:11:23,862] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-backup-configs.py exited with return code 1.
+[2021-09-07 17:11:24,827] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-07 17:11:24,827] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-07 17:06:24.827611+00:00
+[2021-09-07 17:11:32,453] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/helloworld.py exited with return code 1.
+[2021-09-07 17:11:33,058] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/writefile.py exited with return code 1.
+[2021-09-07 17:11:33,797] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/connect_to_gdrive.py exited with return code 1.
+[2021-09-07 17:11:34,039] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/email_notify.py exited with return code 1.
+[2021-09-07 17:11:34,510] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-kill-halted-tasks.py exited with return code 1.
+[2021-09-07 17:11:35,045] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-07 17:11:35,046] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-07 17:06:35.046251+00:00
+[2021-09-07 17:11:35,105] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-clear-missing-dags.py exited with return code 1.
+[2021-09-07 17:11:35,185] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/packaged_dag.zip exited with return code 1.
+[2021-09-07 17:11:35,429] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-delete-broken-dags.py exited with return code 1.
+[2021-09-07 17:11:45,211] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-07 17:11:45,211] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-07 17:06:45.211727+00:00
+[2021-09-07 17:11:52,245] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/airflow-backup-configs.py                                    0          -1  0.04s           2021-09-07T17:11:23
+/usr/local/airflow/dags/airflow-log-cleanup.py               4002  0.00s             0          -1  0.06s           2021-09-07T17:11:21
+/usr/local/airflow/dags/packaged_dag.zip                                             0          -1  0.67s           2021-09-07T17:11:35
+/usr/local/airflow/dags/helloworld.py                                                0          -1  0.59s           2021-09-07T17:11:32
+/usr/local/airflow/dags/airflow-db-cleanup.py                                        0          -1  0.06s           2021-09-07T17:11:23
+/usr/local/airflow/dags/airflow-log-cleanup-pwdless-ssh.py                           0          -1  0.07s           2021-09-07T17:11:23
+/usr/local/airflow/dags/connect_to_gdrive.py                                         0          -1  1.34s           2021-09-07T17:11:33
+/usr/local/airflow/dags/email_notify.py                                              0          -1  0.98s           2021-09-07T17:11:34
+/usr/local/airflow/dags/airflow-clear-missing-dags.py                                0          -1  1.31s           2021-09-07T17:11:35
+/usr/local/airflow/dags/airflow-delete-broken-dags.py                                0          -1  0.32s           2021-09-07T17:11:35
+/usr/local/airflow/dags/writefile.py                                                 0          -1  1.21s           2021-09-07T17:11:33
+/usr/local/airflow/dags/airflow-kill-halted-tasks.py                                 0          -1  0.47s           2021-09-07T17:11:34
+================================================================================
+[2021-09-07 17:11:52,282] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-log-cleanup.py exited with return code 1.
+[2021-09-07 17:11:54,296] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-log-cleanup-pwdless-ssh.py exited with return code 1.
+[2021-09-07 17:11:54,300] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-db-cleanup.py exited with return code 1.
+[2021-09-07 17:11:54,338] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-backup-configs.py exited with return code 1.
+[2021-09-07 17:11:55,302] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-07 17:11:55,302] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-07 17:06:55.302519+00:00
+[2021-09-07 17:12:04,067] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/helloworld.py exited with return code 1.
+[2021-09-07 17:12:04,613] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/writefile.py exited with return code 1.
+[2021-09-07 17:12:05,150] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/connect_to_gdrive.py exited with return code 1.
+[2021-09-07 17:12:05,312] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/email_notify.py exited with return code 1.
+[2021-09-07 17:12:05,312] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-07 17:12:05,312] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-07 17:07:05.312689+00:00
+[2021-09-07 17:12:05,917] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-kill-halted-tasks.py exited with return code 1.
+[2021-09-07 17:12:06,315] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-clear-missing-dags.py exited with return code 1.
+[2021-09-07 17:12:06,955] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/packaged_dag.zip exited with return code 1.
+[2021-09-07 17:12:07,526] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-delete-broken-dags.py exited with return code 1.
+[2021-09-07 17:12:15,546] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-07 17:12:15,546] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-07 17:07:15.546641+00:00
+[2021-09-07 17:12:22,581] {manager.py:861} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/usr/local/airflow/dags/airflow-backup-configs.py                                    0          -1  0.04s           2021-09-07T17:11:54
+/usr/local/airflow/dags/airflow-log-cleanup.py               4068  0.00s             0          -1  0.04s           2021-09-07T17:11:52
+/usr/local/airflow/dags/packaged_dag.zip                                             0          -1  1.04s           2021-09-07T17:12:06
+/usr/local/airflow/dags/helloworld.py                                                0          -1  0.73s           2021-09-07T17:12:04
+/usr/local/airflow/dags/airflow-db-cleanup.py                                        0          -1  0.04s           2021-09-07T17:11:54
+/usr/local/airflow/dags/airflow-log-cleanup-pwdless-ssh.py                           0          -1  0.05s           2021-09-07T17:11:54
+/usr/local/airflow/dags/connect_to_gdrive.py                                         0          -1  1.08s           2021-09-07T17:12:05
+/usr/local/airflow/dags/email_notify.py                                              0          -1  0.70s           2021-09-07T17:12:05
+/usr/local/airflow/dags/airflow-clear-missing-dags.py                                0          -1  1.16s           2021-09-07T17:12:06
+/usr/local/airflow/dags/airflow-delete-broken-dags.py                                0          -1  1.21s           2021-09-07T17:12:07
+/usr/local/airflow/dags/writefile.py                                                 0          -1  1.28s           2021-09-07T17:12:04
+/usr/local/airflow/dags/airflow-kill-halted-tasks.py                                 0          -1  0.60s           2021-09-07T17:12:05
+================================================================================
+[2021-09-07 17:12:22,615] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-log-cleanup.py exited with return code 1.
+[2021-09-07 17:12:24,626] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-log-cleanup-pwdless-ssh.py exited with return code 1.
+[2021-09-07 17:12:24,629] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-db-cleanup.py exited with return code 1.
+[2021-09-07 17:12:24,655] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-backup-configs.py exited with return code 1.
+[2021-09-07 17:12:25,631] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-07 17:12:25,631] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-07 17:07:25.631904+00:00
+[2021-09-07 17:12:34,917] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/helloworld.py exited with return code 1.
+[2021-09-07 17:12:35,676] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-07 17:12:35,676] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-07 17:07:35.676612+00:00
+[2021-09-07 17:12:35,877] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/writefile.py exited with return code 1.
+[2021-09-07 17:12:36,367] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/connect_to_gdrive.py exited with return code 1.
+[2021-09-07 17:12:36,564] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/email_notify.py exited with return code 1.
+[2021-09-07 17:12:37,422] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-clear-missing-dags.py exited with return code 1.
+[2021-09-07 17:12:37,426] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-kill-halted-tasks.py exited with return code 1.
+[2021-09-07 17:12:38,327] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/packaged_dag.zip exited with return code 1.
+[2021-09-07 17:12:39,668] {manager.py:984} ERROR - Processor for /usr/local/airflow/dags/airflow-delete-broken-dags.py exited with return code 1.
+[2021-09-07 17:12:46,450] {manager.py:1128} INFO - Finding 'running' jobs without a recent heartbeat
+[2021-09-07 17:12:46,450] {manager.py:1132} INFO - Failing jobs without heartbeat after 2021-09-07 17:07:46.450509+00:00
+[2021-09-07 17:12:48,351] {manager.py:585} INFO - Exiting gracefully upon receiving signal 15

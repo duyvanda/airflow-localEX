@@ -2782,3 +2782,951 @@ Traceback (most recent call last):
 sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) FATAL:  could not open file "global/pg_filenode.map": Permission denied
 
 (Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2021-09-07 17:10:51,593] {processor.py:162} INFO - Started process (PID=3870) to work on /usr/local/airflow/dags/airflow-log-cleanup.py
+[2021-09-07 17:10:51,594] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-log-cleanup.py for tasks to queue
+[2021-09-07 17:10:51,595] {logging_mixin.py:109} INFO - [2021-09-07 17:10:51,595] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-log-cleanup.py
+[2021-09-07 17:10:51,602] {logging_mixin.py:109} INFO - [2021-09-07 17:10:51,602] {configuration.py:365} WARNING - section/key [core/base_log_folder] not found in config
+[2021-09-07 17:10:51,613] {logging_mixin.py:109} INFO - [2021-09-07 17:10:51,608] {dagbag.py:329} ERROR - Failed to import: /usr/local/airflow/dags/airflow-log-cleanup.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: FATAL:  could not open file "global/pg_filenode.map": Permission denied
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/airflow-log-cleanup.py", line 34, in <module>
+    DEFAULT_MAX_LOG_AGE_IN_DAYS = Variable.get(
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/variable.py", line 135, in get
+    var_val = Variable.get_variable_from_secrets(key=key)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/variable.py", line 204, in get_variable_from_secrets
+    var_val = secrets_backend.get_variable(key=key)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/secrets/metastore.py", line 64, in get_variable
+    var_value = session.query(Variable).filter(Variable.key == key).first()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3429, in first
+    ret = list(self[0:1])
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3203, in __getitem__
+    return list(res)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3556, in _execute_and_instances
+    conn = self._get_bind_args(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3571, in _get_bind_args
+    return fn(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3550, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1142, in connection
+    return self._connection_for_bind(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1150, in _connection_for_bind
+    return self.transaction._connection_for_bind(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 433, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2302, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2339, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1583, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) FATAL:  could not open file "global/pg_filenode.map": Permission denied
+
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2021-09-07 17:10:51,614] {processor.py:625} WARNING - No viable dags retrieved from /usr/local/airflow/dags/airflow-log-cleanup.py
+[2021-09-07 17:10:51,617] {processor.py:173} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: FATAL:  could not open file "global/pg_filenode.map": Permission denied
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/dag_processing/processor.py", line 164, in _run_file_processor
+    result: Tuple[int, int] = dag_file_processor.process_file(
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/dag_processing/processor.py", line 626, in process_file
+    self.update_import_errors(session, dagbag)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/dag_processing/processor.py", line 517, in update_import_errors
+    session.query(errors.ImportError).filter(errors.ImportError.filename == dagbag_file).delete()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3926, in delete
+    delete_op.exec_()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/persistence.py", line 1697, in exec_
+    self._do_exec()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/persistence.py", line 1930, in _do_exec
+    self._execute_stmt(delete_stmt)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/persistence.py", line 1702, in _execute_stmt
+    self.result = self.query._execute_crud(stmt, self.mapper)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3564, in _execute_crud
+    conn = self._connection_from_session(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3550, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1142, in connection
+    return self._connection_for_bind(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1150, in _connection_for_bind
+    return self.transaction._connection_for_bind(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 433, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2302, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2339, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1583, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) FATAL:  could not open file "global/pg_filenode.map": Permission denied
+
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2021-09-07 17:11:21,754] {processor.py:162} INFO - Started process (PID=3936) to work on /usr/local/airflow/dags/airflow-log-cleanup.py
+[2021-09-07 17:11:21,755] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-log-cleanup.py for tasks to queue
+[2021-09-07 17:11:21,756] {logging_mixin.py:109} INFO - [2021-09-07 17:11:21,756] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-log-cleanup.py
+[2021-09-07 17:11:21,765] {logging_mixin.py:109} INFO - [2021-09-07 17:11:21,764] {configuration.py:365} WARNING - section/key [core/base_log_folder] not found in config
+[2021-09-07 17:11:21,779] {logging_mixin.py:109} INFO - [2021-09-07 17:11:21,773] {dagbag.py:329} ERROR - Failed to import: /usr/local/airflow/dags/airflow-log-cleanup.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: FATAL:  could not open file "global/pg_filenode.map": Permission denied
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/airflow-log-cleanup.py", line 34, in <module>
+    DEFAULT_MAX_LOG_AGE_IN_DAYS = Variable.get(
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/variable.py", line 135, in get
+    var_val = Variable.get_variable_from_secrets(key=key)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/variable.py", line 204, in get_variable_from_secrets
+    var_val = secrets_backend.get_variable(key=key)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/secrets/metastore.py", line 64, in get_variable
+    var_value = session.query(Variable).filter(Variable.key == key).first()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3429, in first
+    ret = list(self[0:1])
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3203, in __getitem__
+    return list(res)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3556, in _execute_and_instances
+    conn = self._get_bind_args(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3571, in _get_bind_args
+    return fn(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3550, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1142, in connection
+    return self._connection_for_bind(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1150, in _connection_for_bind
+    return self.transaction._connection_for_bind(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 433, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2302, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2339, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1583, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) FATAL:  could not open file "global/pg_filenode.map": Permission denied
+
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2021-09-07 17:11:21,780] {processor.py:625} WARNING - No viable dags retrieved from /usr/local/airflow/dags/airflow-log-cleanup.py
+[2021-09-07 17:11:21,785] {processor.py:173} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: FATAL:  could not open file "global/pg_filenode.map": Permission denied
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/dag_processing/processor.py", line 164, in _run_file_processor
+    result: Tuple[int, int] = dag_file_processor.process_file(
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/dag_processing/processor.py", line 626, in process_file
+    self.update_import_errors(session, dagbag)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/dag_processing/processor.py", line 517, in update_import_errors
+    session.query(errors.ImportError).filter(errors.ImportError.filename == dagbag_file).delete()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3926, in delete
+    delete_op.exec_()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/persistence.py", line 1697, in exec_
+    self._do_exec()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/persistence.py", line 1930, in _do_exec
+    self._execute_stmt(delete_stmt)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/persistence.py", line 1702, in _execute_stmt
+    self.result = self.query._execute_crud(stmt, self.mapper)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3564, in _execute_crud
+    conn = self._connection_from_session(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3550, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1142, in connection
+    return self._connection_for_bind(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1150, in _connection_for_bind
+    return self.transaction._connection_for_bind(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 433, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2302, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2339, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1583, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) FATAL:  could not open file "global/pg_filenode.map": Permission denied
+
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2021-09-07 17:11:52,251] {processor.py:162} INFO - Started process (PID=4002) to work on /usr/local/airflow/dags/airflow-log-cleanup.py
+[2021-09-07 17:11:52,252] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-log-cleanup.py for tasks to queue
+[2021-09-07 17:11:52,253] {logging_mixin.py:109} INFO - [2021-09-07 17:11:52,253] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-log-cleanup.py
+[2021-09-07 17:11:52,259] {logging_mixin.py:109} INFO - [2021-09-07 17:11:52,259] {configuration.py:365} WARNING - section/key [core/base_log_folder] not found in config
+[2021-09-07 17:11:52,270] {logging_mixin.py:109} INFO - [2021-09-07 17:11:52,265] {dagbag.py:329} ERROR - Failed to import: /usr/local/airflow/dags/airflow-log-cleanup.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: FATAL:  could not open file "global/pg_filenode.map": Permission denied
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/airflow-log-cleanup.py", line 34, in <module>
+    DEFAULT_MAX_LOG_AGE_IN_DAYS = Variable.get(
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/variable.py", line 135, in get
+    var_val = Variable.get_variable_from_secrets(key=key)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/variable.py", line 204, in get_variable_from_secrets
+    var_val = secrets_backend.get_variable(key=key)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/secrets/metastore.py", line 64, in get_variable
+    var_value = session.query(Variable).filter(Variable.key == key).first()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3429, in first
+    ret = list(self[0:1])
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3203, in __getitem__
+    return list(res)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3556, in _execute_and_instances
+    conn = self._get_bind_args(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3571, in _get_bind_args
+    return fn(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3550, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1142, in connection
+    return self._connection_for_bind(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1150, in _connection_for_bind
+    return self.transaction._connection_for_bind(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 433, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2302, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2339, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1583, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) FATAL:  could not open file "global/pg_filenode.map": Permission denied
+
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2021-09-07 17:11:52,271] {processor.py:625} WARNING - No viable dags retrieved from /usr/local/airflow/dags/airflow-log-cleanup.py
+[2021-09-07 17:11:52,274] {processor.py:173} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: FATAL:  could not open file "global/pg_filenode.map": Permission denied
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/dag_processing/processor.py", line 164, in _run_file_processor
+    result: Tuple[int, int] = dag_file_processor.process_file(
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/dag_processing/processor.py", line 626, in process_file
+    self.update_import_errors(session, dagbag)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/dag_processing/processor.py", line 517, in update_import_errors
+    session.query(errors.ImportError).filter(errors.ImportError.filename == dagbag_file).delete()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3926, in delete
+    delete_op.exec_()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/persistence.py", line 1697, in exec_
+    self._do_exec()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/persistence.py", line 1930, in _do_exec
+    self._execute_stmt(delete_stmt)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/persistence.py", line 1702, in _execute_stmt
+    self.result = self.query._execute_crud(stmt, self.mapper)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3564, in _execute_crud
+    conn = self._connection_from_session(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3550, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1142, in connection
+    return self._connection_for_bind(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1150, in _connection_for_bind
+    return self.transaction._connection_for_bind(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 433, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2302, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2339, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1583, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) FATAL:  could not open file "global/pg_filenode.map": Permission denied
+
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2021-09-07 17:12:22,585] {processor.py:162} INFO - Started process (PID=4068) to work on /usr/local/airflow/dags/airflow-log-cleanup.py
+[2021-09-07 17:12:22,586] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-log-cleanup.py for tasks to queue
+[2021-09-07 17:12:22,586] {logging_mixin.py:109} INFO - [2021-09-07 17:12:22,586] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-log-cleanup.py
+[2021-09-07 17:12:22,591] {logging_mixin.py:109} INFO - [2021-09-07 17:12:22,591] {configuration.py:365} WARNING - section/key [core/base_log_folder] not found in config
+[2021-09-07 17:12:22,602] {logging_mixin.py:109} INFO - [2021-09-07 17:12:22,597] {dagbag.py:329} ERROR - Failed to import: /usr/local/airflow/dags/airflow-log-cleanup.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: FATAL:  could not open file "global/pg_filenode.map": Permission denied
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/usr/local/airflow/dags/airflow-log-cleanup.py", line 34, in <module>
+    DEFAULT_MAX_LOG_AGE_IN_DAYS = Variable.get(
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/variable.py", line 135, in get
+    var_val = Variable.get_variable_from_secrets(key=key)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/variable.py", line 204, in get_variable_from_secrets
+    var_val = secrets_backend.get_variable(key=key)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/secrets/metastore.py", line 64, in get_variable
+    var_value = session.query(Variable).filter(Variable.key == key).first()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3429, in first
+    ret = list(self[0:1])
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3203, in __getitem__
+    return list(res)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3556, in _execute_and_instances
+    conn = self._get_bind_args(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3571, in _get_bind_args
+    return fn(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3550, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1142, in connection
+    return self._connection_for_bind(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1150, in _connection_for_bind
+    return self.transaction._connection_for_bind(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 433, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2302, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2339, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1583, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) FATAL:  could not open file "global/pg_filenode.map": Permission denied
+
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2021-09-07 17:12:22,603] {processor.py:625} WARNING - No viable dags retrieved from /usr/local/airflow/dags/airflow-log-cleanup.py
+[2021-09-07 17:12:22,606] {processor.py:173} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: FATAL:  could not open file "global/pg_filenode.map": Permission denied
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/dag_processing/processor.py", line 164, in _run_file_processor
+    result: Tuple[int, int] = dag_file_processor.process_file(
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/dag_processing/processor.py", line 626, in process_file
+    self.update_import_errors(session, dagbag)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/dag_processing/processor.py", line 517, in update_import_errors
+    session.query(errors.ImportError).filter(errors.ImportError.filename == dagbag_file).delete()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3926, in delete
+    delete_op.exec_()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/persistence.py", line 1697, in exec_
+    self._do_exec()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/persistence.py", line 1930, in _do_exec
+    self._execute_stmt(delete_stmt)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/persistence.py", line 1702, in _execute_stmt
+    self.result = self.query._execute_crud(stmt, self.mapper)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3564, in _execute_crud
+    conn = self._connection_from_session(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/query.py", line 3550, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1142, in connection
+    return self._connection_for_bind(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1150, in _connection_for_bind
+    return self.transaction._connection_for_bind(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 433, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2302, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2339, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1583, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/usr/local/lib/python3.8/dist-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) FATAL:  could not open file "global/pg_filenode.map": Permission denied
+
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
