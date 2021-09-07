@@ -14,7 +14,9 @@ services:
     volumes: 
       - "./postgres-db-volume:/var/lib/postgresql/data"
   webserver: 
-    build: "."
+    build:
+      context: "."
+      dockerfile: Dockerfile
     depends_on: 
       - postgres
     environment:

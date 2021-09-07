@@ -12,13 +12,6 @@ ARG AIRFLOW_DEPS=""
 ARG PYTHON_DEPS=""
 ENV AIRFLOW_HOME=${AIRFLOW_USER_HOME}
 
-# Define en_US.
-ENV LANGUAGE en_US.UTF-8
-ENV LANG en_US.UTF-8
-ENV LC_ALL en_US.UTF-8
-ENV LC_CTYPE en_US.UTF-8
-ENV LC_MESSAGES en_US.UTF-8
-
 COPY ./constraints-3.8.txt /constraints-3.8.txt
 COPY ./requirements.txt /requirements.txt
 
@@ -61,6 +54,7 @@ RUN apt-get update -yqq \
         freetds-dev -y \
         freetds-bin -y \
         tdsodbc -y \
+    && pip3 install Flask-OpenID==1.2.5 \
     && sed -i 's/^# en_US.UTF-8 UTF-8$/en_US.UTF-8 UTF-8/g' /etc/locale.gen \
     && locale-gen \
     # Install driver
@@ -70,14 +64,12 @@ RUN apt-get update -yqq \
     && ACCEPT_EULA=Y apt-get install -y msodbcsql17 \
     && update-locale LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 \
     && useradd -ms /bin/bash -d ${AIRFLOW_HOME} airflow \
-    && python3 -m pip install -U pip \
-    && pip install --upgrade pip \
     && pip install -U pip setuptools wheel \
     && pip install pyOpenSSL \
     && pip install ndg-httpsclient \
     && pip install pyasn1 \
     && apt-get install -y python3-dev default-libmysqlclient-dev build-essential \
-    && pip install apache-airflow[postgres,google,crypto,mssql,mysql,odbc]==2.1.3 --constraint /constraints-3.8.txt  \
+    && pip install apache-airflow[postgres,google,crypto,mssql,mysql,odbc,tableau]==2.1.3 --constraint /constraints-3.8.txt  \
     # && pip install apache-airflow-providers-mysql \
     && pip install -r requirements.txt \
     && apt-get purge --auto-remove -yqq $buildDeps \
