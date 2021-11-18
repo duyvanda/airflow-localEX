@@ -1,0 +1,47 @@
+--- 
+services: 
+  postgres: 
+    environment: 
+      - POSTGRES_PASSWORD=mysecretpassword
+      - POSTGRES_DB=airflow
+    expose: 
+      - "5433"
+    image: "postgres:13"
+    ports: 
+      - "5433:5433"
+    restart: always
+    container_name: myairflowdb
+    volumes: 
+      - "./postgres-db-volume:/var/lib/postgresql/data"
+  webserver: 
+    build:
+      context: "."
+      dockerfile: Dockerfile
+    depends_on: 
+      - postgres
+    environment:
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False 
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - "AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://postgres:mysecretpassword@postgres:5433/airflow"
+      - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=True
+      - AIRFLOW__API__AUTH_BACKEND=airflow.api.auth.backend.basic_auth
+    healthcheck: 
+      interval: 30s
+      retries: 3
+      test: 
+        - CMD-SHELL
+        - "[ -f /usr/local/airflow/airflow-webserver.pid ]"
+      timeout: 30s
+    ports: 
+      - "8080:8080"
+    # user: airflow
+    container_name: myairflow
+    volumes: 
+      - "./dags:/usr/local/airflow/dags"
+      - "./plugins:/usr/local/airflow/plugins"
+      - "./data:/usr/local/airflow/data"
+      # - "./logs:/usr/local/airflow/logs"
+      - "./config/airflow.cfg:/usr/local/airflow/airflow.cfg" 
+version: "3.7"
+volumes: 
+  postgres-db-volume: ~
