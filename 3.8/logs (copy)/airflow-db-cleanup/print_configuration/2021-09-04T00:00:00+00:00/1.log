@@ -1,0 +1,35 @@
+[2021-09-05 13:08:33,072] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: airflow-db-cleanup.print_configuration 2021-09-04T00:00:00+00:00 [queued]>
+[2021-09-05 13:08:33,078] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: airflow-db-cleanup.print_configuration 2021-09-04T00:00:00+00:00 [queued]>
+[2021-09-05 13:08:33,078] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-05 13:08:33,078] {taskinstance.py:1095} INFO - Starting attempt 1 of 2
+[2021-09-05 13:08:33,078] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-05 13:08:33,087] {taskinstance.py:1114} INFO - Executing <Task(PythonOperator): print_configuration> on 2021-09-04T00:00:00+00:00
+[2021-09-05 13:08:33,089] {standard_task_runner.py:52} INFO - Started process 3995 to run task
+[2021-09-05 13:08:33,091] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'airflow-db-cleanup', 'print_configuration', '2021-09-04T00:00:00+00:00', '--job-id', '215', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/airflow-db-cleanup.py', '--cfg-path', '/tmp/tmpn3h95xo6', '--error-file', '/tmp/tmpe4_9pwfs']
+[2021-09-05 13:08:33,092] {standard_task_runner.py:77} INFO - Job 215: Subtask print_configuration
+[2021-09-05 13:08:33,128] {logging_mixin.py:109} INFO - Running <TaskInstance: airflow-db-cleanup.print_configuration 2021-09-04T00:00:00+00:00 [running]> on host 2bce3265bb98
+[2021-09-05 13:08:33,175] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=operations
+AIRFLOW_CTX_DAG_ID=airflow-db-cleanup
+AIRFLOW_CTX_TASK_ID=print_configuration
+AIRFLOW_CTX_EXECUTION_DATE=2021-09-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-09-04T00:00:00+00:00
+[2021-09-05 13:08:33,176] {airflow-db-cleanup.py:225} INFO - Loading Configurations...
+[2021-09-05 13:08:33,176] {airflow-db-cleanup.py:227} INFO - dag_run.conf: {}
+[2021-09-05 13:08:33,176] {airflow-db-cleanup.py:233} INFO - maxDBEntryAgeInDays from dag_run.conf: {}
+[2021-09-05 13:08:33,176] {airflow-db-cleanup.py:235} INFO - maxDBEntryAgeInDays conf variable isn't included or Variable value is less than 1. Using Default '1'
+[2021-09-05 13:08:33,176] {airflow-db-cleanup.py:242} INFO - Finished Loading Configurations
+[2021-09-05 13:08:33,176] {airflow-db-cleanup.py:243} INFO - 
+[2021-09-05 13:08:33,176] {airflow-db-cleanup.py:245} INFO - Configurations:
+[2021-09-05 13:08:33,176] {airflow-db-cleanup.py:246} INFO - max_db_entry_age_in_days: 1
+[2021-09-05 13:08:33,176] {airflow-db-cleanup.py:247} INFO - max_date:                 2021-09-04 13:08:33.176519+00:00
+[2021-09-05 13:08:33,176] {airflow-db-cleanup.py:248} INFO - enable_delete:            True
+[2021-09-05 13:08:33,176] {airflow-db-cleanup.py:249} INFO - session:                  <sqlalchemy.orm.session.Session object at 0x7f59f8b540d0>
+[2021-09-05 13:08:33,176] {airflow-db-cleanup.py:250} INFO - 
+[2021-09-05 13:08:33,177] {airflow-db-cleanup.py:252} INFO - Setting max_execution_date to XCom for Downstream Processes
+[2021-09-05 13:08:33,190] {python.py:151} INFO - Done. Returned value was: None
+[2021-09-05 13:08:33,200] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=airflow-db-cleanup, task_id=print_configuration, execution_date=20210904T000000, start_date=20210905T130833, end_date=20210905T130833
+[2021-09-05 13:08:33,223] {local_task_job.py:151} INFO - Task exited with return code 0
+[2021-09-05 13:08:33,256] {local_task_job.py:261} INFO - 11 downstream tasks scheduled from follow-on schedule check

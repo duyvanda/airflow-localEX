@@ -1,0 +1,43 @@
+[2021-09-05 13:23:56,253] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: airflow-log-cleanup-pwdless-ssh.create_log_cleanup_script 2021-09-04T00:00:00+00:00 [queued]>
+[2021-09-05 13:23:56,263] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: airflow-log-cleanup-pwdless-ssh.create_log_cleanup_script 2021-09-04T00:00:00+00:00 [queued]>
+[2021-09-05 13:23:56,263] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-05 13:23:56,263] {taskinstance.py:1095} INFO - Starting attempt 1 of 2
+[2021-09-05 13:23:56,263] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-05 13:23:56,276] {taskinstance.py:1114} INFO - Executing <Task(BashOperator): create_log_cleanup_script> on 2021-09-04T00:00:00+00:00
+[2021-09-05 13:23:56,280] {standard_task_runner.py:52} INFO - Started process 6090 to run task
+[2021-09-05 13:23:56,283] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'airflow-log-cleanup-pwdless-ssh', 'create_log_cleanup_script', '2021-09-04T00:00:00+00:00', '--job-id', '229', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/airflow-log-cleanup-pwdless-ssh.py', '--cfg-path', '/tmp/tmptzyt1z3z', '--error-file', '/tmp/tmpo1_80f67']
+[2021-09-05 13:23:56,284] {standard_task_runner.py:77} INFO - Job 229: Subtask create_log_cleanup_script
+[2021-09-05 13:23:56,322] {logging_mixin.py:109} INFO - Running <TaskInstance: airflow-log-cleanup-pwdless-ssh.create_log_cleanup_script 2021-09-04T00:00:00+00:00 [running]> on host 2bce3265bb98
+[2021-09-05 13:23:56,368] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=operations
+AIRFLOW_CTX_DAG_ID=airflow-log-cleanup-pwdless-ssh
+AIRFLOW_CTX_TASK_ID=create_log_cleanup_script
+AIRFLOW_CTX_EXECUTION_DATE=2021-09-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-09-04T00:00:00+00:00
+[2021-09-05 13:23:56,369] {subprocess.py:52} INFO - Tmp dir root location: 
+ /tmp
+[2021-09-05 13:23:56,369] {subprocess.py:63} INFO - Running command: ['bash', '-c', '\n    echo \'\necho "Getting Configurations..."\n\nBASE_LOG_FOLDER=$1\nMAX_LOG_AGE_IN_DAYS=$2\nENABLE_DELETE=$3\n\necho "Finished Getting Configurations"\necho ""\n\necho "Configurations:"\necho "BASE_LOG_FOLDER:      \'${BASE_LOG_FOLDER}\'"\necho "MAX_LOG_AGE_IN_DAYS:  \'${MAX_LOG_AGE_IN_DAYS}\'"\necho "ENABLE_DELETE:        \'${ENABLE_DELETE}\'"\n\ncleanup() {\n    echo "Executing Find Statement: $1"\n    FILES_MARKED_FOR_DELETE=$(eval $1)\n    echo "Process will be Deleting the following files or directories:"\n    echo "${FILES_MARKED_FOR_DELETE}"\n    echo "Process will be Deleting $(echo "${FILES_MARKED_FOR_DELETE}" |\n        grep -v \'^$\' | wc -l) files or directories"\n\n    echo ""\n    if [ "${ENABLE_DELETE}" == "true" ]; then\n        if [ "${FILES_MARKED_FOR_DELETE}" != "" ]; then\n            echo "Executing Delete Statement: $2"\n            eval $2\n            DELETE_STMT_EXIT_CODE=$?\n            if [ "${DELETE_STMT_EXIT_CODE}" != "0" ]; then\n                echo "Delete process failed with exit code  \'${DELETE_STMT_EXIT_CODE}\'"\n\n                exit ${DELETE_STMT_EXIT_CODE}\n            fi\n        else\n            echo "WARN: No files or directories to Delete"\n        fi\n    else\n        echo "WARN: You have opted to skip deleting the files or directories"\n    fi\n}\n\necho ""\necho "Running Cleanup Process..."\n\nFIND_STATEMENT="find ${BASE_LOG_FOLDER}/*/* -type f -mtime +${MAX_LOG_AGE_IN_DAYS}"\nDELETE_STMT="${FIND_STATEMENT} -exec rm -f {} \\;"\n\ncleanup "${FIND_STATEMENT}" "${DELETE_STMT}"\nCLEANUP_EXIT_CODE=$?\n\nFIND_STATEMENT="find ${BASE_LOG_FOLDER}/*/* -type d -empty"\nDELETE_STMT="${FIND_STATEMENT} -prune -exec rm -rf {} \\;"\n\ncleanup "${FIND_STATEMENT}" "${DELETE_STMT}"\nCLEANUP_EXIT_CODE=$?\n\nFIND_STATEMENT="find ${BASE_LOG_FOLDER}/* -type d -empty"\nDELETE_STMT="${FIND_STATEMENT} -prune -exec rm -rf {} \\;"\n\ncleanup "${FIND_STATEMENT}" "${DELETE_STMT}"\nCLEANUP_EXIT_CODE=$?\n\necho "Finished Running Cleanup Process"\n\' > /tmp/airflow_log_cleanup.sh\n    chmod +x /tmp/airflow_log_cleanup.sh\n    current_host=$(echo $HOSTNAME)\n    echo "Current Host: $current_host"\n    hosts_string=localhost\n    echo "All Scheduler Hosts: $hosts_string"\n    IFS=\',\' read -ra host_array <<< "$hosts_string"\n    for host in "${host_array[@]}"\n    do\n        if [ "$host" != "$current_host" ]; then\n            echo "Copying log_cleanup script to $host..."\n            scp /tmp/airflow_log_cleanup.sh $host:/tmp/airflow_log_cleanup.sh\n            echo "Making the script executable..."\n            ssh $host "chmod +x /tmp/airflow_log_cleanup.sh"\n        fi\n    done\n    ']
+[2021-09-05 13:23:56,376] {subprocess.py:74} INFO - Output:
+[2021-09-05 13:23:56,380] {subprocess.py:78} INFO - Current Host: 2bce3265bb98
+[2021-09-05 13:23:56,380] {subprocess.py:78} INFO - All Scheduler Hosts: localhost
+[2021-09-05 13:23:56,380] {subprocess.py:78} INFO - Copying log_cleanup script to localhost...
+[2021-09-05 13:23:56,380] {subprocess.py:78} INFO - bash: line 76: scp: command not found
+[2021-09-05 13:23:56,380] {subprocess.py:78} INFO - Making the script executable...
+[2021-09-05 13:23:56,381] {subprocess.py:78} INFO - bash: line 78: ssh: command not found
+[2021-09-05 13:23:56,381] {subprocess.py:82} INFO - Command exited with return code 127
+[2021-09-05 13:23:56,389] {taskinstance.py:1462} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 1164, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 1282, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 1312, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/operators/bash.py", line 176, in execute
+    raise AirflowException('Bash command failed. The command returned a non-zero exit code.')
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code.
+[2021-09-05 13:23:56,391] {taskinstance.py:1505} INFO - Marking task as UP_FOR_RETRY. dag_id=airflow-log-cleanup-pwdless-ssh, task_id=create_log_cleanup_script, execution_date=20210904T000000, start_date=20210905T132356, end_date=20210905T132356
+[2021-09-05 13:23:56,414] {local_task_job.py:151} INFO - Task exited with return code 1
+[2021-09-05 13:23:56,437] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

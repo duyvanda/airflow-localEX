@@ -1,0 +1,40 @@
+[2021-09-03 08:25:28,456] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: hello_gdive.py_op_1 2021-08-14T17:00:00+00:00 [queued]>
+[2021-09-03 08:25:28,464] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: hello_gdive.py_op_1 2021-08-14T17:00:00+00:00 [queued]>
+[2021-09-03 08:25:28,464] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-03 08:25:28,465] {taskinstance.py:1095} INFO - Starting attempt 1 of 1
+[2021-09-03 08:25:28,465] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-03 08:25:28,480] {taskinstance.py:1114} INFO - Executing <Task(PythonOperator): py_op_1> on 2021-08-14T17:00:00+00:00
+[2021-09-03 08:25:28,485] {standard_task_runner.py:52} INFO - Started process 7381 to run task
+[2021-09-03 08:25:28,490] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'hello_gdive', 'py_op_1', '2021-08-14T17:00:00+00:00', '--job-id', '109', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/connect_to_gdrive.py', '--cfg-path', '/tmp/tmped2rnocf', '--error-file', '/tmp/tmprg97p4jb']
+[2021-09-03 08:25:28,491] {standard_task_runner.py:77} INFO - Job 109: Subtask py_op_1
+[2021-09-03 08:25:28,544] {logging_mixin.py:109} INFO - Running <TaskInstance: hello_gdive.py_op_1 2021-08-14T17:00:00+00:00 [running]> on host 961ab95df326
+[2021-09-03 08:25:28,588] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=hello_gdive
+AIRFLOW_CTX_TASK_ID=py_op_1
+AIRFLOW_CTX_EXECUTION_DATE=2021-08-14T17:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-08-14T17:00:00+00:00
+[2021-09-03 08:25:28,589] {taskinstance.py:1462} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 1164, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 1282, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 1312, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/usr/local/airflow/dags/connect_to_gdrive.py", line 35, in print_file_id
+    credentials = service_account.Credentials.from_service_account_file(jsonfile, scopes=scopes)
+  File "/usr/local/lib/python3.8/dist-packages/google/oauth2/service_account.py", line 238, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+  File "/usr/local/lib/python3.8/dist-packages/google/auth/_service_account_info.py", line 72, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/files/data_sale/datateam1599968716114-6f9f144b4262.json'
+[2021-09-03 08:25:28,591] {taskinstance.py:1505} INFO - Marking task as FAILED. dag_id=hello_gdive, task_id=py_op_1, execution_date=20210814T170000, start_date=20210903T082528, end_date=20210903T082528
+[2021-09-03 08:25:28,621] {local_task_job.py:151} INFO - Task exited with return code 1
+[2021-09-03 08:25:28,648] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

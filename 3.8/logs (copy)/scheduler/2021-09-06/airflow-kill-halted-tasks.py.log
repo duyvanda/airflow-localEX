@@ -1,0 +1,256 @@
+[2021-09-06 04:24:24,050] {processor.py:162} INFO - Started process (PID=226) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:24:24,050] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:24:24,051] {logging_mixin.py:109} INFO - [2021-09-06 04:24:24,051] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:24:24,090] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:24:24,096] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:24:24,108] {logging_mixin.py:109} INFO - [2021-09-06 04:24:24,108] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:24:24,120] {logging_mixin.py:109} INFO - [2021-09-06 04:24:24,120] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:24:24,131] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.083 seconds
+[2021-09-06 04:24:54,695] {processor.py:162} INFO - Started process (PID=340) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:24:54,696] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:24:54,696] {logging_mixin.py:109} INFO - [2021-09-06 04:24:54,696] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:24:54,730] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:24:54,735] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:24:54,747] {logging_mixin.py:109} INFO - [2021-09-06 04:24:54,747] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:24:54,757] {logging_mixin.py:109} INFO - [2021-09-06 04:24:54,757] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:24:54,763] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.070 seconds
+[2021-09-06 04:25:25,399] {processor.py:162} INFO - Started process (PID=406) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:25:25,400] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:25:25,400] {logging_mixin.py:109} INFO - [2021-09-06 04:25:25,400] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:25:25,439] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:25:25,444] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:25:25,456] {logging_mixin.py:109} INFO - [2021-09-06 04:25:25,456] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:25:25,466] {logging_mixin.py:109} INFO - [2021-09-06 04:25:25,466] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:25:25,472] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.075 seconds
+[2021-09-06 04:25:55,993] {processor.py:162} INFO - Started process (PID=472) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:25:55,993] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:25:55,994] {logging_mixin.py:109} INFO - [2021-09-06 04:25:55,994] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:25:56,026] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:25:56,031] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:25:56,043] {logging_mixin.py:109} INFO - [2021-09-06 04:25:56,043] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:25:56,053] {logging_mixin.py:109} INFO - [2021-09-06 04:25:56,053] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:25:56,060] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.069 seconds
+[2021-09-06 04:26:26,628] {processor.py:162} INFO - Started process (PID=538) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:26:26,629] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:26:26,629] {logging_mixin.py:109} INFO - [2021-09-06 04:26:26,629] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:26:26,662] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:26:26,667] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:26:26,679] {logging_mixin.py:109} INFO - [2021-09-06 04:26:26,679] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:26:26,689] {logging_mixin.py:109} INFO - [2021-09-06 04:26:26,689] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:26:26,696] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.070 seconds
+[2021-09-06 04:26:57,233] {processor.py:162} INFO - Started process (PID=604) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:26:57,234] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:26:57,235] {logging_mixin.py:109} INFO - [2021-09-06 04:26:57,235] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:26:57,268] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:26:57,272] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:26:57,283] {logging_mixin.py:109} INFO - [2021-09-06 04:26:57,283] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:26:57,293] {logging_mixin.py:109} INFO - [2021-09-06 04:26:57,293] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:26:57,300] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.068 seconds
+[2021-09-06 04:27:27,892] {processor.py:162} INFO - Started process (PID=670) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:27:27,893] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:27:27,893] {logging_mixin.py:109} INFO - [2021-09-06 04:27:27,893] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:27:27,935] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:27:27,940] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:27:27,952] {logging_mixin.py:109} INFO - [2021-09-06 04:27:27,952] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:27:27,962] {logging_mixin.py:109} INFO - [2021-09-06 04:27:27,962] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:27:27,970] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.080 seconds
+[2021-09-06 04:27:58,494] {processor.py:162} INFO - Started process (PID=737) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:27:58,494] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:27:58,495] {logging_mixin.py:109} INFO - [2021-09-06 04:27:58,495] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:27:58,538] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:27:58,542] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:27:58,554] {logging_mixin.py:109} INFO - [2021-09-06 04:27:58,554] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:27:58,564] {logging_mixin.py:109} INFO - [2021-09-06 04:27:58,564] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:27:58,571] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.080 seconds
+[2021-09-06 04:28:29,115] {processor.py:162} INFO - Started process (PID=805) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:28:29,116] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:28:29,116] {logging_mixin.py:109} INFO - [2021-09-06 04:28:29,116] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:28:29,160] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:28:29,164] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:28:29,177] {logging_mixin.py:109} INFO - [2021-09-06 04:28:29,177] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:28:29,187] {logging_mixin.py:109} INFO - [2021-09-06 04:28:29,187] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:28:29,194] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.080 seconds
+[2021-09-06 04:28:59,789] {processor.py:162} INFO - Started process (PID=868) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:28:59,791] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:28:59,791] {logging_mixin.py:109} INFO - [2021-09-06 04:28:59,791] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:28:59,847] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:28:59,853] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:28:59,867] {logging_mixin.py:109} INFO - [2021-09-06 04:28:59,867] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:28:59,877] {logging_mixin.py:109} INFO - [2021-09-06 04:28:59,877] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:28:59,884] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.099 seconds
+[2021-09-06 04:29:30,453] {processor.py:162} INFO - Started process (PID=935) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:29:30,454] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:29:30,454] {logging_mixin.py:109} INFO - [2021-09-06 04:29:30,454] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:29:30,496] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:29:30,501] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:29:30,514] {logging_mixin.py:109} INFO - [2021-09-06 04:29:30,514] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:29:30,524] {logging_mixin.py:109} INFO - [2021-09-06 04:29:30,524] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:29:30,531] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.080 seconds
+[2021-09-06 04:30:01,113] {processor.py:162} INFO - Started process (PID=1000) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:30:01,114] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:30:01,114] {logging_mixin.py:109} INFO - [2021-09-06 04:30:01,114] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:30:01,167] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:30:01,172] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:30:01,186] {logging_mixin.py:109} INFO - [2021-09-06 04:30:01,186] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:30:01,203] {logging_mixin.py:109} INFO - [2021-09-06 04:30:01,203] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:30:01,214] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.104 seconds
+[2021-09-06 04:30:31,907] {processor.py:162} INFO - Started process (PID=1069) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:30:31,907] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:30:31,907] {logging_mixin.py:109} INFO - [2021-09-06 04:30:31,907] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:30:31,953] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:30:31,957] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:30:31,971] {logging_mixin.py:109} INFO - [2021-09-06 04:30:31,971] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:30:31,987] {logging_mixin.py:109} INFO - [2021-09-06 04:30:31,987] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:30:31,998] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.093 seconds
+[2021-09-06 04:31:02,620] {processor.py:162} INFO - Started process (PID=1133) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:31:02,621] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:31:02,622] {logging_mixin.py:109} INFO - [2021-09-06 04:31:02,622] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:31:02,667] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:31:02,672] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:31:02,685] {logging_mixin.py:109} INFO - [2021-09-06 04:31:02,685] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:31:02,695] {logging_mixin.py:109} INFO - [2021-09-06 04:31:02,695] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:31:02,703] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.086 seconds
+[2021-09-06 04:31:33,233] {processor.py:162} INFO - Started process (PID=1198) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:31:33,233] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:31:33,234] {logging_mixin.py:109} INFO - [2021-09-06 04:31:33,234] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:31:33,284] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:31:33,289] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:31:33,301] {logging_mixin.py:109} INFO - [2021-09-06 04:31:33,301] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:31:33,312] {logging_mixin.py:109} INFO - [2021-09-06 04:31:33,312] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:31:33,318] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.088 seconds
+[2021-09-06 04:32:03,971] {processor.py:162} INFO - Started process (PID=1265) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:32:03,974] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:32:03,975] {logging_mixin.py:109} INFO - [2021-09-06 04:32:03,975] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:32:04,044] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:32:04,050] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:32:04,066] {logging_mixin.py:109} INFO - [2021-09-06 04:32:04,066] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:32:04,077] {logging_mixin.py:109} INFO - [2021-09-06 04:32:04,077] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:32:04,085] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.120 seconds
+[2021-09-06 04:32:34,738] {processor.py:162} INFO - Started process (PID=1333) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:32:34,738] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:32:34,739] {logging_mixin.py:109} INFO - [2021-09-06 04:32:34,739] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:32:34,791] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:32:34,795] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:32:34,808] {logging_mixin.py:109} INFO - [2021-09-06 04:32:34,808] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:32:34,822] {logging_mixin.py:109} INFO - [2021-09-06 04:32:34,822] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:32:34,832] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.097 seconds
+[2021-09-06 04:33:05,319] {processor.py:162} INFO - Started process (PID=1398) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:33:05,320] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:33:05,320] {logging_mixin.py:109} INFO - [2021-09-06 04:33:05,320] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:33:05,356] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:33:05,360] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:33:05,372] {logging_mixin.py:109} INFO - [2021-09-06 04:33:05,372] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:33:05,382] {logging_mixin.py:109} INFO - [2021-09-06 04:33:05,382] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:33:05,389] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.072 seconds
+[2021-09-06 04:33:35,956] {processor.py:162} INFO - Started process (PID=1464) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:33:35,957] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:33:35,957] {logging_mixin.py:109} INFO - [2021-09-06 04:33:35,957] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:33:36,001] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:33:36,005] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:33:36,021] {logging_mixin.py:109} INFO - [2021-09-06 04:33:36,021] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:33:36,037] {logging_mixin.py:109} INFO - [2021-09-06 04:33:36,037] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:33:36,048] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.094 seconds
+[2021-09-06 04:34:06,581] {processor.py:162} INFO - Started process (PID=1530) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:34:06,581] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:34:06,582] {logging_mixin.py:109} INFO - [2021-09-06 04:34:06,582] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:34:06,615] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:34:06,619] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:34:06,632] {logging_mixin.py:109} INFO - [2021-09-06 04:34:06,632] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:34:06,643] {logging_mixin.py:109} INFO - [2021-09-06 04:34:06,642] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:34:06,649] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.071 seconds
+[2021-09-06 04:34:37,273] {processor.py:162} INFO - Started process (PID=1596) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:34:37,274] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:34:37,274] {logging_mixin.py:109} INFO - [2021-09-06 04:34:37,274] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:34:37,309] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:34:37,314] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:34:37,326] {logging_mixin.py:109} INFO - [2021-09-06 04:34:37,326] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:34:37,338] {logging_mixin.py:109} INFO - [2021-09-06 04:34:37,337] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:34:37,346] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.075 seconds
+[2021-09-06 04:35:07,963] {processor.py:162} INFO - Started process (PID=1662) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:35:07,963] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:35:07,964] {logging_mixin.py:109} INFO - [2021-09-06 04:35:07,964] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:35:08,000] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:35:08,005] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:35:08,020] {logging_mixin.py:109} INFO - [2021-09-06 04:35:08,020] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:35:08,032] {logging_mixin.py:109} INFO - [2021-09-06 04:35:08,032] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:35:08,041] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.080 seconds
+[2021-09-06 04:35:38,810] {processor.py:162} INFO - Started process (PID=1729) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:35:38,811] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:35:38,812] {logging_mixin.py:109} INFO - [2021-09-06 04:35:38,812] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:35:38,871] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:35:38,877] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:35:38,891] {logging_mixin.py:109} INFO - [2021-09-06 04:35:38,891] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:35:38,909] {logging_mixin.py:109} INFO - [2021-09-06 04:35:38,908] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:35:38,920] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.114 seconds
+[2021-09-06 04:36:09,463] {processor.py:162} INFO - Started process (PID=1795) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:36:09,464] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:36:09,464] {logging_mixin.py:109} INFO - [2021-09-06 04:36:09,464] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:36:09,506] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:36:09,510] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:36:09,523] {logging_mixin.py:109} INFO - [2021-09-06 04:36:09,523] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:36:09,534] {logging_mixin.py:109} INFO - [2021-09-06 04:36:09,534] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:36:09,542] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.081 seconds
+[2021-09-06 04:36:40,074] {processor.py:162} INFO - Started process (PID=1862) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:36:40,075] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:36:40,075] {logging_mixin.py:109} INFO - [2021-09-06 04:36:40,075] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:36:40,109] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:36:40,113] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:36:40,125] {logging_mixin.py:109} INFO - [2021-09-06 04:36:40,125] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:36:40,136] {logging_mixin.py:109} INFO - [2021-09-06 04:36:40,136] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:36:40,143] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.071 seconds
+[2021-09-06 04:37:10,697] {processor.py:162} INFO - Started process (PID=1930) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:37:10,697] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:37:10,698] {logging_mixin.py:109} INFO - [2021-09-06 04:37:10,698] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:37:10,742] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:37:10,746] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:37:10,759] {logging_mixin.py:109} INFO - [2021-09-06 04:37:10,759] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:37:10,771] {logging_mixin.py:109} INFO - [2021-09-06 04:37:10,770] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:37:10,778] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.083 seconds
+[2021-09-06 04:37:41,365] {processor.py:162} INFO - Started process (PID=1994) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:37:41,366] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:37:41,366] {logging_mixin.py:109} INFO - [2021-09-06 04:37:41,366] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:37:41,401] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:37:41,405] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:37:41,418] {logging_mixin.py:109} INFO - [2021-09-06 04:37:41,418] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:37:41,429] {logging_mixin.py:109} INFO - [2021-09-06 04:37:41,428] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:37:41,436] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.073 seconds
+[2021-09-06 04:38:12,040] {processor.py:162} INFO - Started process (PID=2060) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:38:12,041] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:38:12,041] {logging_mixin.py:109} INFO - [2021-09-06 04:38:12,041] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:38:12,084] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:38:12,089] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:38:12,102] {logging_mixin.py:109} INFO - [2021-09-06 04:38:12,102] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:38:12,113] {logging_mixin.py:109} INFO - [2021-09-06 04:38:12,113] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:38:12,120] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.082 seconds
+[2021-09-06 04:38:42,666] {processor.py:162} INFO - Started process (PID=2126) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:38:42,667] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:38:42,667] {logging_mixin.py:109} INFO - [2021-09-06 04:38:42,667] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:38:42,712] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:38:42,718] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:38:42,731] {logging_mixin.py:109} INFO - [2021-09-06 04:38:42,731] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:38:42,744] {logging_mixin.py:109} INFO - [2021-09-06 04:38:42,743] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:38:42,751] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.087 seconds
+[2021-09-06 04:39:13,338] {processor.py:162} INFO - Started process (PID=2194) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:39:13,339] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:39:13,339] {logging_mixin.py:109} INFO - [2021-09-06 04:39:13,339] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:39:13,383] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:39:13,389] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:39:13,403] {logging_mixin.py:109} INFO - [2021-09-06 04:39:13,402] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:39:13,413] {logging_mixin.py:109} INFO - [2021-09-06 04:39:13,413] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:39:13,421] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.086 seconds
+[2021-09-06 04:39:44,006] {processor.py:162} INFO - Started process (PID=2258) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:39:44,007] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:39:44,008] {logging_mixin.py:109} INFO - [2021-09-06 04:39:44,008] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:39:44,054] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:39:44,059] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:39:44,080] {logging_mixin.py:109} INFO - [2021-09-06 04:39:44,079] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:39:44,096] {logging_mixin.py:109} INFO - [2021-09-06 04:39:44,095] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:39:44,106] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.103 seconds
+[2021-09-06 04:40:14,734] {processor.py:162} INFO - Started process (PID=2324) to work on /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:40:14,735] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-kill-halted-tasks.py for tasks to queue
+[2021-09-06 04:40:14,736] {logging_mixin.py:109} INFO - [2021-09-06 04:40:14,736] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:40:14,782] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-09-06 04:40:14,786] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-kill-halted-tasks']) retrieved from /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-06 04:40:14,801] {logging_mixin.py:109} INFO - [2021-09-06 04:40:14,801] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:40:14,816] {logging_mixin.py:109} INFO - [2021-09-06 04:40:14,816] {dag.py:2306} INFO - Setting next_dagrun for airflow-kill-halted-tasks to 2021-09-06T03:00:00+00:00
+[2021-09-06 04:40:14,826] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-kill-halted-tasks.py took 0.095 seconds

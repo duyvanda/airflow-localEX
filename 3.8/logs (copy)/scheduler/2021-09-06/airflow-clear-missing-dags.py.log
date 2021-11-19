@@ -1,0 +1,224 @@
+[2021-09-06 04:24:23,988] {processor.py:162} INFO - Started process (PID=216) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:24:23,989] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:24:23,989] {logging_mixin.py:109} INFO - [2021-09-06 04:24:23,989] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:24:23,997] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:24:24,008] {logging_mixin.py:109} INFO - [2021-09-06 04:24:24,008] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:24:24,023] {logging_mixin.py:109} INFO - [2021-09-06 04:24:24,023] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:24:24,033] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.047 seconds
+[2021-09-06 04:24:54,609] {processor.py:162} INFO - Started process (PID=330) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:24:54,610] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:24:54,610] {logging_mixin.py:109} INFO - [2021-09-06 04:24:54,610] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:24:54,617] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:24:54,629] {logging_mixin.py:109} INFO - [2021-09-06 04:24:54,629] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:24:54,640] {logging_mixin.py:109} INFO - [2021-09-06 04:24:54,639] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:24:54,646] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.038 seconds
+[2021-09-06 04:25:25,312] {processor.py:162} INFO - Started process (PID=396) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:25:25,312] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:25:25,313] {logging_mixin.py:109} INFO - [2021-09-06 04:25:25,313] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:25:25,320] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:25:25,332] {logging_mixin.py:109} INFO - [2021-09-06 04:25:25,332] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:25:25,342] {logging_mixin.py:109} INFO - [2021-09-06 04:25:25,342] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:25:25,348] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.038 seconds
+[2021-09-06 04:25:55,943] {processor.py:162} INFO - Started process (PID=462) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:25:55,943] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:25:55,944] {logging_mixin.py:109} INFO - [2021-09-06 04:25:55,944] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:25:55,951] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:25:55,964] {logging_mixin.py:109} INFO - [2021-09-06 04:25:55,964] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:25:55,975] {logging_mixin.py:109} INFO - [2021-09-06 04:25:55,975] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:25:55,982] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.041 seconds
+[2021-09-06 04:26:26,543] {processor.py:162} INFO - Started process (PID=528) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:26:26,544] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:26:26,544] {logging_mixin.py:109} INFO - [2021-09-06 04:26:26,544] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:26:26,551] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:26:26,563] {logging_mixin.py:109} INFO - [2021-09-06 04:26:26,562] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:26:26,573] {logging_mixin.py:109} INFO - [2021-09-06 04:26:26,573] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:26:26,579] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.037 seconds
+[2021-09-06 04:26:57,182] {processor.py:162} INFO - Started process (PID=594) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:26:57,183] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:26:57,184] {logging_mixin.py:109} INFO - [2021-09-06 04:26:57,184] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:26:57,191] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:26:57,203] {logging_mixin.py:109} INFO - [2021-09-06 04:26:57,203] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:26:57,215] {logging_mixin.py:109} INFO - [2021-09-06 04:26:57,215] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:26:57,222] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.041 seconds
+[2021-09-06 04:27:27,806] {processor.py:162} INFO - Started process (PID=660) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:27:27,807] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:27:27,807] {logging_mixin.py:109} INFO - [2021-09-06 04:27:27,807] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:27:27,814] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:27:27,826] {logging_mixin.py:109} INFO - [2021-09-06 04:27:27,826] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:27:27,836] {logging_mixin.py:109} INFO - [2021-09-06 04:27:27,836] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:27:27,843] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.038 seconds
+[2021-09-06 04:27:58,436] {processor.py:162} INFO - Started process (PID=727) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:27:58,436] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:27:58,437] {logging_mixin.py:109} INFO - [2021-09-06 04:27:58,437] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:27:58,445] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:27:58,458] {logging_mixin.py:109} INFO - [2021-09-06 04:27:58,458] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:27:58,470] {logging_mixin.py:109} INFO - [2021-09-06 04:27:58,470] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:27:58,478] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.044 seconds
+[2021-09-06 04:28:29,064] {processor.py:162} INFO - Started process (PID=793) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:28:29,065] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:28:29,065] {logging_mixin.py:109} INFO - [2021-09-06 04:28:29,065] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:28:29,072] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:28:29,086] {logging_mixin.py:109} INFO - [2021-09-06 04:28:29,086] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:28:29,097] {logging_mixin.py:109} INFO - [2021-09-06 04:28:29,097] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:28:29,104] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.042 seconds
+[2021-09-06 04:28:59,715] {processor.py:162} INFO - Started process (PID=861) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:28:59,716] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:28:59,716] {logging_mixin.py:109} INFO - [2021-09-06 04:28:59,716] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:28:59,723] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:28:59,740] {logging_mixin.py:109} INFO - [2021-09-06 04:28:59,740] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:28:59,755] {logging_mixin.py:109} INFO - [2021-09-06 04:28:59,755] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:28:59,766] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.054 seconds
+[2021-09-06 04:29:30,402] {processor.py:162} INFO - Started process (PID=925) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:29:30,402] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:29:30,403] {logging_mixin.py:109} INFO - [2021-09-06 04:29:30,403] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:29:30,411] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:29:30,423] {logging_mixin.py:109} INFO - [2021-09-06 04:29:30,423] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:29:30,435] {logging_mixin.py:109} INFO - [2021-09-06 04:29:30,435] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:29:30,442] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.042 seconds
+[2021-09-06 04:30:01,056] {processor.py:162} INFO - Started process (PID=993) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:30:01,056] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:30:01,056] {logging_mixin.py:109} INFO - [2021-09-06 04:30:01,056] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:30:01,065] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:30:01,079] {logging_mixin.py:109} INFO - [2021-09-06 04:30:01,079] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:30:01,090] {logging_mixin.py:109} INFO - [2021-09-06 04:30:01,090] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:30:01,098] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.044 seconds
+[2021-09-06 04:30:31,836] {processor.py:162} INFO - Started process (PID=1058) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:30:31,837] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:30:31,837] {logging_mixin.py:109} INFO - [2021-09-06 04:30:31,837] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:30:31,850] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:30:31,867] {logging_mixin.py:109} INFO - [2021-09-06 04:30:31,867] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:30:31,883] {logging_mixin.py:109} INFO - [2021-09-06 04:30:31,883] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:30:31,892] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.058 seconds
+[2021-09-06 04:31:02,504] {processor.py:162} INFO - Started process (PID=1123) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:31:02,506] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:31:02,507] {logging_mixin.py:109} INFO - [2021-09-06 04:31:02,506] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:31:02,526] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:31:02,556] {logging_mixin.py:109} INFO - [2021-09-06 04:31:02,556] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:31:02,582] {logging_mixin.py:109} INFO - [2021-09-06 04:31:02,582] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:31:02,597] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.098 seconds
+[2021-09-06 04:31:33,173] {processor.py:162} INFO - Started process (PID=1191) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:31:33,174] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:31:33,174] {logging_mixin.py:109} INFO - [2021-09-06 04:31:33,174] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:31:33,182] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:31:33,196] {logging_mixin.py:109} INFO - [2021-09-06 04:31:33,196] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:31:33,210] {logging_mixin.py:109} INFO - [2021-09-06 04:31:33,210] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:31:33,217] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.046 seconds
+[2021-09-06 04:32:03,848] {processor.py:162} INFO - Started process (PID=1255) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:32:03,850] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:32:03,850] {logging_mixin.py:109} INFO - [2021-09-06 04:32:03,850] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:32:03,864] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:32:03,892] {logging_mixin.py:109} INFO - [2021-09-06 04:32:03,892] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:32:03,924] {logging_mixin.py:109} INFO - [2021-09-06 04:32:03,924] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:32:03,941] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.096 seconds
+[2021-09-06 04:32:34,563] {processor.py:162} INFO - Started process (PID=1323) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:32:34,564] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:32:34,564] {logging_mixin.py:109} INFO - [2021-09-06 04:32:34,564] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:32:34,576] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:32:34,600] {logging_mixin.py:109} INFO - [2021-09-06 04:32:34,600] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:32:34,622] {logging_mixin.py:109} INFO - [2021-09-06 04:32:34,622] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:32:34,635] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.074 seconds
+[2021-09-06 04:33:05,267] {processor.py:162} INFO - Started process (PID=1388) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:33:05,267] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:33:05,268] {logging_mixin.py:109} INFO - [2021-09-06 04:33:05,268] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:33:05,275] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:33:05,288] {logging_mixin.py:109} INFO - [2021-09-06 04:33:05,288] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:33:05,300] {logging_mixin.py:109} INFO - [2021-09-06 04:33:05,300] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:33:05,307] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.042 seconds
+[2021-09-06 04:33:35,905] {processor.py:162} INFO - Started process (PID=1454) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:33:35,905] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:33:35,906] {logging_mixin.py:109} INFO - [2021-09-06 04:33:35,905] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:33:35,913] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:33:35,926] {logging_mixin.py:109} INFO - [2021-09-06 04:33:35,926] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:33:35,937] {logging_mixin.py:109} INFO - [2021-09-06 04:33:35,937] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:33:35,944] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.041 seconds
+[2021-09-06 04:34:06,497] {processor.py:162} INFO - Started process (PID=1520) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:34:06,498] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:34:06,498] {logging_mixin.py:109} INFO - [2021-09-06 04:34:06,498] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:34:06,505] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:34:06,518] {logging_mixin.py:109} INFO - [2021-09-06 04:34:06,518] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:34:06,529] {logging_mixin.py:109} INFO - [2021-09-06 04:34:06,529] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:34:06,536] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.040 seconds
+[2021-09-06 04:34:37,183] {processor.py:162} INFO - Started process (PID=1586) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:34:37,184] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:34:37,184] {logging_mixin.py:109} INFO - [2021-09-06 04:34:37,184] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:34:37,192] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:34:37,206] {logging_mixin.py:109} INFO - [2021-09-06 04:34:37,206] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:34:37,217] {logging_mixin.py:109} INFO - [2021-09-06 04:34:37,217] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:34:37,226] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.045 seconds
+[2021-09-06 04:35:07,875] {processor.py:162} INFO - Started process (PID=1652) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:35:07,875] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:35:07,876] {logging_mixin.py:109} INFO - [2021-09-06 04:35:07,876] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:35:07,883] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:35:07,894] {logging_mixin.py:109} INFO - [2021-09-06 04:35:07,894] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:35:07,905] {logging_mixin.py:109} INFO - [2021-09-06 04:35:07,905] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:35:07,911] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.038 seconds
+[2021-09-06 04:35:38,710] {processor.py:162} INFO - Started process (PID=1719) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:35:38,711] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:35:38,711] {logging_mixin.py:109} INFO - [2021-09-06 04:35:38,711] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:35:38,727] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:35:38,751] {logging_mixin.py:109} INFO - [2021-09-06 04:35:38,751] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:35:38,774] {logging_mixin.py:109} INFO - [2021-09-06 04:35:38,773] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:35:38,788] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.082 seconds
+[2021-09-06 04:36:09,381] {processor.py:162} INFO - Started process (PID=1785) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:36:09,381] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:36:09,382] {logging_mixin.py:109} INFO - [2021-09-06 04:36:09,382] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:36:09,389] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:36:09,401] {logging_mixin.py:109} INFO - [2021-09-06 04:36:09,401] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:36:09,411] {logging_mixin.py:109} INFO - [2021-09-06 04:36:09,411] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:36:09,417] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.038 seconds
+[2021-09-06 04:36:40,024] {processor.py:162} INFO - Started process (PID=1852) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:36:40,025] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:36:40,025] {logging_mixin.py:109} INFO - [2021-09-06 04:36:40,025] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:36:40,032] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:36:40,045] {logging_mixin.py:109} INFO - [2021-09-06 04:36:40,045] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:36:40,056] {logging_mixin.py:109} INFO - [2021-09-06 04:36:40,056] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:36:40,062] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.041 seconds
+[2021-09-06 04:37:10,641] {processor.py:162} INFO - Started process (PID=1920) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:37:10,641] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:37:10,642] {logging_mixin.py:109} INFO - [2021-09-06 04:37:10,642] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:37:10,650] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:37:10,664] {logging_mixin.py:109} INFO - [2021-09-06 04:37:10,664] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:37:10,677] {logging_mixin.py:109} INFO - [2021-09-06 04:37:10,676] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:37:10,684] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.046 seconds
+[2021-09-06 04:37:41,276] {processor.py:162} INFO - Started process (PID=1984) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:37:41,276] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:37:41,277] {logging_mixin.py:109} INFO - [2021-09-06 04:37:41,277] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:37:41,284] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:37:41,296] {logging_mixin.py:109} INFO - [2021-09-06 04:37:41,296] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:37:41,307] {logging_mixin.py:109} INFO - [2021-09-06 04:37:41,307] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:37:41,314] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.040 seconds
+[2021-09-06 04:38:11,952] {processor.py:162} INFO - Started process (PID=2050) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:38:11,953] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:38:11,953] {logging_mixin.py:109} INFO - [2021-09-06 04:38:11,953] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:38:11,961] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:38:11,973] {logging_mixin.py:109} INFO - [2021-09-06 04:38:11,973] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:38:11,984] {logging_mixin.py:109} INFO - [2021-09-06 04:38:11,984] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:38:11,991] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.041 seconds
+[2021-09-06 04:38:42,613] {processor.py:162} INFO - Started process (PID=2116) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:38:42,614] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:38:42,614] {logging_mixin.py:109} INFO - [2021-09-06 04:38:42,614] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:38:42,623] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:38:42,636] {logging_mixin.py:109} INFO - [2021-09-06 04:38:42,636] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:38:42,647] {logging_mixin.py:109} INFO - [2021-09-06 04:38:42,647] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:38:42,654] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.043 seconds
+[2021-09-06 04:39:13,264] {processor.py:162} INFO - Started process (PID=2182) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:39:13,265] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:39:13,265] {logging_mixin.py:109} INFO - [2021-09-06 04:39:13,265] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:39:13,275] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:39:13,291] {logging_mixin.py:109} INFO - [2021-09-06 04:39:13,291] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:39:13,310] {logging_mixin.py:109} INFO - [2021-09-06 04:39:13,310] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:39:13,321] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.060 seconds
+[2021-09-06 04:39:43,939] {processor.py:162} INFO - Started process (PID=2248) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:39:43,940] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:39:43,940] {logging_mixin.py:109} INFO - [2021-09-06 04:39:43,940] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:39:43,950] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:39:43,965] {logging_mixin.py:109} INFO - [2021-09-06 04:39:43,964] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:39:43,977] {logging_mixin.py:109} INFO - [2021-09-06 04:39:43,977] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:39:43,989] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.052 seconds
+[2021-09-06 04:40:14,667] {processor.py:162} INFO - Started process (PID=2314) to work on /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:40:14,667] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/airflow-clear-missing-dags.py for tasks to queue
+[2021-09-06 04:40:14,668] {logging_mixin.py:109} INFO - [2021-09-06 04:40:14,668] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:40:14,677] {processor.py:623} INFO - DAG(s) dict_keys(['airflow-clear-missing-dags']) retrieved from /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-06 04:40:14,693] {logging_mixin.py:109} INFO - [2021-09-06 04:40:14,693] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:40:14,705] {logging_mixin.py:109} INFO - [2021-09-06 04:40:14,705] {dag.py:2306} INFO - Setting next_dagrun for airflow-clear-missing-dags to 2021-09-05 00:00:00+00:00
+[2021-09-06 04:40:14,715] {processor.py:170} INFO - Processing /usr/local/airflow/dags/airflow-clear-missing-dags.py took 0.050 seconds

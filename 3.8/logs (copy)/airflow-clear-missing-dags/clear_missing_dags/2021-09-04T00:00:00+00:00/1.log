@@ -1,0 +1,80 @@
+[2021-09-05 13:29:19,630] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: airflow-clear-missing-dags.clear_missing_dags 2021-09-04T00:00:00+00:00 [queued]>
+[2021-09-05 13:29:19,638] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: airflow-clear-missing-dags.clear_missing_dags 2021-09-04T00:00:00+00:00 [queued]>
+[2021-09-05 13:29:19,639] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-05 13:29:19,639] {taskinstance.py:1095} INFO - Starting attempt 1 of 2
+[2021-09-05 13:29:19,639] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-05 13:29:19,653] {taskinstance.py:1114} INFO - Executing <Task(PythonOperator): clear_missing_dags> on 2021-09-04T00:00:00+00:00
+[2021-09-05 13:29:19,660] {standard_task_runner.py:52} INFO - Started process 6774 to run task
+[2021-09-05 13:29:19,664] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'airflow-clear-missing-dags', 'clear_missing_dags', '2021-09-04T00:00:00+00:00', '--job-id', '231', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/airflow-clear-missing-dags.py', '--cfg-path', '/tmp/tmplg4jez3c', '--error-file', '/tmp/tmphnazzqay']
+[2021-09-05 13:29:19,665] {standard_task_runner.py:77} INFO - Job 231: Subtask clear_missing_dags
+[2021-09-05 13:29:19,712] {logging_mixin.py:109} INFO - Running <TaskInstance: airflow-clear-missing-dags.clear_missing_dags 2021-09-04T00:00:00+00:00 [running]> on host 2bce3265bb98
+[2021-09-05 13:29:19,768] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=operations
+AIRFLOW_CTX_DAG_ID=airflow-clear-missing-dags
+AIRFLOW_CTX_TASK_ID=clear_missing_dags
+AIRFLOW_CTX_EXECUTION_DATE=2021-09-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-09-04T00:00:00+00:00
+[2021-09-05 13:29:19,769] {airflow-clear-missing-dags.py:57} INFO - Starting to run Clear Process
+[2021-09-05 13:29:19,769] {airflow-clear-missing-dags.py:62} INFO - Running on Machine with Host Name: 2bce3265bb98
+[2021-09-05 13:29:19,769] {airflow-clear-missing-dags.py:63} INFO - Running on Machine with IP: 172.20.0.3
+[2021-09-05 13:29:19,769] {airflow-clear-missing-dags.py:69} INFO - Configurations:
+[2021-09-05 13:29:19,769] {airflow-clear-missing-dags.py:70} INFO - enable_delete:            True
+[2021-09-05 13:29:19,769] {airflow-clear-missing-dags.py:71} INFO - session:                  <sqlalchemy.orm.session.Session object at 0x7f59f7ea3f40>
+[2021-09-05 13:29:19,770] {airflow-clear-missing-dags.py:72} INFO - 
+[2021-09-05 13:29:19,785] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_branch_operator>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2021-09-05 13:29:19,785] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_complex>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_complex.py
+[2021-09-05 13:29:19,785] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_dag_decorator>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_dag_decorator.py
+[2021-09-05 13:29:19,785] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_external_task_marker_parent>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2021-09-05 13:29:19,785] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_nested_branch_dag>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2021-09-05 13:29:19,785] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_python_operator>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2021-09-05 13:29:19,785] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_skip_dag>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2021-09-05 13:29:19,786] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_subdag_operator>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_subdag_operator.py
+[2021-09-05 13:29:19,786] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_subdag_operator.section-1>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_subdag_operator.py
+[2021-09-05 13:29:19,786] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_xcom>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_xcom.py
+[2021-09-05 13:29:19,786] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_xcom_args>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_xcomargs.py
+[2021-09-05 13:29:19,786] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: latest_only>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_latest_only.py
+[2021-09-05 13:29:19,786] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: latest_only_with_trigger>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2021-09-05 13:29:19,786] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: tutorial>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/tutorial.py
+[2021-09-05 13:29:19,786] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: hello_world>', the Python definition file does exist: /usr/local/airflow/dags/helloworld.py
+[2021-09-05 13:29:19,787] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: tutorial_etl_dag>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-09-05 13:29:19,787] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: tutorial_taskflow_api_etl>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/tutorial_taskflow_api_etl.py
+[2021-09-05 13:29:19,787] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: tutorial_taskflow_api_etl_virtualenv>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-09-05 13:29:19,787] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: mssql_to_csv>', the Python definition file does exist: /usr/local/airflow/dags/__pycache__/mssqlToCSV.py
+[2021-09-05 13:29:19,787] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: airflow-db-cleanup>', the Python definition file does exist: /usr/local/airflow/dags/airflow-db-cleanup.py
+[2021-09-05 13:29:19,787] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: name_writefile>', the Python definition file does exist: /usr/local/airflow/dags/writefile.py
+[2021-09-05 13:29:19,787] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: airflow-backup-configs>', the Python definition file does exist: /usr/local/airflow/dags/airflow-backup-configs.py
+[2021-09-05 13:29:19,787] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: test_utils>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2021-09-05 13:29:19,787] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_bash_operator>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_bash_operator.py
+[2021-09-05 13:29:19,788] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_branch_datetime_operator_2>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2021-09-05 13:29:19,788] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_branch_dop_operator_v3>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2021-09-05 13:29:19,788] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_branch_labels>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_labels.py
+[2021-09-05 13:29:19,788] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_external_task_marker_child>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2021-09-05 13:29:19,788] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_kubernetes_executor>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_kubernetes_executor.py
+[2021-09-05 13:29:19,788] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_passing_params_via_test_command>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2021-09-05 13:29:19,788] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_short_circuit_operator>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_short_circuit_operator.py
+[2021-09-05 13:29:19,788] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_subdag_operator.section-2>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_subdag_operator.py
+[2021-09-05 13:29:19,789] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_task_group>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_task_group.py
+[2021-09-05 13:29:19,789] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_task_group_decorator>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_task_group_decorator.py
+[2021-09-05 13:29:19,789] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_trigger_controller_dag>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-09-05 13:29:19,789] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_trigger_target_dag>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_trigger_target_dag.py
+[2021-09-05 13:29:19,789] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_weekday_branch_operator>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2021-09-05 13:29:19,789] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: example_xcom_args_with_operators>', the Python definition file does exist: /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_xcomargs.py
+[2021-09-05 13:29:19,789] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: sending_email>', the Python definition file does exist: /usr/local/airflow/dags/email_notify.py
+[2021-09-05 13:29:19,789] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: airflow-log-cleanup-pwdless-ssh>', the Python definition file does exist: /usr/local/airflow/dags/airflow-log-cleanup-pwdless-ssh.py
+[2021-09-05 13:29:19,790] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: airflow-log-cleanup>', the Python definition file does exist: /usr/local/airflow/dags/airflow-log-cleanup.py
+[2021-09-05 13:29:19,790] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: hello_gdive>', the Python definition file does exist: /usr/local/airflow/dags/connect_to_gdrive.py
+[2021-09-05 13:29:19,790] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: airflow-kill-halted-tasks>', the Python definition file does exist: /usr/local/airflow/dags/airflow-kill-halted-tasks.py
+[2021-09-05 13:29:19,790] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: airflow-clear-missing-dags>', the Python definition file does exist: /usr/local/airflow/dags/airflow-clear-missing-dags.py
+[2021-09-05 13:29:19,790] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: packaged_dag>', the Python definition file does exist: /usr/local/airflow/dags/packaged_dag.zip
+[2021-09-05 13:29:19,790] {airflow-clear-missing-dags.py:98} INFO - After checking DAG '<DAG: airflow-delete-broken-dags>', the Python definition file does exist: /usr/local/airflow/dags/airflow-delete-broken-dags.py
+[2021-09-05 13:29:19,790] {airflow-clear-missing-dags.py:103} INFO - Process will be Deleting the DAG(s) from the DB:
+[2021-09-05 13:29:19,790] {airflow-clear-missing-dags.py:106} INFO - Process will be Deleting 0 DAG(s)
+[2021-09-05 13:29:19,790] {airflow-clear-missing-dags.py:111} INFO - Performing Delete...
+[2021-09-05 13:29:19,791] {airflow-clear-missing-dags.py:115} INFO - Finished Performing Delete
+[2021-09-05 13:29:19,791] {airflow-clear-missing-dags.py:119} INFO - Finished Running Clear Process
+[2021-09-05 13:29:19,791] {python.py:151} INFO - Done. Returned value was: None
+[2021-09-05 13:29:19,798] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=airflow-clear-missing-dags, task_id=clear_missing_dags, execution_date=20210904T000000, start_date=20210905T132919, end_date=20210905T132919
+[2021-09-05 13:29:19,836] {local_task_job.py:151} INFO - Task exited with return code 0
+[2021-09-05 13:29:19,870] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

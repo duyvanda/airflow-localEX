@@ -1,0 +1,47 @@
+[2021-09-05 13:08:34,110] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: airflow-db-cleanup.cleanup_BaseXCom 2021-09-04T00:00:00+00:00 [queued]>
+[2021-09-05 13:08:34,127] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: airflow-db-cleanup.cleanup_BaseXCom 2021-09-04T00:00:00+00:00 [queued]>
+[2021-09-05 13:08:34,127] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-05 13:08:34,128] {taskinstance.py:1095} INFO - Starting attempt 1 of 2
+[2021-09-05 13:08:34,128] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-05 13:08:34,179] {taskinstance.py:1114} INFO - Executing <Task(PythonOperator): cleanup_BaseXCom> on 2021-09-04T00:00:00+00:00
+[2021-09-05 13:08:34,182] {standard_task_runner.py:52} INFO - Started process 4010 to run task
+[2021-09-05 13:08:34,200] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'airflow-db-cleanup', 'cleanup_BaseXCom', '2021-09-04T00:00:00+00:00', '--job-id', '220', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/airflow-db-cleanup.py', '--cfg-path', '/tmp/tmpwp1f0osk', '--error-file', '/tmp/tmpplqhu3ky']
+[2021-09-05 13:08:34,201] {standard_task_runner.py:77} INFO - Job 220: Subtask cleanup_BaseXCom
+[2021-09-05 13:08:34,302] {logging_mixin.py:109} INFO - Running <TaskInstance: airflow-db-cleanup.cleanup_BaseXCom 2021-09-04T00:00:00+00:00 [running]> on host 2bce3265bb98
+[2021-09-05 13:08:34,436] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=operations
+AIRFLOW_CTX_DAG_ID=airflow-db-cleanup
+AIRFLOW_CTX_TASK_ID=cleanup_BaseXCom
+AIRFLOW_CTX_EXECUTION_DATE=2021-09-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-09-04T00:00:00+00:00
+[2021-09-05 13:08:34,437] {airflow-db-cleanup.py:265} INFO - Retrieving max_execution_date from XCom
+[2021-09-05 13:08:34,459] {airflow-db-cleanup.py:278} INFO - Configurations:
+[2021-09-05 13:08:34,459] {airflow-db-cleanup.py:279} INFO - max_date:                 2021-09-04 13:08:33.176519+00:00
+[2021-09-05 13:08:34,459] {airflow-db-cleanup.py:280} INFO - enable_delete:            True
+[2021-09-05 13:08:34,459] {airflow-db-cleanup.py:281} INFO - session:                  <sqlalchemy.orm.session.Session object at 0x7f59f8bcd430>
+[2021-09-05 13:08:34,460] {airflow-db-cleanup.py:282} INFO - airflow_db_model:         <class 'airflow.models.xcom.BaseXCom'>
+[2021-09-05 13:08:34,460] {airflow-db-cleanup.py:283} INFO - state:                    None
+[2021-09-05 13:08:34,460] {airflow-db-cleanup.py:284} INFO - age_check_column:         BaseXCom.execution_date
+[2021-09-05 13:08:34,460] {airflow-db-cleanup.py:285} INFO - keep_last:                False
+[2021-09-05 13:08:34,460] {airflow-db-cleanup.py:286} INFO - keep_last_filters:        None
+[2021-09-05 13:08:34,460] {airflow-db-cleanup.py:287} INFO - keep_last_group_by:       None
+[2021-09-05 13:08:34,460] {airflow-db-cleanup.py:289} INFO - 
+[2021-09-05 13:08:34,460] {airflow-db-cleanup.py:291} INFO - Running Cleanup Process...
+[2021-09-05 13:08:34,461] {airflow-db-cleanup.py:298} INFO - INITIAL QUERY : SELECT xcom.key AS xcom_key, xcom.execution_date AS xcom_execution_date, xcom.task_id AS xcom_task_id, xcom.dag_id AS xcom_dag_id 
+FROM xcom
+[2021-09-05 13:08:34,501] {logging_mixin.py:109} WARNING - /usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/loading.py:342 SAWarning: Loading context for <BaseXCom at 0x7f59fce5a5e0> has changed within a load/refresh handler, suggesting a row refresh operation took place. If this event handler is expected to be emitting row refresh operations within an existing load or refresh operation, set restore_load_context=True when establishing the listener to ensure the context remains unchanged when the event handler completes.
+[2021-09-05 13:08:34,502] {airflow-db-cleanup.py:329} INFO - Query: SELECT xcom.key AS xcom_key, xcom.execution_date AS xcom_execution_date, xcom.task_id AS xcom_task_id, xcom.dag_id AS xcom_dag_id 
+FROM xcom 
+WHERE xcom.execution_date <= %(execution_date_1)s
+[2021-09-05 13:08:34,502] {airflow-db-cleanup.py:330} INFO - Process will be Deleting the following BaseXCom(s):
+[2021-09-05 13:08:34,502] {airflow-db-cleanup.py:335} INFO - 	Entry: <XCom "max_date" (print_configuration @ 2021-09-04 00:00:00+00:00)>, Date: 2021-09-04 00:00:00+00:00
+[2021-09-05 13:08:34,502] {airflow-db-cleanup.py:340} INFO - Process will be Deleting 1 BaseXCom(s)
+[2021-09-05 13:08:34,502] {airflow-db-cleanup.py:349} INFO - Performing Delete...
+[2021-09-05 13:08:34,510] {airflow-db-cleanup.py:353} INFO - Finished Performing Delete
+[2021-09-05 13:08:34,511] {airflow-db-cleanup.py:358} INFO - Finished Running Cleanup Process
+[2021-09-05 13:08:34,511] {python.py:151} INFO - Done. Returned value was: None
+[2021-09-05 13:08:34,521] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=airflow-db-cleanup, task_id=cleanup_BaseXCom, execution_date=20210904T000000, start_date=20210905T130834, end_date=20210905T130834
+[2021-09-05 13:08:34,574] {local_task_job.py:151} INFO - Task exited with return code 0
+[2021-09-05 13:08:34,617] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

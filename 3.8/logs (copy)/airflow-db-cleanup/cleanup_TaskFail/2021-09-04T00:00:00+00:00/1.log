@@ -1,0 +1,52 @@
+[2021-09-05 13:08:34,082] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: airflow-db-cleanup.cleanup_TaskFail 2021-09-04T00:00:00+00:00 [queued]>
+[2021-09-05 13:08:34,105] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: airflow-db-cleanup.cleanup_TaskFail 2021-09-04T00:00:00+00:00 [queued]>
+[2021-09-05 13:08:34,105] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-05 13:08:34,105] {taskinstance.py:1095} INFO - Starting attempt 1 of 2
+[2021-09-05 13:08:34,105] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-05 13:08:34,140] {taskinstance.py:1114} INFO - Executing <Task(PythonOperator): cleanup_TaskFail> on 2021-09-04T00:00:00+00:00
+[2021-09-05 13:08:34,143] {standard_task_runner.py:52} INFO - Started process 4007 to run task
+[2021-09-05 13:08:34,152] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'airflow-db-cleanup', 'cleanup_TaskFail', '2021-09-04T00:00:00+00:00', '--job-id', '217', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/airflow-db-cleanup.py', '--cfg-path', '/tmp/tmphtnrsjvc', '--error-file', '/tmp/tmp_pq9gvrm']
+[2021-09-05 13:08:34,153] {standard_task_runner.py:77} INFO - Job 217: Subtask cleanup_TaskFail
+[2021-09-05 13:08:34,257] {logging_mixin.py:109} INFO - Running <TaskInstance: airflow-db-cleanup.cleanup_TaskFail 2021-09-04T00:00:00+00:00 [running]> on host 2bce3265bb98
+[2021-09-05 13:08:34,420] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=operations
+AIRFLOW_CTX_DAG_ID=airflow-db-cleanup
+AIRFLOW_CTX_TASK_ID=cleanup_TaskFail
+AIRFLOW_CTX_EXECUTION_DATE=2021-09-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-09-04T00:00:00+00:00
+[2021-09-05 13:08:34,421] {airflow-db-cleanup.py:265} INFO - Retrieving max_execution_date from XCom
+[2021-09-05 13:08:34,444] {airflow-db-cleanup.py:278} INFO - Configurations:
+[2021-09-05 13:08:34,444] {airflow-db-cleanup.py:279} INFO - max_date:                 2021-09-04 13:08:33.176519+00:00
+[2021-09-05 13:08:34,444] {airflow-db-cleanup.py:280} INFO - enable_delete:            True
+[2021-09-05 13:08:34,444] {airflow-db-cleanup.py:281} INFO - session:                  <sqlalchemy.orm.session.Session object at 0x7f59f8bcf310>
+[2021-09-05 13:08:34,444] {airflow-db-cleanup.py:282} INFO - airflow_db_model:         <class 'airflow.models.taskfail.TaskFail'>
+[2021-09-05 13:08:34,444] {airflow-db-cleanup.py:283} INFO - state:                    None
+[2021-09-05 13:08:34,444] {airflow-db-cleanup.py:284} INFO - age_check_column:         TaskFail.execution_date
+[2021-09-05 13:08:34,444] {airflow-db-cleanup.py:285} INFO - keep_last:                False
+[2021-09-05 13:08:34,444] {airflow-db-cleanup.py:286} INFO - keep_last_filters:        None
+[2021-09-05 13:08:34,444] {airflow-db-cleanup.py:287} INFO - keep_last_group_by:       None
+[2021-09-05 13:08:34,444] {airflow-db-cleanup.py:289} INFO - 
+[2021-09-05 13:08:34,445] {airflow-db-cleanup.py:291} INFO - Running Cleanup Process...
+[2021-09-05 13:08:34,451] {airflow-db-cleanup.py:298} INFO - INITIAL QUERY : SELECT task_fail.id AS task_fail_id, task_fail.execution_date AS task_fail_execution_date 
+FROM task_fail
+[2021-09-05 13:08:34,470] {airflow-db-cleanup.py:329} INFO - Query: SELECT task_fail.id AS task_fail_id, task_fail.execution_date AS task_fail_execution_date 
+FROM task_fail 
+WHERE task_fail.execution_date <= %(execution_date_1)s
+[2021-09-05 13:08:34,471] {airflow-db-cleanup.py:330} INFO - Process will be Deleting the following TaskFail(s):
+[2021-09-05 13:08:34,471] {airflow-db-cleanup.py:335} INFO - 	Entry: <airflow.models.taskfail.TaskFail object at 0x7f59fce5d970>, Date: 2021-08-14 17:00:00+00:00
+[2021-09-05 13:08:34,471] {airflow-db-cleanup.py:335} INFO - 	Entry: <airflow.models.taskfail.TaskFail object at 0x7f59fce5da00>, Date: 2021-09-02 12:20:24.472547+00:00
+[2021-09-05 13:08:34,471] {airflow-db-cleanup.py:335} INFO - 	Entry: <airflow.models.taskfail.TaskFail object at 0x7f59fce5dac0>, Date: 2021-09-02 12:22:27.186230+00:00
+[2021-09-05 13:08:34,471] {airflow-db-cleanup.py:335} INFO - 	Entry: <airflow.models.taskfail.TaskFail object at 0x7f59fce5db80>, Date: 2021-08-14 17:00:00+00:00
+[2021-09-05 13:08:34,471] {airflow-db-cleanup.py:335} INFO - 	Entry: <airflow.models.taskfail.TaskFail object at 0x7f59fce5dc40>, Date: 2021-09-02 15:00:00.318768+00:00
+[2021-09-05 13:08:34,471] {airflow-db-cleanup.py:335} INFO - 	Entry: <airflow.models.taskfail.TaskFail object at 0x7f59fce5dd00>, Date: 2021-08-14 17:00:00+00:00
+[2021-09-05 13:08:34,471] {airflow-db-cleanup.py:335} INFO - 	Entry: <airflow.models.taskfail.TaskFail object at 0x7f59fce5ddf0>, Date: 2021-09-03 08:27:10.595071+00:00
+[2021-09-05 13:08:34,471] {airflow-db-cleanup.py:340} INFO - Process will be Deleting 7 TaskFail(s)
+[2021-09-05 13:08:34,471] {airflow-db-cleanup.py:349} INFO - Performing Delete...
+[2021-09-05 13:08:34,474] {airflow-db-cleanup.py:353} INFO - Finished Performing Delete
+[2021-09-05 13:08:34,474] {airflow-db-cleanup.py:358} INFO - Finished Running Cleanup Process
+[2021-09-05 13:08:34,474] {python.py:151} INFO - Done. Returned value was: None
+[2021-09-05 13:08:34,504] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=airflow-db-cleanup, task_id=cleanup_TaskFail, execution_date=20210904T000000, start_date=20210905T130834, end_date=20210905T130834
+[2021-09-05 13:08:34,558] {local_task_job.py:151} INFO - Task exited with return code 0
+[2021-09-05 13:08:34,592] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

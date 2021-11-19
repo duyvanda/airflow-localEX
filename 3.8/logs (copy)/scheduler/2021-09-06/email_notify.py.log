@@ -1,0 +1,224 @@
+[2021-09-06 04:24:23,781] {processor.py:162} INFO - Started process (PID=191) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:24:23,782] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:24:23,782] {logging_mixin.py:109} INFO - [2021-09-06 04:24:23,782] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:24:23,791] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:24:23,805] {logging_mixin.py:109} INFO - [2021-09-06 04:24:23,805] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:24:23,815] {logging_mixin.py:109} INFO - [2021-09-06 04:24:23,815] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:24:23,824] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.045 seconds
+[2021-09-06 04:24:54,376] {processor.py:162} INFO - Started process (PID=305) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:24:54,376] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:24:54,377] {logging_mixin.py:109} INFO - [2021-09-06 04:24:54,377] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:24:54,384] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:24:54,395] {logging_mixin.py:109} INFO - [2021-09-06 04:24:54,395] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:24:54,403] {logging_mixin.py:109} INFO - [2021-09-06 04:24:54,403] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:24:54,409] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.035 seconds
+[2021-09-06 04:25:25,028] {processor.py:162} INFO - Started process (PID=371) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:25:25,029] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:25:25,029] {logging_mixin.py:109} INFO - [2021-09-06 04:25:25,029] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:25:25,036] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:25:25,049] {logging_mixin.py:109} INFO - [2021-09-06 04:25:25,049] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:25:25,059] {logging_mixin.py:109} INFO - [2021-09-06 04:25:25,059] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:25:25,067] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.040 seconds
+[2021-09-06 04:25:55,718] {processor.py:162} INFO - Started process (PID=437) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:25:55,719] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:25:55,719] {logging_mixin.py:109} INFO - [2021-09-06 04:25:55,719] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:25:55,726] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:25:55,738] {logging_mixin.py:109} INFO - [2021-09-06 04:25:55,738] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:25:55,746] {logging_mixin.py:109} INFO - [2021-09-06 04:25:55,746] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:25:55,753] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.036 seconds
+[2021-09-06 04:26:26,316] {processor.py:162} INFO - Started process (PID=503) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:26:26,316] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:26:26,316] {logging_mixin.py:109} INFO - [2021-09-06 04:26:26,316] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:26:26,323] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:26:26,335] {logging_mixin.py:109} INFO - [2021-09-06 04:26:26,335] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:26:26,343] {logging_mixin.py:109} INFO - [2021-09-06 04:26:26,343] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:26:26,350] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.036 seconds
+[2021-09-06 04:26:56,953] {processor.py:162} INFO - Started process (PID=569) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:26:56,954] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:26:56,955] {logging_mixin.py:109} INFO - [2021-09-06 04:26:56,955] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:26:56,962] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:26:56,974] {logging_mixin.py:109} INFO - [2021-09-06 04:26:56,974] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:26:56,984] {logging_mixin.py:109} INFO - [2021-09-06 04:26:56,984] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:26:56,993] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.041 seconds
+[2021-09-06 04:27:27,560] {processor.py:162} INFO - Started process (PID=635) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:27:27,561] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:27:27,561] {logging_mixin.py:109} INFO - [2021-09-06 04:27:27,561] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:27:27,568] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:27:27,582] {logging_mixin.py:109} INFO - [2021-09-06 04:27:27,581] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:27:27,590] {logging_mixin.py:109} INFO - [2021-09-06 04:27:27,590] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:27:27,597] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.039 seconds
+[2021-09-06 04:27:58,217] {processor.py:162} INFO - Started process (PID=702) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:27:58,217] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:27:58,217] {logging_mixin.py:109} INFO - [2021-09-06 04:27:58,217] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:27:58,224] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:27:58,236] {logging_mixin.py:109} INFO - [2021-09-06 04:27:58,236] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:27:58,245] {logging_mixin.py:109} INFO - [2021-09-06 04:27:58,245] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:27:58,253] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.038 seconds
+[2021-09-06 04:28:28,837] {processor.py:162} INFO - Started process (PID=768) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:28:28,838] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:28:28,838] {logging_mixin.py:109} INFO - [2021-09-06 04:28:28,838] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:28:28,846] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:28:28,858] {logging_mixin.py:109} INFO - [2021-09-06 04:28:28,858] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:28:28,866] {logging_mixin.py:109} INFO - [2021-09-06 04:28:28,866] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:28:28,873] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.037 seconds
+[2021-09-06 04:28:59,457] {processor.py:162} INFO - Started process (PID=834) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:28:59,457] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:28:59,458] {logging_mixin.py:109} INFO - [2021-09-06 04:28:59,458] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:28:59,468] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:28:59,482] {logging_mixin.py:109} INFO - [2021-09-06 04:28:59,482] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:28:59,491] {logging_mixin.py:109} INFO - [2021-09-06 04:28:59,491] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:28:59,501] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.046 seconds
+[2021-09-06 04:29:30,180] {processor.py:162} INFO - Started process (PID=900) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:29:30,180] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:29:30,181] {logging_mixin.py:109} INFO - [2021-09-06 04:29:30,181] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:29:30,188] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:29:30,200] {logging_mixin.py:109} INFO - [2021-09-06 04:29:30,200] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:29:30,209] {logging_mixin.py:109} INFO - [2021-09-06 04:29:30,209] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:29:30,215] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.037 seconds
+[2021-09-06 04:30:00,803] {processor.py:162} INFO - Started process (PID=966) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:30:00,803] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:30:00,804] {logging_mixin.py:109} INFO - [2021-09-06 04:30:00,804] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:30:00,813] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:30:00,827] {logging_mixin.py:109} INFO - [2021-09-06 04:30:00,827] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:30:00,838] {logging_mixin.py:109} INFO - [2021-09-06 04:30:00,838] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:30:00,848] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.047 seconds
+[2021-09-06 04:30:31,528] {processor.py:162} INFO - Started process (PID=1032) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:30:31,529] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:30:31,530] {logging_mixin.py:109} INFO - [2021-09-06 04:30:31,530] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:30:31,544] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:30:31,567] {logging_mixin.py:109} INFO - [2021-09-06 04:30:31,567] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:30:31,586] {logging_mixin.py:109} INFO - [2021-09-06 04:30:31,586] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:30:31,600] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.076 seconds
+[2021-09-06 04:31:02,223] {processor.py:162} INFO - Started process (PID=1098) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:31:02,224] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:31:02,224] {logging_mixin.py:109} INFO - [2021-09-06 04:31:02,224] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:31:02,232] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:31:02,245] {logging_mixin.py:109} INFO - [2021-09-06 04:31:02,245] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:31:02,254] {logging_mixin.py:109} INFO - [2021-09-06 04:31:02,254] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:31:02,261] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.041 seconds
+[2021-09-06 04:31:32,940] {processor.py:162} INFO - Started process (PID=1164) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:31:32,940] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:31:32,941] {logging_mixin.py:109} INFO - [2021-09-06 04:31:32,941] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:31:32,948] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:31:32,961] {logging_mixin.py:109} INFO - [2021-09-06 04:31:32,960] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:31:32,969] {logging_mixin.py:109} INFO - [2021-09-06 04:31:32,969] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:31:32,976] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.038 seconds
+[2021-09-06 04:32:03,618] {processor.py:162} INFO - Started process (PID=1230) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:32:03,619] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:32:03,619] {logging_mixin.py:109} INFO - [2021-09-06 04:32:03,619] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:32:03,627] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:32:03,641] {logging_mixin.py:109} INFO - [2021-09-06 04:32:03,641] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:32:03,649] {logging_mixin.py:109} INFO - [2021-09-06 04:32:03,649] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:32:03,656] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.040 seconds
+[2021-09-06 04:32:34,297] {processor.py:162} INFO - Started process (PID=1296) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:32:34,298] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:32:34,298] {logging_mixin.py:109} INFO - [2021-09-06 04:32:34,298] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:32:34,306] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:32:34,318] {logging_mixin.py:109} INFO - [2021-09-06 04:32:34,318] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:32:34,326] {logging_mixin.py:109} INFO - [2021-09-06 04:32:34,326] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:32:34,333] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.038 seconds
+[2021-09-06 04:33:05,042] {processor.py:162} INFO - Started process (PID=1363) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:33:05,043] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:33:05,043] {logging_mixin.py:109} INFO - [2021-09-06 04:33:05,043] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:33:05,050] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:33:05,063] {logging_mixin.py:109} INFO - [2021-09-06 04:33:05,063] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:33:05,072] {logging_mixin.py:109} INFO - [2021-09-06 04:33:05,072] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:33:05,079] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.039 seconds
+[2021-09-06 04:33:35,651] {processor.py:162} INFO - Started process (PID=1429) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:33:35,652] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:33:35,652] {logging_mixin.py:109} INFO - [2021-09-06 04:33:35,652] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:33:35,660] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:33:35,673] {logging_mixin.py:109} INFO - [2021-09-06 04:33:35,673] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:33:35,683] {logging_mixin.py:109} INFO - [2021-09-06 04:33:35,682] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:33:35,691] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.041 seconds
+[2021-09-06 04:34:06,265] {processor.py:162} INFO - Started process (PID=1495) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:34:06,266] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:34:06,266] {logging_mixin.py:109} INFO - [2021-09-06 04:34:06,266] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:34:06,273] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:34:06,285] {logging_mixin.py:109} INFO - [2021-09-06 04:34:06,285] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:34:06,293] {logging_mixin.py:109} INFO - [2021-09-06 04:34:06,293] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:34:06,300] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.036 seconds
+[2021-09-06 04:34:36,951] {processor.py:162} INFO - Started process (PID=1561) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:34:36,952] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:34:36,952] {logging_mixin.py:109} INFO - [2021-09-06 04:34:36,952] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:34:36,959] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:34:36,971] {logging_mixin.py:109} INFO - [2021-09-06 04:34:36,971] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:34:36,979] {logging_mixin.py:109} INFO - [2021-09-06 04:34:36,979] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:34:36,986] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.036 seconds
+[2021-09-06 04:35:07,607] {processor.py:162} INFO - Started process (PID=1627) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:35:07,608] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:35:07,609] {logging_mixin.py:109} INFO - [2021-09-06 04:35:07,609] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:35:07,618] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:35:07,632] {logging_mixin.py:109} INFO - [2021-09-06 04:35:07,631] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:35:07,642] {logging_mixin.py:109} INFO - [2021-09-06 04:35:07,642] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:35:07,649] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.044 seconds
+[2021-09-06 04:35:38,426] {processor.py:162} INFO - Started process (PID=1694) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:35:38,427] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:35:38,428] {logging_mixin.py:109} INFO - [2021-09-06 04:35:38,428] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:35:38,436] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:35:38,453] {logging_mixin.py:109} INFO - [2021-09-06 04:35:38,453] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:35:38,466] {logging_mixin.py:109} INFO - [2021-09-06 04:35:38,466] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:35:38,476] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.053 seconds
+[2021-09-06 04:36:09,129] {processor.py:162} INFO - Started process (PID=1760) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:36:09,130] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:36:09,130] {logging_mixin.py:109} INFO - [2021-09-06 04:36:09,130] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:36:09,137] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:36:09,150] {logging_mixin.py:109} INFO - [2021-09-06 04:36:09,150] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:36:09,159] {logging_mixin.py:109} INFO - [2021-09-06 04:36:09,159] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:36:09,166] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.039 seconds
+[2021-09-06 04:36:39,798] {processor.py:162} INFO - Started process (PID=1827) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:36:39,799] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:36:39,800] {logging_mixin.py:109} INFO - [2021-09-06 04:36:39,800] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:36:39,808] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:36:39,822] {logging_mixin.py:109} INFO - [2021-09-06 04:36:39,822] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:36:39,831] {logging_mixin.py:109} INFO - [2021-09-06 04:36:39,831] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:36:39,838] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.042 seconds
+[2021-09-06 04:37:10,407] {processor.py:162} INFO - Started process (PID=1893) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:37:10,408] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:37:10,408] {logging_mixin.py:109} INFO - [2021-09-06 04:37:10,408] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:37:10,416] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:37:10,428] {logging_mixin.py:109} INFO - [2021-09-06 04:37:10,428] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:37:10,438] {logging_mixin.py:109} INFO - [2021-09-06 04:37:10,438] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:37:10,446] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.041 seconds
+[2021-09-06 04:37:41,017] {processor.py:162} INFO - Started process (PID=1959) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:37:41,018] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:37:41,018] {logging_mixin.py:109} INFO - [2021-09-06 04:37:41,018] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:37:41,025] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:37:41,038] {logging_mixin.py:109} INFO - [2021-09-06 04:37:41,037] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:37:41,046] {logging_mixin.py:109} INFO - [2021-09-06 04:37:41,046] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:37:41,054] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.039 seconds
+[2021-09-06 04:38:11,695] {processor.py:162} INFO - Started process (PID=2025) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:38:11,696] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:38:11,696] {logging_mixin.py:109} INFO - [2021-09-06 04:38:11,696] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:38:11,704] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:38:11,718] {logging_mixin.py:109} INFO - [2021-09-06 04:38:11,718] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:38:11,729] {logging_mixin.py:109} INFO - [2021-09-06 04:38:11,729] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:38:11,737] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.043 seconds
+[2021-09-06 04:38:42,377] {processor.py:162} INFO - Started process (PID=2091) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:38:42,378] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:38:42,378] {logging_mixin.py:109} INFO - [2021-09-06 04:38:42,378] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:38:42,385] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:38:42,398] {logging_mixin.py:109} INFO - [2021-09-06 04:38:42,397] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:38:42,407] {logging_mixin.py:109} INFO - [2021-09-06 04:38:42,406] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:38:42,413] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.038 seconds
+[2021-09-06 04:39:13,002] {processor.py:162} INFO - Started process (PID=2157) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:39:13,003] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:39:13,004] {logging_mixin.py:109} INFO - [2021-09-06 04:39:13,004] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:39:13,011] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:39:13,026] {logging_mixin.py:109} INFO - [2021-09-06 04:39:13,026] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:39:13,037] {logging_mixin.py:109} INFO - [2021-09-06 04:39:13,037] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:39:13,044] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.044 seconds
+[2021-09-06 04:39:43,677] {processor.py:162} INFO - Started process (PID=2223) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:39:43,677] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:39:43,678] {logging_mixin.py:109} INFO - [2021-09-06 04:39:43,678] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:39:43,685] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:39:43,700] {logging_mixin.py:109} INFO - [2021-09-06 04:39:43,700] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:39:43,712] {logging_mixin.py:109} INFO - [2021-09-06 04:39:43,712] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:39:43,719] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.044 seconds
+[2021-09-06 04:40:14,397] {processor.py:162} INFO - Started process (PID=2289) to work on /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:40:14,397] {processor.py:613} INFO - Processing file /usr/local/airflow/dags/email_notify.py for tasks to queue
+[2021-09-06 04:40:14,397] {logging_mixin.py:109} INFO - [2021-09-06 04:40:14,397] {dagbag.py:496} INFO - Filling up the DagBag from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:40:14,405] {processor.py:623} INFO - DAG(s) dict_keys(['sending_email']) retrieved from /usr/local/airflow/dags/email_notify.py
+[2021-09-06 04:40:14,420] {logging_mixin.py:109} INFO - [2021-09-06 04:40:14,419] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 04:40:14,431] {logging_mixin.py:109} INFO - [2021-09-06 04:40:14,431] {dag.py:2306} INFO - Setting next_dagrun for sending_email to 2021-08-14 17:00:00+00:00
+[2021-09-06 04:40:14,438] {processor.py:170} INFO - Processing /usr/local/airflow/dags/email_notify.py took 0.043 seconds
