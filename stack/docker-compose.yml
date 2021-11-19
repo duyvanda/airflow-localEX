@@ -1,4 +1,4 @@
---- 
+version: "3.7"
 services: 
   webserver: 
     image: ubuntu:airflow_stack
@@ -10,11 +10,16 @@ services:
         - "[ -f /usr/local/airflow/airflow-webserver.pid ]"
       timeout: 30s
     ports: 
-      - "8080:8080"
-    container_name: myairflow
+      - 8080:8080
+    deploy:
+      replicas: 3
+      update_config:
+        parallelism: 2
+        delay: 10s
+      restart_policy:
+        condition: on-failure
     volumes: 
       - "./dags:/usr/local/airflow/dags"
       - "./plugins:/usr/local/airflow/plugins"
       - "./data:/usr/local/airflow/data"
       - "./config/airflow.cfg:/usr/local/airflow/airflow.cfg" 
-version: "3.7"

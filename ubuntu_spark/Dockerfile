@@ -1,22 +1,16 @@
-FROM ubuntu:20.04
+FROM ubuntu:java8
 LABEL maintainer="Puckel_"
 
 # Never prompt the user for choices on installation/configuration of packages
 ENV DEBIAN_FRONTEND noninteractive
 ENV TERM linux
 
-# Airflow
-ARG AIRFLOW_VERSION=2.1.3
-ARG AIRFLOW_USER_HOME=/usr/local/airflow
-ARG AIRFLOW_DEPS=""
-ARG PYTHON_DEPS=""
-ENV AIRFLOW_HOME=${AIRFLOW_USER_HOME}
-
-COPY ./constraints-3.8.txt /constraints-3.8.txt
-
 RUN apt-get update -yqq \
     && apt-get upgrade -yqq \
     && apt-get install -yqq --no-install-recommends \
+    ca-certificates-java \
+    ant \
+    # https://github.com/apache/airflow/blob/main/Dockerfile
     apt-transport-https \
     apt-utils \
     build-essential \
@@ -71,6 +65,7 @@ RUN apt-get update -yqq \
     && ACCEPT_EULA=Y apt-get install -y msodbcsql17 \
     && apt-get install -y unixodbc-dev \
     && apt-get clean \
+    && update-ca-certificates -f \
     && rm -rf \
         /var/lib/apt/lists/* \
         /tmp/* \
@@ -78,5 +73,3 @@ RUN apt-get update -yqq \
         /usr/share/man \
         /usr/share/doc \
         /usr/share/doc-base \
-    # install airflow 2.2.2 (stable)
-    && pip install apache-airflow[postgres,google,crypto,mssql,mysql,odbc,tableau]==2.2.2 --constraint /constraints-3.8.txt
