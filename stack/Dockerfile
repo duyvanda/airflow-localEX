@@ -1,6 +1,6 @@
 FROM duyvanda/airflow_mr:latest
 LABEL maintainer="Puckel_"
-
+# Run docker build -t ubuntu:airflow_stack .
 # Never prompt the user for choices on installation/configuration of packages
 ENV DEBIAN_FRONTEND noninteractive
 ENV TERM linux
