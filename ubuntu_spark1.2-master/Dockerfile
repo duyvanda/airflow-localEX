@@ -12,10 +12,8 @@ COPY ./requirements.txt /requirements.txt
 
 RUN pip install -r requirements.txt
 
-RUN mkdir -p usr/local/spark/logs
+# RUN mkdir -p usr/local/spark/logs
 
 EXPOSE 8080 7077
-
 ENTRYPOINT $SPARK_HOME/bin/spark-class org.apache.spark.deploy.master.Master
-
 CMD [ echo "executable" ]

@@ -54,6 +54,7 @@ RUN apt-get update -yqq \
     unzip \
     gcc \
     vim \
+    nano \
     curl \
     rsync \
     netcat \
@@ -73,3 +74,5 @@ RUN apt-get update -yqq \
         /usr/share/man \
         /usr/share/doc \
         /usr/share/doc-base \
+    && python3 -m pip install findspark==1.4.2 \
+    && python3 -m pip install py4j==0.10.9

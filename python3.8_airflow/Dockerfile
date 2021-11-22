@@ -1,16 +1,9 @@
-FROM debian:buster-slim
+FROM python:3.8.12-buster
 LABEL maintainer="Puckel_"
 
 # Never prompt the user for choices on installation/configuration of packages
 ENV DEBIAN_FRONTEND noninteractive
 ENV TERM linux
-
-# Airflow
-# ARG AIRFLOW_VERSION=2.1.3
-ARG AIRFLOW_USER_HOME=/usr/local/airflow
-ARG AIRFLOW_DEPS=""
-ARG PYTHON_DEPS=""
-ENV AIRFLOW_HOME=${AIRFLOW_USER_HOME}
 
 COPY ./constraints-3.8.txt /constraints-3.8.txt
 
@@ -42,7 +35,7 @@ RUN apt-get update -yqq \
     nodejs \
     openssh-client \
     postgresql-client \
-    python-selinux \
+    # python-selinux \
     sasl2-bin \
     software-properties-common \
     sqlite3 \
@@ -61,6 +54,7 @@ RUN apt-get update -yqq \
     unzip \
     gcc \
     vim \
+    nano \
     curl \
     rsync \
     netcat \
@@ -81,7 +75,7 @@ RUN apt-get update -yqq \
         /usr/share/man \
         /usr/share/doc \
         /usr/share/doc-base \
-    && pip3 install --upgrade pip
+    # && pip3 install --upgrade pip
     # install airflow 2.2.2 (stable)
-    # && pip3 install apache-airflow[postgres,google,crypto,mssql,mysql,odbc,tableau]==2.2.2 --constraint /constraints-3.8.txt
+    && pip3 install apache-airflow[postgres,google,crypto,mssql,mysql,odbc,tableau,spark]==2.1.3 --constraint /constraints-3.8.txt
     # pip3 install apache-airflow[postgres,google,crypto,mssql,mysql,odbc,tableau]==2.2.2 --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.2.2/constraints-3.7.txt"
