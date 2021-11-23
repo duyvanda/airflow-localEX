@@ -4,6 +4,7 @@ LABEL maintainer="Puckel_"
 # Never prompt the user for choices on installation/configuration of packages
 ENV DEBIAN_FRONTEND noninteractive
 ENV TERM linux
+ENV TZ="Asia/Bangkok"
 
 COPY ./requirements.txt /requirements.txt
 
