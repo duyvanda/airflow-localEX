@@ -5,4 +5,5 @@ LABEL maintainer="Puckel_"
 ENV DEBIAN_FRONTEND noninteractive
 ENV TERM linux
 
-RUN apt update && apt-get install -y openjdk-8-jdk
+RUN echo "deb http://ftp.de.debian.org/debian sid main" >> /etc/apt/sources.list
+RUN apt-get update
