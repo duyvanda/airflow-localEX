@@ -1,4 +1,4 @@
-# airflow-localEX
+# airflow-localEX -- FOLDER IN IS LOCAL
 
 ## CLI commands
 Installing Airflow
