@@ -27,7 +27,7 @@ dag = DAG('sending_email',
 
 sending_email_notification = EmailOperator(
     task_id="sending_email",
-    to="airflow_course@yopmail.com",
+    to="vanquangduy10@gmail.com",
     subject="forex_data_pipeline",
     html_content="""<h3>forex_data_pipeline succeeded</h3>""",
     dag=dag

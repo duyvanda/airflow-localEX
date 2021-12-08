@@ -1,6 +1,6 @@
-version: "3.7"
+version: "3.0"
 services: 
-  webserver: 
+  web: 
     image: ubuntu:airflow_stack
     healthcheck: 
       interval: 30s
@@ -10,9 +10,11 @@ services:
         - "[ -f /usr/local/airflow/airflow-webserver.pid ]"
       timeout: 30s
     ports: 
-      - 8080:8080
+      - 8085:8085
+    networks:
+      - merapbi
     deploy:
-      replicas: 3
+      replicas: 1
       update_config:
         parallelism: 2
         delay: 10s
@@ -21,5 +23,6 @@ services:
     volumes: 
       - "./dags:/usr/local/airflow/dags"
       - "./plugins:/usr/local/airflow/plugins"
-      - "./data:/usr/local/airflow/data"
-      - "./config/airflow.cfg:/usr/local/airflow/airflow.cfg" 
+networks:
+  merapbi:
+    external: true

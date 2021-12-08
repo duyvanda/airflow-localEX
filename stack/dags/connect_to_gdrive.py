@@ -29,7 +29,7 @@ def print_file_id():
     # Google Sheet connection
     scopes = ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive',
             'https://www.googleapis.com/auth/drive.file']
-    path = os.getcwd()+"/dags/files/"
+    path = "/home/biserver/airflow/dags/files/"
     jsonfile = path+"datateam1599968716114-6f9f144b4262.json"
     credentials = service_account.Credentials.from_service_account_file(jsonfile, scopes=scopes)
     service = discovery.build('drive', 'v3', credentials=credentials, cache_discovery=False)

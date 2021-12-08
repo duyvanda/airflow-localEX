@@ -99,6 +99,7 @@ start = DummyOperator(
 log_cleanup = """
 
 echo "Getting Configurations..."
+echo $(whoami)
 BASE_LOG_FOLDER="{{params.directory}}"
 WORKER_SLEEP_TIME="{{params.sleep_time}}"
 

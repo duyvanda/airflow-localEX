@@ -8,10 +8,12 @@
 airflow db init
 
 # Run the scheduler in background
+sleep 10
 airflow scheduler &> /dev/null &
+# airflow scheduler
 
 # Create user
-airflow users create -u admin -p admin -r Admin -e admin@admin.com -f admin -l admin
+# airflow users create -u admin -p admin -r Admin -e admin@admin.com -f admin -l admin
 
 # Run the web server in foreground (for docker logs)
 exec airflow webserver
